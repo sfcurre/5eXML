@@ -1,0 +1,246 @@
+<compendium><spell>
+		<name>Totem of the Bull</name>
+		<level>1</level>
+		<school>EN</school>
+		<ritual>NO</ritual>
+		<time>part of the Ancestral Totem action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Totem)</classes>
+		<text>The strength of the bull empowers you and your allies. While this totem is active, each creature of your choice within range of the totem has advantage on Constitution saving throws. </text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+
+	<spell>
+		<name>Totem of the Hare</name>
+		<level>1</level>
+		<school>EN</school>
+		<ritual>NO</ritual>
+		<time>part of the Ancestral Totem action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Totem)</classes>
+		<text>The speed of the hare empowers you and your allies. While this totem is active, each creature of your choice within range of the totem can take the disengage action as a bonus action. </text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+
+	<spell>
+		<name>Totem of the Bear</name>
+		<level>1</level>
+		<school>EV</school>
+		<ritual>NO</ritual>
+		<time>part of the Ancestral Totem action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Totem)</classes>
+		<text>The power of the bear empowers you and your allies. While this totem is active, each creature of your choice within range of the totem adds 1d4 to damage rolls when they hit with a melee weapon attack. </text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+
+	<spell>
+		<name>Totem of the Hawk</name>
+		<level>1</level>
+		<school>D</school>
+		<ritual>NO</ritual>
+		<time>part of the Ancestral Totem action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Totem)</classes>
+		<text>The accuracy of the hawk empowers you and your allies. While this totem is active, each creature of your choice within range of the totem has advantage on ranged attack rolls. </text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+
+	<spell>
+		<name>Totem of the Spider</name>
+		<level>1</level>
+		<school>C</school>
+		<ritual>NO</ritual>
+		<time>part of the Ancestral Totem action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Totem)</classes>
+		<text>The webs of the spider entangle your enemies. While this totem is active, each creature of your choice within range of the totem has its speed halved. </text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+
+	<spell>
+		<name>Totem of the Eagle</name>
+		<level>1</level>
+		<school>EV</school>
+		<ritual>NO</ritual>
+		<time>part of the Ancestral Totem action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Totem)</classes>
+		<text>The power of the eagle decimates your enemies. While this totem is active on your turn, you can use your bonus action to choose a creature of your choice within range of the totem. That creature must make a Dexterity saving throw, or take 2d8 lighting damage and be knocked prone. On a success, the creature takes half damage and is not knocked prone. </text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+
+	<spell>
+		<name>Totem of the Panther</name>
+		<level>1</level>
+		<school>EN</school>
+		<ritual>NO</ritual>
+		<time>part of the Ancestral Totem action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Totem)</classes>
+		<text>The presence of the panther inspires fear in your enemies. While this totem is active, each creature of your choice within range of the totem must make a Wisdom saving throw. On a fail, the target is frightened of the totem for 1 minute. </text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+
+	<spell>
+		<name>Totem of the Vulture</name>
+		<level>1</level>
+		<school>N</school>
+		<ritual>NO</ritual>
+		<time>part of the Ancestral Totem action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Totem)</classes>
+		<text>The hunger of the vulture empowers you and your allies. While this totem is active, each creature of your choice within range of the totem regains hit points equal to your spellcasting modifier when they kill a creature. </text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+
+	<spell>
+		<name>Face of Mer</name>
+		<level>1</level>
+		<school>N</school>
+		<ritual>NO</ritual>
+		<time>part of the Mask of Many Faces action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Mask)</classes>
+		<text>While wearing this mask, you can breathe underwater and you gain a swim speed equal to your normal speed. Additionally, you can know the shape water cantrip and can cast it as a shaman spell. </text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+	
+	<spell>
+		<name>Face of the Doppleganger</name>
+		<level>1</level>
+		<school>N</school>
+		<ritual>NO</ritual>
+		<time>part of the Mask of Many Faces action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Mask)</classes>
+		<text>While wearing this mask, you may cast the disguise self spell at will. Additionally, you have advantage on deception checks while disguised. </text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+	
+	<spell>
+		<name>Face of the Basilisk</name>
+		<level>6</level>
+		<school>N</school>
+		<ritual>NO</ritual>
+		<time>part of the Mask of Many Faces action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Mask)</classes>
+		<text>While wearing this mask, you can force a creature within 30 feet of you that can see your face to make a Constitution saving throw. On a failed save, the target is restrained as it magically turns to stone. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other magic. You may only use this effect once per day.</text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+
+	<spell>
+		<name>Face of the Cyclops</name>
+		<level>6</level>
+		<school>N</school>
+		<ritual>NO</ritual>
+		<time>part of the Mask of Many Faces action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Mask)</classes>
+		<text>While wearing this mask, your Strength score is increased by 2 and you have advantage on all Strength checks and saving throws. Additionally, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. </text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+
+	<spell>
+		<name>Face of the Banshee</name>
+		<level>10</level>
+		<school>N</school>
+		<ritual>NO</ritual>
+		<time>part of the Mask of Many Faces action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Mask)</classes>
+		<text>While wearing this mask, if a creauture starts its turn within 60 feet of you and can see your face, you can force the creature to make a Wisdom saving throw. On a failed save, the creature is frightened of you for one minute. The creature can repeat the saving throw at the end of each of its turns. On a success or when the effect ends, the creature cannot be frightened of you for another 24 hours. </text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+
+	<spell>
+		<name>Face of the Skinwalker</name>
+		<level>10</level>
+		<school>N</school>
+		<ritual>NO</ritual>
+		<time>part of the Mask of Many Faces action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Mask)</classes>
+		<text>While wearing this mask, you may cast the polymorph spell on yourself. When you use this trait to cast polymorph, the spell no longer requires concentration. This feature can only be used once per day. </text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+
+	<spell>
+		<name>Face of the Mind Flayer</name>
+		<level>14</level>
+		<school>N</school>
+		<ritual>NO</ritual>
+		<time>part of the Mask of Many Faces action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Mask)</classes>
+		<text>While wearing this mask, you have telepathy within a range of 120 ft., and can cast the detect thoughts spell at will. </text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+
+	<spell>
+		<name>Face of the Beholder</name>
+		<level>14</level>
+		<school>N</school>
+		<ritual>NO</ritual>
+		<time>part of the Mask of Many Faces action</time>
+		<range />
+		<components />
+		<duration />
+		<classes>Shaman (Mask)</classes>
+		<text>While wearing this mask, you may shoot one of the following magical eye rays at one creature you can see within 90 ft. You may use this ability a number of times equal to your proficiency bonus.</text>
+			<text>	1. Confusion Ray. The target must succeed on a Wisdom saving throw, or it can’t take reactions until the end of its next turn. On its turn, the target can’t move, and it uses its action to make a melee or ranged attack against a randomly determined creature within range. If the target can’t attack, it does nothing on its turn.</text>
+			<text>	2. Paralyzing Ray. The target must succeed on a Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>	3. Fear Ray. The target must succeed on a Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>	4. Wounding Ray. The target must make a Constitution saving throw, taking 16 (3d10) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+			<text>	</text>
+		<text />
+		<text>Source: The Current Additions</text>
+	</spell>
+
+</compendium>

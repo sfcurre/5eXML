@@ -1,0 +1,968 @@
+<compendium><class>
+	<name>Warden</name>
+	<hd>10</hd>
+	<proficiency>Constitution, Wisdom, Animal Handling, Athletics, Insight, Intimidation, Investigation, Nature, Perception, Survival</proficiency>
+	<spellAbility>Wisdom</spellAbility>
+	<numSkills>2</numSkills>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Starting Warden</name>
+				<text>As a 1st-level Warden, you begin play with 10+your Constitution modifier hit points.</text>
+				<text> </text>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+				<text>• Armor: light armor, medium armor, heavy armor, shields</text>
+				<text>• Weapons: simple weapons, martial weapons</text>
+				<text>• Tools: none</text>
+				<text>• Skills: Choose two from Animal Handling, Athletics, Insight, Intimidation, Investigation, Nature, Perception and Survival</text>
+				<text> </text>
+				<text>You begin play with the following equipment, in addition to any equipment provided by your background.</text>
+				<text>• (a) scale mail or (b) leather armor</text>
+				<text>• (a) a battleaxe and shield or (b) two simple melee weapons</text>
+				<text>• (a) a dungeoneer’s pack or (b) an explorer’s pack</text>
+				<text>• A small crossbow and a case of 20 bolts</text>
+				<text> </text>
+				<text>Alternatively, you may start with 5d4x10 gp and choose your own equipment.</text>
+				<text> </text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Multiclass Warden</name>
+				<text>To multiclass as a Warden, you must meet the following prerequisites:</text>
+				<text>• Constitution 13 and Wisdom 13</text>
+				<text> </text>
+				<text>You gain the following proficiencies:</text>
+				<text>• light armor, medium armor, heavy armor, shields, simple weapons, martial weapons; choose one skill from Animal Handling, Athletics, Insight, Intimidation, Investigation, Nature, Perception, and Survival</text>
+				<text> </text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+		
+		<armor>light armor, medium armor, heavy armor, shields</armor>
+		<weapons>simple weapons, martial weapons</weapons>
+		<tools>none</tools>
+		<wealth>5d4x10</wealth>
+
+		<autolevel level="1">
+			<feature>
+				<name>Natural Resilience</name>
+                <text>Throughout your years in the wilderness, you have grown resilient to the forces of nature.</text>
+				<text>Beginning at 1st level when you take damage, you can use your reaction to become resistant against one of the damage types taken.</text>
+                <text> This resistance lasts until the start of your next turn.</text>
+				<text> You can do this a number of times equal to your Wisdom modifier (minimum 1).</text>
+                <text> You regain all expended uses after a long rest.</text>
+                <text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+        <autolevel level="1">
+			<feature>
+				<name>Fighting Style</name>
+				<text>You adopt a particular style of fighting as your specialty. Choose one of the following options: Archery, Defense, Dueling, Great Weapon Fighting, Mariner, Protection, or Two-Weapon Fighting. You can’t take a Fighting Style option more than once, even if you later get to choose again.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 72</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Fighting Style: Archery</name>
+				<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 72</text>
+				<special>fighting style archery</special>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Fighting Style: Defense</name>
+				<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 72</text>
+				<special>fighting style defense</special>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Fighting Style: Dueling</name>
+				<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 72</text>
+				<special>fighting style dueling</special>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Fighting Style: Great Weapon Fighting</name>
+				<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 72</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Fighting Style: Protection</name>
+				<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 72</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Fighting Style: Two-Weapon Fighting</name>
+				<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 72</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<slots>0, 2</slots>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature>
+				<name>Spellcasting</name>
+				<text>By the time you reach 2nd level, you have learned to use the chaos of the wilderness to cast spells. See chapter 10 for the general rules of spellcasting. </text>
+				<text>	 </text>
+				<text>Spell Slots:</text>
+				<text>	The Warden table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>	For example, if you know the 1st-level spell animal friendship and have a 1st-level and a 2nd-level spell slot available, you can cast animal friendship using either slot. </text>
+				<text>	 </text>
+				<text>Spells Known of 1st Level and Higher:</text>
+				<text>	You know two 1st-level spells of your choice from the druid or ranger spell list.</text>
+				<text>	You learn an additional warden spell of your choice at each level thereafter. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.</text>
+				<text>	Additionally, when you gain a level in this class, you can choose one of the warden spells you know and replace it with another spell from the warden spell list, which also must be of a level for which you have spell slots. </text>
+				<text>	 </text>
+				<text>Spellcasting Ability:</text>
+				<text>	Wisdom is your spellcasting ability for your warden spells, since your magic draws on your attunement to the wild. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warden spell you cast and when making an attack roll with one.</text>
+				<text>	Spell save DC = 8 + your proficiency bonus + your Wisdom modifier</text>
+				<text>	Spell attack modifier = your proficiency bonus + your Wisdom modifier</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+        <autolevel level="2">
+            <feature>
+                <name>Nature’s Respite</name>
+                <text>Starting at 2nd level, When you hit a creature with a melee weapon attack, you can expend one spell slot to deal poison damage to the target, in addition to the weapon’s damage. The extra damage is 2d6 for a 1st-level spell slot, plus 1d6 for each spell level higher than 1st, to a maximum of 5d6.</text>
+                <text>  </text>
+                <text>Source: The Current Additions</text>                
+            </feature>
+        </autolevel>
+
+        <autolevel level="3">
+			<slots>0,3</slots>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature>
+				<name>Call of the Wild</name>
+				<text>At 3rd level, you learn to channel the chaos of the wild through a mystic horn, using that energy to fuel magical effects.</text>
+				<text>  You start off with two such effects: Turn Beasts and an effect determined by your warden territory.</text>
+                <text>	When you use your Call of the Wild, you choose which option to use. You must then finish a short or long rest to use your Call of the Wild again.</text>
+				<text>	Some Call of the Wild effects require saving throws. When you use such an effect from this class, the DC equals your warden spell save DC.</text>
+                <text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+        <autolevel level="3">
+            <feature>
+                <name>Call of the Wild: Turn Beasts</name>
+                <text>As an action, you call to the wild and instill fear in all beasts near you. Each beast that can see or hear you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.</text>
+                <text>	A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</text>
+            </feature>
+        </autolevel>
+
+		<autolevel level="3">
+			<feature>
+				<name>Warden Territory</name>
+				<text>When you reach 3rd level, you choose a warden territory that defines your characteristics. Currently, the only supported territory is Warden of the North, detailed at the end of the class description.</text>
+				<text>	Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include warden spells and an option for Call of the Wild.</text>
+				<text>	 </text>
+				<text>Territory Spells:</text>
+				<text>	Each territory has a list of associated spells. You gain access to these spells at the levels specified in the territory description. Once you gain access to a territory spell, you always have it prepared. Territory spells don’t count against the number of spells you know.</text>
+				<text>	If you gain an oath spell that doesn’t appear on the paladin spell list, the spell is nonetheless a paladin spell for you.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Warden Territory: Warden of the North</name>
+				<text>Wardens of the North come from vast arctic and mountainous regions. They have learned to survive in extreme cold and harsh weather.</text> 
+				<text>  </text>
+                <text>Warden Spells:</text>
+                <text>You gain warden spells at the warden levels listed in the Warden of the North Spells table. See the Warden Territory class feature for how territory spells work.</text>
+				<text>3rd — armor of Agathys, fog cloud</text>
+				<text>5th — Snilloc’s Snowball Storm, warding wind</text>
+				<text>9th — call lightning, sleet storm</text>
+				<text>13th — ice storm, stoneskin</text>
+				<text>17th — cone of cold, wrath of nature.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Call of the Wild: Howling Winds (Warden of the North)</name>
+				<text>You can use your Call of the Wild to release a howling wind. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Dexterity saving throw. On a failed save, each creature takes 2d6 thunder damage and is pushed 10 feet away from you. On a success, a creature takes half damage and is not pushed back.</text>
+				<text>  The damage roll increases to 3d6 at 10th level, 4d6 at 15th level, and 5d6 at 20th level.</text> 
+                <text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+
+		<autolevel level="4" scoreImprovement="YES">
+			<slots>0,3</slots>
+		</autolevel>
+
+		<autolevel level="4" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 85</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="5">
+			<slots>0,4,2</slots>
+		</autolevel>
+
+		<autolevel level="5">
+			<feature>
+				<name>Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 85</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="6">
+			<slots>0,4,2</slots>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature>
+				<name>Wild Companion</name>
+				<text>Starting at 6th level, you gain a wild companion. Choose a beast with a challenge rating less than or equal to 1/4.</text>
+				<text>	Your companion always obeys your commands, which you give it verbally. In combat, you roll initiative for your companion and control how it acts. If it is slain by a creature, you gain advantage on all attack rolls against the killer for the next 24 hours.</text>
+                <text>  If your companion dies, you can find a new companion after bonding with a beast for 8 hours or during a long rest. The new companion must come from a beast common to the surrounding area.</text>
+				<text>  The maximum challenge rating of your companion increases to 1/2 at level 10 and 1 at level 18.</text>
+                <text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="7">
+			<slots>0,4,3</slots>
+		</autolevel>
+
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Frigid Resistance (Warden of the North)</name>
+				<text>Starting at 7th level, you and your beast companion gain resistance to cold damage.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="8" scoreImprovement="YES">
+			<slots>0,4,3</slots>
+		</autolevel>
+
+		<autolevel level="8" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement (2nd)</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 85</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="9">
+			<slots>0,4,3,2</slots>
+		</autolevel>
+
+		<autolevel level="10">
+			<slots>0,4,3,2</slots>
+		</autolevel>
+
+        <autolevel level="10">
+			<feature>
+				<name>Additional Fighting Style</name>
+				<text>At 10th level, you can choose a second option from the Fighting Style class feature.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 72</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Fighting Style: Archery</name>
+				<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 72</text>
+				<special>fighting style archery</special>
+			</feature>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Fighting Style: Defense</name>
+				<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 72</text>
+				<special>fighting style defense</special>
+			</feature>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Fighting Style: Dueling</name>
+				<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 72</text>
+				<special>fighting style dueling</special>
+			</feature>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Fighting Style: Great Weapon Fighting</name>
+				<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 72</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Fighting Style: Protection</name>
+				<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 72</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Fighting Style: Two-Weapon Fighting</name>
+				<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 72</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="11">
+			<feature>
+				<name>Improved Call of the Wild</name>
+				<text>Beginning at 11th level, you can use your Call of the Wild ability twice between rests.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="11">
+			<slots>0,4,3,3</slots>
+		</autolevel>
+
+		<autolevel level="12" scoreImprovement="YES">
+			<slots>0,4,3,3</slots>
+		</autolevel>
+
+		<autolevel level="12" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement (3rd)</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 85</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="13">
+			<slots>0,4,3,3,1</slots>
+		</autolevel>
+
+		<autolevel level="14">
+			<slots>0,4,3,3,1</slots>
+		</autolevel>
+
+		<autolevel level="14">
+			<feature>
+				<name>Battle Horn</name>
+				<text>Starting at 14th level, you can use your Call of the Wild as a reaction to grant you an extra turn in combat.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="15">
+			<slots>0, 4, 3, 3, 2</slots>
+		</autolevel>
+
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Frigid Recoil (Warden of the North)</name>
+				<text>Starting at 15th level, whenever you take cold damage, each creature of your choice within 5 feet of you must make a Dexterity saving throw or take 2d6 cold damage, or half as much on a success.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="16" scoreImprovement="YES">
+			<slots>0, 4, 3, 3, 2</slots>
+		</autolevel>
+
+		<autolevel level="16" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement (4th)</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 85</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="17">
+			<slots>0, 4, 3, 3, 3, 1</slots>
+		</autolevel>
+
+		<autolevel level="18">
+			<slots>0, 4, 3, 3, 3, 1</slots>
+		</autolevel>
+
+        <autolevel level="18">
+            <feature>
+                <name>Improved Wild Companion</name>
+                <text>When your animal companion would be reduced to 0 hit points, you can instead expend a use of Call of the Wild to bring it back to full health.</text>
+            </feature>
+        </autolevel>
+
+		<autolevel level="19" scoreImprovement="YES">
+			<slots>0, 4, 3, 3, 3, 2</slots>
+		</autolevel>
+
+		<autolevel level="19" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement (5th)</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 85</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="20">
+			<slots>0, 4, 3, 3, 3, 2</slots>
+		</autolevel>
+
+		<autolevel level="20">
+			<feature optional="YES">
+				<name>Frigid Warrior (Warden of the North)</name>
+				<text>At 20th level, you gain the ability to harness the power of the frozen wastelands. As an action, you can channel the power of the North, gaining the following benefits for 1 minute:</text>
+				<text>	 </text>
+				<text>• You have +2 to AC.</text>
+				<text>	 </text>
+				<text>• You are immune to cold damage.</text>
+				<text>	 </text>
+				<text>• When an enemy hits you with a melee weapon attack, it must succeed on a Dexterity saving throw or take 2d6 cold damage.</text>
+				<text>	 </text>
+				<text>• Whenever you hit with a weapon attack, you apply an extra 2d6 cold damage to the damage roll.</text>
+				<text>	 </text>
+				<text>	Once you use this feature, you can’t use it again until you finish a long rest.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+</class>
+
+<class>
+	<name>Shaman</name>
+	<hd>8</hd>
+	<proficiency>Constitution, Wisdom, Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, Survival</proficiency>
+	<spellAbility>Wisdom</spellAbility>
+	<numSkills>2</numSkills>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Starting Shaman</name>
+				<text>As a 1st-level Shaman, you begin play with 8+your Constitution modifier hit points.</text>
+				<text> </text>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+				<text>• Armor: light armor, medium armor, shields</text>
+				<text>• Weapons: simple weapons</text>
+				<text>• Tools: herbalism kit</text>
+				<text>• Skills: Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival</text>
+				<text> </text>
+				<text>You begin play with the following equipment, in addition to any equipment provided by your background.</text>
+				<text>• (a) a wooden shield or (b) any simple weapon</text>
+				<text>• (a) a quarterstaff or (b) any simple melee weapon</text>
+				<text>• Leather armor, an explorer’s pack, and a shamanic focus</text>
+				<text> </text>
+				<text>Alternatively, you may start with 2d4x10 gp and choose your own equipment.</text>
+				<text> </text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Multiclass Shaman</name>
+				<text>To multiclass as a Shaman, you must meet the following prerequisites:</text>
+				<text>• Wisdom 13</text>
+				<text> </text>
+				<text>You gain the following proficiencies:</text>
+				<text>• light armor, medium armor, shields</text>
+				<text> </text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<armor>light armor, medium armor, shields</armor>
+		<weapons>simple weapons</weapons>
+		<tools>herbalism kit</tools>
+		<wealth>2d4x10</wealth>
+
+		<autolevel level="1">
+			<slots>3, 2</slots>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature>
+				<name>Spellcasting</name>
+				<text>Drawing on the spirits of your ancestors, you can cast spells using their energy and essence. See chapter 10 for the general rules of spellcasting. </text>
+				<text>	 </text>
+				<text>Cantrips:</text>
+				<text>	At 1st level, you know three cantrips of your choice from the shaman spell list. You learn an additional shaman cantrip of your choice at 4th level and another at 10th level. </text>
+				<text>	 </text>
+				<text>Preparing and Casting Spells:</text>
+				<text>	The Shaman table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these shaman spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>	You prepare the list of shaman spells that are available for you to cast, choosing from the shaman spell list. When you do so, choose a number of shaman spells equal to your Wisdom modifier + your shaman level (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
+				<text>	For example, if you are a 3rd-level shaman, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.</text>
+				<text>	You can also change your list of prepared spells when you finish a long rest. Preparing a new list of shaman spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list. </text>
+				<text>	 </text>
+				<text>Spellcasting Ability:</text>
+				<text>	Wisdom is your spellcasting ability for your shaman spells, since your magic draws upon your connection to your ancestors. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a shaman spell you cast and when making an attack roll with one.</text>
+				<text>	Spell save DC = 8 + your proficiency bonus + your Wisdom modifier</text>
+				<text>	Spell attack modifier = your proficiency bonus + your Wisdom modifier </text>
+				<text>	 </text>
+				<text>Ritual Casting:</text>
+				<text>	You can cast a shaman spell as a ritual if that spell has the ritual tag and you have the spell prepared. </text>
+				<text>	 </text>
+				<text>Spellcasting Focus:</text>
+				<text>	You can use a shamanic focus as a spellcasting focus for your shaman spells.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<slots>3, 3</slots>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature>
+				<name>Shamanic Curse</name>
+				<text>Starting at 2nd level, you can curse others through the power of your ancestors. As a bonus action, choose one creature within 60 feet of you who can hear or see you. The next time the target makes an attack roll or saving throw within the next 10 minutes, it must subtract a d6 from the roll.</text>
+				<text>	You can use this feature a number of times equal to your Wisdom modifier (a minimun of once). You regain any expended uses when you finish a long rest.</text>
+				<text>	Your Shamanic Curse die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature>
+				<name>Shaman Path</name>
+				<text>At 2nd level, you choose a shaman path to follow: the Path of Blood or the Path of the Ancestors, both detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, 14th, and 18th level.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Shaman Path: Path of Blood</name>
+				<text>Shamans who follow the Path of Blood find power in self-sacrifice. Blood magic is a dark art feared by many, causing much of the world to be apprehensive of shamans who follow the Path of Blood.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Incurable (Path of Blood)</name>
+				<text>When you choose this path at 2nd level, you are no longer able to heal yourself magically.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+	
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Blood Offering (Path of Blood)</name>
+				<text>When you reach 2nd level, you are able to substitute the material components for spells with your own blood. Whenever a spell requires material components, you may instead take necrotic damage equal to 1 plus the level of the spell (0 if the spell is a cantrip) and cast the spell without needing material components. If the spell would not normally require material components, you may still choose to use this ability when casting it. This necrotic damage ignores immunity and resistance.</text>
+				<text>  Additionally, when you cast a spell using this ability, you can inflict bonus necrotic damage equal to your Wisdom modifier to each creature affected by your spell. You may only use this ability only once per turn.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Shaman Path: Path of the Ancestors</name>
+				<text>Shamans who follow the Path of the Ancestors gain power through communion with the spirits of their ancestors. Known for their strong ties to the past, these shamans are known for their wise advice and careful consideration of the history of their people.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Bonus Cantrip (Path of the Ancestors)</name>
+				<text>When you choose this circle at 2nd level, you learn one additional cantrip of your choice. The cantrip must come from the school of Necromancy or Divination.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Revelations of the Past (Path of the Ancestors)</name>
+				<text>Starting at 2nd level, you have proficiency with history checks. If you are already proficient in history, your proficiency bonus is doubled.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Final Words (Path of the Ancestors)</name>
+				<text>Starting at 2nd level, you can awaken the spirit of a creature that has died within the last minute. That creature must make a Wisdom saving throw. On a fail, it is compelled to answer one question of your choice to the best of its ability. This ability automatically fails if the creature is unable to speak or communicate in a meaningful way.</text>
+				<text>	You can use this ability once. You regain all expended uses after a long rest.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<slots>3, 4, 2</slots>
+		</autolevel>
+
+		<autolevel level="4" scoreImprovement="YES">
+			<slots>4, 4, 3</slots>
+		</autolevel>
+
+		<autolevel level="4" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 67</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="5">
+			<slots>4, 4, 3, 2</slots>
+		</autolevel>
+
+		<autolevel level="6">
+			<slots>4, 4, 3, 3</slots>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Seeker of Blood (Path of Blood)</name>
+				<text>Starting at 6th level, you gain the ability to drain the life from creatures you kill. Once per turn when you kill a creature, you gain temporary hit points equal to your Wisdom modifier. You don’t gain this benefit for killing constructs or undead.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Remnants of the Past (Path of the Ancestors)</name>
+				<text>Starting at 6th level, the spirits of your ancestors surround you when you are on the brink of death. Whenever you take damage that would reduce you to 0 hit points, you are instead reduced to 1 hit point, and your AC is increased by 2 for 1 minute. This ability can only be used once per long rest.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="7">
+			<slots>4, 4, 3, 3, 1</slots>
+		</autolevel>
+
+        <autolevel level="7">
+			<feature>
+				<name>Common Curse</name>
+				<text>Beginning when you reach 7th level, you regain all of your expended uses of Shamanic Curse after a short or long rest.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="8" scoreImprovement="YES">
+			<slots>4, 4, 3, 3, 2</slots>
+		</autolevel>
+
+		<autolevel level="8" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement (2nd)</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 67</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="9">
+			<slots>4, 4, 3, 3, 3, 1</slots>
+		</autolevel>
+
+		<autolevel level="10">
+			<slots>5, 4, 3, 3, 3, 2</slots>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Hidden in Blood (Path of Blood)</name>
+				<text>When you reach 10th level, you are able to use your Blood Offering ability to cast spells you do not have prepared. You must expend twice the number of hit points to do so, and the spell must still be a shaman spell. This ability cannot be used to cast cantrips.</text>
+                <text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Waking the Past (Path of the Ancestors)</name>
+				<text>At 10th level, your connection with your ancestors allows you to bring them forth to aid you in your endeavors. As an action, you can summon up to two spirits to assist you, each spirit expending a use of this ability. You have two uses of this ability at 10th level, and you regain all expended uses after a long rest.</text>
+				<text>  Each spirit has AC 10, 10 hit points, and a speed of 30. A spirit can attack with a spectral weapon which has a +4 to hit and deals 1d8 + 2 force damage. A summoned spirit disappears when it drops to 0 hit points or after one hour.</text>
+				<text>  The summoned spirits are friendly to you and your companions. Roll initiative for the summoned spirits as a group. They obey any verbal commands you issue to them (no action required by you). If you don’t issue any commands to them, they defend you and themselves from hostile creatures, but otherwise take no actions.</text>
+                <text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="11">
+			<slots>5, 4, 3, 3, 3, 2, 1</slots>
+		</autolevel>
+
+		<autolevel level="12" scoreImprovement="YES">
+			<slots>5, 4, 3, 3, 3, 2, 1</slots>
+		</autolevel>
+
+		<autolevel level="12" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement (3rd)</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 67</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="13">
+			<slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
+		</autolevel>
+
+		<autolevel level="14">
+			<slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
+		</autolevel>
+
+        <autolevel level="14">
+			<feature optional="YES">
+				<name>Sanguine Empowerment (Path of Blood)</name>
+				<text>When you reach 14th level, whenever you use your Blood Offering ability in place of the material components for a spell, you can expend twice the number of hit points to gain a +4 bonus to attack rolls and a +2 bonus to spell save DCs related to the spell. </text>
+				<text>  This ability can be used with Hidden in Blood. To do so, you must expend three times the number of hit points you would normally spend for Hidden in Blood. For example, you want to cast a 3rd level spell that you do not have prepared with Sanguine Empowerment. You must then sacrifice 12 hit points: 4 hit points for Sanguine Empowerment, and 4 hit points for Hidden in Blood.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Vengeful Spirits (Path of the Ancestors)</name>
+				<text>At 14th level, your connection with your ancestors grows stronger, improving your Waking the Past ability. As an action, you can now summon up to three spirits to assist you, each spirit expending a use of this ability. You have three uses of this ability at 14th, and you regain all expended uses after a long rest.</text>
+				<text>  Each spirit has AC 12, 15 hit points, and a speed of 30. A spirit can attack with a spectral weapon which has a +5 to hit and deals 1d8 + 3 force damage. Additionally, the spirits are incorporeal, and can move through other creatures and objects as if they were difficult terrain. A spirit takes 5 (1d10) force damage if it ends its turn inside an object. A summoned spirit disappears when it drops to 0 hit points or after one hour.</text>
+				<text>  The summoned spirits are friendly to you and your companions. Roll initiative for the summoned spirits as a group. They obey any verbal commands you issue to them (no action required by you). If you don’t issue any commands to them, they defend you and themselves from hostile creatures, but otherwise take no actions.</text>
+                <text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="15">
+			<slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
+		</autolevel>
+
+		<autolevel level="16" scoreImprovement="YES">
+			<slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
+		</autolevel>
+
+		<autolevel level="16" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement (4th)</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 67</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="17">
+			<slots>5, 4, 3, 3, 3, 2, 1, 1, 1, 1</slots>
+		</autolevel>
+
+		<autolevel level="18">
+			<slots>5, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
+		</autolevel>
+        
+        <autolevel level="18">
+			<feature optional="YES">
+				<name>Parallel Wounds (Path of Blood)</name>
+				<text>When you reach 18th level, you are able to enforce the pain you experience on others. Whenever you take damage, you can use your reaction to choose up to one creature that you can see and force it to take necrotic damage equal to the damage you took. You can use this ability once, and regain all expended uses after a short or long rest.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Member of the Tribe (Path of the Ancestors)</name>
+				<text>At 18th level, you are considered one with the spirits of your ancestors, improving your Waking the Past ability. As an action, you can summon up to four spirits to assist you, each spirit expending a use of this ability. You have four uses of this ability, and you regain all expended uses after a long rest.</text>
+				<text>  Each spirit has AC 14, 20 hit points, a speed of 30, and a flying speed of 30. A spirit can attack with a spectral weapon which has a +6 to hit and deals 1d8 + 4 force damage. Additionally, the spirits are incorporeal, and can move through other creatures and objects as if they were difficult terrain. A spirit takes 5 (1d10) force damage if it ends its turn inside an object. A summoned spirit disappears when it drops to 0 hit points or after one hour.</text>
+				<text>  The summoned spirits are friendly to you and your companions. Roll initiative for the summoned spirits as a group. They obey any verbal commands you issue to them (no action required by you). If you don’t issue any commands to them, they defend you and themselves from hostile creatures, but otherwise take no actions.</text>
+				<text>  Additionally, you are unable to drop below 1 hit point while a spirit is within 5 feet of you.</text>
+                <text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="19" scoreImprovement="YES">
+			<slots>5, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
+		</autolevel>
+
+		<autolevel level="19" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement (5th)</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text>	</text>
+				<text>Source: Player’s Handbook, p. 67</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="20">
+			<slots>5, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
+		</autolevel>
+
+        <autolevel level="20">
+			<feature>
+				<name>Shamanic Kharma</name>
+				<text>Starting at 20th level, whenever a target rolls due to your shamanic curse, you gain a bonus to your next ability check, saving throw, or attack roll equal to the amount the target rolls on your shamanic curse die.</text>
+				<text> Additionally, you can expend up to two uses of your Shamanic Curse in a single bonus action, on one or multiple targets.</text>
+                <text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+</class>
+
+<class>
+	<name>Sorcerer</name>
+		<autolevel level="1">
+			<feature>
+				<name>Sorcerous Origin: Fade Magic</name>
+				<text>Your innate magic manifests from the fade, a place in-between that which exists and that which does not. You are as the fade is and walk the lines of reality.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature>
+				<name>Bonus Proficiencies (Fade Magic)</name>
+				<text>At 1st level, you gain proficiency with shields, simple weapons, and martial weapons.</text>
+				<text>  </text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature>
+				<name>Incorporeal Resistance (Fade Magic)</name>
+				<text>At 1st level, your origin in the fade gives you additional vigor. Your hit point maximum increases by 1, and it increases by 1 again whenever you gain a level in this class.</text>
+				<text>  As a reaction, you can partially enter the fade to avoid the effects of a melee attack. When a creature makes a melee attack against you, you can use your reaction to gain +4 to AC against the attack, possibly turning it into a miss. You then teleport up to 10 feet away to a spot you can see. Once you use this ability, you cannot use it again until you finish a short or long rest.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature>
+				<name>Void Pocket (Fade Magic)</name>
+				<text>At 1st level, you are able to store items in-between realities. As an action, you can open a pocket to the fade within a range of 5 feet of you and store, retrieve, or exchange items within it, no matter the size or origin of the item. You can store a number of objects equal to 5 x your Wisdom modifier in the void. You cannot store living beings in the void, and the object must be something you are able to lift or carry.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature>
+				<name>Incorporeal Step (Fade Magic)</name>
+				<text>At 6th level, you can use your action to turn incorporeal until the start of your next turn, and gain resistance to bludgeoning, piercing, and slashing damage for the duration. You have two charges of this ability, and you regain all expended charges when you finish a long rest.</text>
+				<text>  </text>
+				<text>Incorporeal Movement:</text>
+				<text>• You can move through other creatures and objects as if they were difficult terrain. You take 5 (1d10) force damage if you end your turn inside an object.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="14">
+			<feature>
+				<name>Unearthly Transposition (Fade Magic)</name>
+				<text>At 14th level, you can use your bonus action to forfeit up to 30 feet of your movement and teleport the distance you forfeited. You must teleport to an unoccupied space you can see. Alternatively, choose a creature you can see within range, and swap places with it if it is willing. You have two charges of this ability, and you regain all expended charges when you finish a short or long rest.</text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="18">
+			<feature>
+				<name>Ethereal Reach (Fade Magic)</name>
+				<text>At 18th level, the range of your void pocket increases to 45 feet, and the pocket is able to retrieve or place objects on its own. If the object or item is on a creature, it must succeed on a Dexterity saving throw against your spell save DC or lose the object. If the object is something the creature is wearing, it does so with advantage. </text>
+				<text>	</text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="18">
+			<feature>
+				<name>False Existence (Fade Magic)</name>
+				<text>At 18th level, you walk the lines between reality, allowing material objects to pass through you in times of stress. You now have resistance to bludgeoning, piercing, and slashing damage. If you would gain resistance from your Incorporeal Step ability, you instead gain immunity.</text>
+				<text>  </text>
+				<text>Source: The Current Additions</text>
+			</feature>
+		</autolevel>
+	</class>
+
+</compendium>
