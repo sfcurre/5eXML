@@ -8,7 +8,7 @@
         </trait>
     </race>
     <race>
-      <name>Changeling</name>
+      <name>Changeling (UA Races Of Eberron)</name>
         <trait>
             <name>Ability Score Increase</name>
             <text>Either your Dexterity or your Intelligence increases by 1 (your choice).</text>
@@ -29,7 +29,7 @@
         </trait>
     </race>
     <race>
-      <name>Kalashtar</name>
+      <name>Kalashtar (UA Races Of Eberron)</name>
         <trait>
             <name>Ability Score Increase</name>
             <text>One ability score of your choice increases by 1.</text>
@@ -43,7 +43,7 @@
         </trait>
     </race>
     <race>
-      <name>Warforged (Envoy)</name>
+      <name>Warforged (UA Races Of Eberron) (Envoy)</name>
         <trait>
             <name>Ability Score Increase</name>
             <text>Two different ability scores of your choice increase by 1.</text>

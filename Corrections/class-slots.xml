@@ -1,7 +1,7 @@
 <compendium>
 <class>
     <name>Fighter</name>
-
+    <spellAbility>Intelligence</spellAbility>
     <autolevel level="3">
         <slots optional="YES">2, 2</slots>
     </autolevel>
@@ -78,7 +78,7 @@
 
 <class>
     <name>Rogue</name>
-
+    <spellAbility>Intelligence</spellAbility>
     <autolevel level="3">
         <slots optional="YES">2, 2</slots>
     </autolevel>

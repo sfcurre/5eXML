@@ -13,7 +13,7 @@ class Corrector:
         name = clas.findtext('name')
         for correct in corrections.getroot():
             if name == correct.findtext('name'):
-                clas.extend(correct.findall('autolevel'))
+                clas.extend(correct[:])
 
     def correct_race_abilities(self, races):
         corrections = et.parse("Corrections/races-ability-scores.xml")
