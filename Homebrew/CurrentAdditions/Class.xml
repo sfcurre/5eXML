@@ -620,7 +620,7 @@
 			<feature optional="YES">
 				<name>Blood Offering (Path of Blood)</name>
 				<text>When you reach 2nd level, you are able to substitute the material components for spells with your own blood. Whenever a spell requires material components, you may instead take necrotic damage equal to 1 plus the level of the spell (0 if the spell is a cantrip) and cast the spell without needing material components. If the spell would not normally require material components, you may still choose to use this ability when casting it. This necrotic damage ignores immunity and resistance.</text>
-				<text>  Additionally, when you cast a spell using this ability, you can inflict bonus necrotic damage equal to your Wisdom modifier to each creature affected by your spell. You may only use this ability only once per turn.</text>
+				<text>  Additionally, when you cast a spell that targets one or more creatures using this ability, you can inflict bonus necrotic damage equal to your Wisdom modifier to each creature targeted by your spell. You may only use this ability only once per turn.</text>
 				<text>	</text>
 				<text>Source: The Current Additions</text>
 			</feature>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<compendium version="5" auto_indent="NO">
+    <race>
+      <name>Aetherborn</name>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.</text>
+        </trait>
+    </race>
+    <race>
+      <name>Changeling</name>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Either your Dexterity or your Intelligence increases by 1 (your choice).</text>
+        </trait>
+    </race>
+    <race>
+      <name>Half-Elf</name>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Two different ability scores of your choice increase by 1.</text>
+        </trait>
+    </race>
+    <race>
+      <name>Human (Variant)</name>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Two different ability scores of your choice increase by 1.</text>
+        </trait>
+    </race>
+    <race>
+      <name>Kalashtar</name>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>One ability score of your choice increases by 1.</text>
+        </trait>
+    </race>
+    <race>
+      <name>Simic Hybrid (UA)</name>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>One ability score of your choice increases by 1.</text>
+        </trait>
+    </race>
+    <race>
+      <name>Warforged (Envoy)</name>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Two different ability scores of your choice increase by 1.</text>
+        </trait>
+    </race>
+</compendium>
