@@ -70,7 +70,7 @@ class Merger:
         for feat, abv in self.data['feat']:
             name = feat.find('name')
             name.text = name.text.split('(')[0].strip()
-            if name.text not in names:
+            if name.text not in names:# and ':' not in name.text:
                 names.add(name.text)
                 feats.append(feat)
         return feats

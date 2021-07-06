@@ -107,9 +107,16 @@ def create_file_lists(categories):
 def create_compendium():
     """Create the category compendiums and combine them into full compendium"""
 
-    categories = {'Sean' : [('Core\\DungeonMastersGuide', 'DMG'),
+    categories = {'Sean' : [#('DEPRECATED\\Core\\Background.xml', ''),
+                            #('DEPRECATED\\Core\\Class.xml', ''),
+                            #('DEPRECATED\\Core\\Feat.xml', ''),
+                            #('DEPRECATED\\Core\\Item.xml', ''),
+                            #('DEPRECATED\\Core\\Spell.xml', ''),
                             ('Core\\MonsterManual', ''),
                             ('Core\\PlayersHandbook', ''),
+                            ('Core\\DungeonMastersGuide', 'DMG'),
+                            #('Core\\PlayersHandbook\\races-phb.xml', ''),
+                            #('Core\\DungeonMastersGuide\\races-dmg.xml', 'DMG'),
                             ('Addons\\MordenkainensTomeOfFoes', 'MToF'),
                             ('Addons\\PlaneShift', 'PS'),
                             ('Addons\\PrincesOfTheApocalypse\\races-eepc.xml', 'PotA'),
