@@ -4,13 +4,14 @@ from collections import defaultdict
 class Merger:
     def __init__(self, tagged_elements, corrector):
         self.tagged_elements = tagged_elements
-        self.data = self.divide_elements()
         self.corrector = corrector
+        self.data = self.divide_elements()
 
     def divide_elements(self):
         data = defaultdict(list)
         for element, abv in self.tagged_elements:
-            data[element.tag].append((element, abv))
+            if not self.corrector.correct_element_division(element, data, abv):
+                data[element.tag].append((element, abv))
         return data
 
     def merge_backgrounds(self):
@@ -30,16 +31,16 @@ class Merger:
         for clas, abv in self.data['class']:
             name = clas.findtext('name').split('(')[0].strip()
             if clas.find('hd') is not None: #base class
-                
                 self.corrector.correct_core_class(clas)
 
                 if name not in core_classes:
                     core_classes[name] = clas
-                else:
-                    for element in clas:
-                        feat = element.find('feature')
-                        if (feat is not None and feat.get('optional') == 'YES'):
-                            core_classes[name].append(feat)      
+                # else:
+                    
+                #     for element in clas:
+                #         feat = element.find('feature')
+                #         if (feat is not None and feat.get('optional') == 'YES'):
+                #             core_classes[name].append(element)
             else:
                 add_core_to[name].append((clas, abv))
         add_features = defaultdict(list)
@@ -47,8 +48,12 @@ class Merger:
         for classname, clas in core_classes.items():
             for element in clas:
                 feat = element.find('feature')
-                if (feat is not None and feat.get('optional') == 'YES') or element.tag == 'name':
+                if element.tag == 'name':
                     continue
+                if (feat is not None and feat.get('optional') == 'YES'):
+                    n = feat.findtext('name')
+                    if not any(n.startswith(p) for p in ['Starting', 'Multiclass', 'Fighting', 'Meta', 'Pact']):
+                        continue
                 add_features[classname].append(et.tostring(element, encoding='utf-8'))
 
         classes = list(core_classes.values())
@@ -127,19 +132,36 @@ class Merger:
             spells.append(spell)
         return spells
 
-
     def merge(self):
-        backgrounds = self.merge_backgrounds()
-        classes = self.merge_classes()
-        feats = self.merge_feats()
-        items = self.merge_items()
-        monsters = self.merge_monsters()
-        races = self.merge_races()
-        spells = self.merge_spells()
-        return [*backgrounds,
-                *classes,
-                *feats,
-                *items,
-                *monsters,
-                *races,
-                *spells]
+        self.backgrounds = self.merge_backgrounds()
+        self.classes = self.merge_classes()
+        self.feats = self.merge_feats()
+        self.items = self.merge_items()
+        self.monsters = self.merge_monsters()
+        self.races = self.merge_races()
+        self.spells = self.merge_spells()
+        return [*self.backgrounds,
+                *self.classes,
+                *self.feats,
+                *self.items,
+                *self.monsters,
+                *self.races,
+                *self.spells]
+
+    def split(self, filebase):
+        todo = {'Backgrounds': self.backgrounds,
+                'Classes': self.classes,
+                'Feats': self.feats,
+                'Items': self.items,
+                'Monsters': self.monsters,
+                'Races': self.races,
+                'Spells': self.spells}
+        
+        for label, category in todo.items():
+            root = et.Element('compendium')
+            root[:] = sorted(category, key = lambda x: (x.tag, x.findtext('name')))
+            root.set('version', '5')
+            root.set('auto_indent', 'NO')
+
+            with open(f'{filebase}{label}.xml', 'wb') as fp:
+                fp.write(et.tostring(root, pretty_print=True, xml_declaration=True, encoding='utf-8'))

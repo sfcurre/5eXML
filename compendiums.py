@@ -6,10 +6,10 @@ This will update the XML files in the Compendiums directory.
 import lxml.etree as et
 from glob import glob
 from collections import defaultdict
-import os
+import os, sys
 
 from Utils.merger import Merger
-from Utils.corrector import Corrector
+from Utils.corrector import Corrector, ArchivistCorrector
 
 COMPENDIUM = 'Compendiums/{category} Compendium.xml'
 
@@ -31,7 +31,7 @@ class XMLCombiner:
             print(filename)
             raise
 
-    def combine(self, output):
+    def combine(self, output, corrector):
         """Combine the xml files and sort the items alphabetically
         Items with the same name are removed.
         :param output: filepath in with the result will be stored.
@@ -46,9 +46,11 @@ class XMLCombiner:
                 name.text = text
                 elements.append((element, abv))
 
-        merger = Merger(elements, Corrector())
+        merger = Merger(elements, corrector)
         clean_elements = merger.merge()
         print('\n\t\tRemoved %d duplicate(s)' % (len(elements) - len(clean_elements)))
+
+        merger.split('.\\Compendiums\\Archivist\\Archivist')
 
         root = et.Element('compendium')
         root[:] = sorted(clean_elements, key = lambda x: (x.tag, x.findtext('name')))
@@ -58,34 +60,6 @@ class XMLCombiner:
         with open(output, 'wb') as fp:
             fp.write(et.tostring(root, pretty_print=True, xml_declaration=True, encoding='utf-8'))
         return
-
-class XSLTCombiner:
-
-    """Combiner for xml files with multiple way to perform the combining"""
-
-    def __init__(self, transform):
-        self.transform = transform
-
-    def combine(self, collection, output):
-        """Combine the xml files and sort the items alphabetically
-        Items with the same name are removed.
-        :param output: filepath in with the result will be stored.
-        """
-        with open(output, 'wb') as fp:
-            outxml = self.transform(collection)
-            outstring = et.tostring(outxml, pretty_print=True, xml_declaration=True, encoding='utf-8')
-            fp.write(outstring)
-        return
-
-    @staticmethod
-    def create_collection(filelist):
-        """Create the category compendiums
-        :return: list of output paths.
-        """
-        root = et.Element('collection')
-        for fname in filelist:
-            et.SubElement(root, 'doc', href=(fname).replace('\\', '/'))
-        return root
 
 def create_file_lists(categories):
     """Create the category compendiums
@@ -104,19 +78,12 @@ def create_file_lists(categories):
             abvs.append(abv)
     return paths, abvs
 
-def create_compendium():
+def create_compendium_from_components():
     """Create the category compendiums and combine them into full compendium"""
 
-    categories = {'Sean' : [#('DEPRECATED\\Core\\Background.xml', ''),
-                            #('DEPRECATED\\Core\\Class.xml', ''),
-                            #('DEPRECATED\\Core\\Feat.xml', ''),
-                            #('DEPRECATED\\Core\\Item.xml', ''),
-                            #('DEPRECATED\\Core\\Spell.xml', ''),
-                            ('Core\\MonsterManual', ''),
+    categories = {'Sean' : [('Core\\MonsterManual', ''),
                             ('Core\\PlayersHandbook', ''),
                             ('Core\\DungeonMastersGuide', 'DMG'),
-                            #('Core\\PlayersHandbook\\races-phb.xml', ''),
-                            #('Core\\DungeonMastersGuide\\races-dmg.xml', 'DMG'),
                             ('Addons\\CurseOfStrahd\\backgrounds-cos.xml', 'CoS'),
                             ('Addons\\CurseOfStrahd\\items-cos.xml', 'CoS'),
                             ('Addons\\MordenkainensTomeOfFoes', 'MToF'),
@@ -131,10 +98,12 @@ def create_compendium():
                             ('Addons\\UnearthedArcana\\class-sorcerer-ua-sorcerer.xml', 'UA'),
                             ('Addons\\UnearthedArcana\\class-warlock-ua-warlockandwizard.xml', 'UA'),
                             ('Addons\\UnearthedArcana\\class-wizard-ua-clericdruidwizard.xml', 'UA'),
-                            #('Addons\\UnearthedArcana\\spells-ua-frw.xml', 'UA'),
                             ('Addons\\VolosGuideToMonsters', 'VGtM'),
                             ('Addons\\XanatharsGuideToEverything', 'XGtE'),
                             ('Addons\\EberronRisingFromTheLastWar\\feats-erlw.xml', 'ER'),
+                            ('Addons\\EberronRisingFromTheLastWar\\bestiary-erlw.xml', 'ER'),
+                            ('Addons\\ExplorersGuideToWildemount\\class-fighter-egw.xml', 'EGW'),
+                            ('Addons\\ExplorersGuideToWildemount\\class-wizard-egw.xml', 'EGW'),
                             ('Homebrew\\CurrentAdditions', 'CA')],
                   'Core' : [('Core\\DungeonMastersGuide', 'DMG'),
                             ('Core\\MonsterManual', ''),
@@ -144,8 +113,33 @@ def create_compendium():
         print(category)
         fnames, abvs = create_file_lists(xlist)
         full_path = COMPENDIUM.format(category=category)
+        XMLCombiner(fnames, abvs).combine(full_path, Corrector())
+
+def create_compendium_archivist():
+    
+    categories = {'Archivist' : [('Compendiums\\Archivist\\Archivist Official.xml', ''),
+                            ('Homebrew\\CurrentAdditions', 'CA')],
+                }
+    
+    for category, xlist in categories.items():
+        print(category)
+        fnames, abvs = create_file_lists(xlist)
+        full_path = COMPENDIUM.format(category=category)
+        XMLCombiner(fnames, abvs).combine(full_path, ArchivistCorrector())
+
+def create_compendium_convert():
+    ## INCOMPLETE ##
+    """Create the category compendiums and combine them into full compendium"""
+
+    sources = ['PHB', 'DMG', 'MM', 'ERLW', 'MTF', 'SCAG', 'VGM', 'XGE', 'TCE', 'VRGR', 'MPMM']
+    
+    for category, xlist in categories.items():
+        print(category)
+        fnames, abvs = create_file_lists(xlist)
+        full_path = COMPENDIUM.format(category=category)
         XMLCombiner(fnames, abvs).combine(full_path)
 
 
 if __name__ == '__main__':
-    create_compendium()
+    #create_compendium_from_components()
+    create_compendium_archivist()
