@@ -1,5 +1,6 @@
 import lxml.etree as et
 from collections import defaultdict
+import copy
 
 class Merger:
     def __init__(self, tagged_elements, corrector):
@@ -65,7 +66,7 @@ class Merger:
                 for element in add_features[classname]:
                     try:
                         #additions.append(et.XML(element))
-                        additions.append(element)
+                        additions.append(copy.deepcopy(element))
                     except:
                         print(element)
                         raise
