@@ -118,7 +118,7 @@ def create_compendium_from_components():
 def create_compendium_archivist():
     
     categories = {'Archivist' : [('Compendiums\\Archivist\\Archivist Official.xml', ''),
-                            ('Homebrew\\CurrentAdditions', 'CA')],
+                                 ('Homebrew\\CurrentAdditions', 'CA')],
                 }
     
     for category, xlist in categories.items():

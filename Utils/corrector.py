@@ -8,10 +8,10 @@ from glob import glob
 
 class Corrector:
 
-    def correct_element_division(self, element, data):
+    def correct_division(self, element, data):
         pass
 
-    def correct_core_class(self, clas):
+    def correct_classes(self, clas):
         corrections = et.parse("Corrections/class-slots.xml")
         artificer_corrections = et.parse("Corrections\class-artificer-tce-only.xml")
         name = clas.findtext('name')
@@ -22,7 +22,7 @@ class Corrector:
         if name == artificer_corrections.getroot()[0].findtext('name'):
             clas[:] = artificer_corrections.getroot()[0][:]
 
-    def correct_race_abilities(self, races):
+    def correct_races(self, races):
         corrections = et.parse("Corrections/races-ability-scores.xml")
         for race in races:
             for correct in corrections.getroot():
@@ -31,39 +31,44 @@ class Corrector:
 
 class ArchivistCorrector:
 
-    def correct_element_division(self, element, data, abv):
+    def correct_division(self, element, data, abv):
         if element.tag == 'class':
             name = element.findtext('name').split('(')[0].strip()
             if 'sidekick' in name.lower():
                 return True
-            if name == 'Artificer':
-                data['class'].append((element, 'TCE'))
-            
+
             roots = {}
             for feature in element:
                 feat = feature.find('feature')
-                if (feat is not None and feat.get('optional') == 'YES'):
+                if feat is not None:
                     n = feat.findtext('name')
-                    if any(n.startswith(p) for p in ['Starting', 'Multiclass', 'Fighting', 'Meta', 'Pact']):
+                    if n.startswith('Additional') and n.endswith('Spells'):
+                        feature.getparent().remove(feature)
                         continue
 
-                    if feat[-1].text.startswith('Source'):
-                        source = feat[-1].text
+                if (feat is not None and feat.get('optional') == 'YES'):
+                    if any(n.startswith(p) for p in ['Starting', 'Multiclass', 'Fighting Style', 'Metamagic', 'Pact Boon']):
+                        continue
+                    
+                    #doesn't work if proficiency is added as part of feature
+
+                    if feat.findall('text')[-1].text.startswith('Source'):
+                        source = feat.findall('text')[-1].text
                         
                         if 'Dungeon' in source:
                             modname = 'DMG'
                         elif 'Sword Coast' in source:
                             modname = 'SCAG'
                         elif 'Wildemount' in source:
-                            modname = 'EGW'
+                            modname = 'EGtW'
                         elif 'Xanathar' in source:
-                            modname = 'XGE'
-                        elif 'Tasha' in source:
-                            modname = 'TCE'
+                            modname = 'XGtE'
+                        elif 'Tasha' in source and name != 'Artificer':
+                            modname = 'TCoE'
                         elif 'Ravenloft' in source:
-                            modname = 'VRGR'
+                            modname = 'VRGtR'
                         elif 'Fizban' in source:
-                            modname = 'FTD'
+                            modname = 'FToD'
                         else:
                             modname = ''
 
@@ -76,6 +81,11 @@ class ArchivistCorrector:
                             feature.getparent().remove(feature)
                             roots[(name, modname)].append(feature)
 
+                counters = feature.findall('counter')
+                if counters:
+                    for counter in counters:
+                        counter.getparent().remove(counter)
+
             data['class'].append((element, abv))
             for name, mod in roots:
                 data['class'].append((roots[name, mod], mod))
@@ -83,7 +93,7 @@ class ArchivistCorrector:
             return True
         return False
 
-    def correct_core_class(self, clas):
+    def correct_classes(self, clas):
         name = clas.findtext('name')
         if name == 'Wizard':
             for element in clas:
@@ -91,5 +101,17 @@ class ArchivistCorrector:
                 if (feat is not None and feat.findtext('name') in ['Signature Spell', 'Spell Mastery']):
                     feat.attrib.pop('optional')
 
-    def correct_race_abilities(self, races):
-        pass
+    def correct_races(self, races):
+        for race in races:
+            name = race.find('name')
+            n = name.text.split(', ')
+            if len(n) == 2:
+                name.text = f'{n[0]} ({n[1]})'
+
+    def filter_merge(self, clean_elements):
+        fb = lambda s: 'Ravnica' in s or 'Baldur' in s
+        ff = lambda c: c.tag == 'feat' and ':' in c.findtext('name')
+        fs = lambda c: 'Strixhaven' in str(et.tostring(c)) or 'Acquisitions' in str(et.tostring(c))
+        fr = lambda c: c.tag == 'race' and 'Mark Of' in c.findtext('name')
+        filter_ = lambda c: not(fs(c) or ff(c) or fr(c) or (c.tag == 'background' and fb(str(et.tostring(c)))))
+        return list(filter(filter_, clean_elements))

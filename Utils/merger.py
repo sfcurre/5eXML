@@ -10,7 +10,10 @@ class Merger:
     def divide_elements(self):
         data = defaultdict(list)
         for element, abv in self.tagged_elements:
-            if not self.corrector.correct_element_division(element, data, abv):
+            element.getparent().remove(element)
+            # print(et.tostring(element, encoding='utf-8'))
+            # input()
+            if not self.corrector.correct_division(element, data, abv):
                 data[element.tag].append((element, abv))
         return data
 
@@ -31,16 +34,11 @@ class Merger:
         for clas, abv in self.data['class']:
             name = clas.findtext('name').split('(')[0].strip()
             if clas.find('hd') is not None: #base class
-                self.corrector.correct_core_class(clas)
+                self.corrector.correct_classes(clas)
 
                 if name not in core_classes:
                     core_classes[name] = clas
-                # else:
-                    
-                #     for element in clas:
-                #         feat = element.find('feature')
-                #         if (feat is not None and feat.get('optional') == 'YES'):
-                #             core_classes[name].append(element)
+
             else:
                 add_core_to[name].append((clas, abv))
         add_features = defaultdict(list)
@@ -52,9 +50,10 @@ class Merger:
                     continue
                 if (feat is not None and feat.get('optional') == 'YES'):
                     n = feat.findtext('name')
-                    if not any(n.startswith(p) for p in ['Starting', 'Multiclass', 'Fighting', 'Meta', 'Pact']):
-                        continue
-                add_features[classname].append(et.tostring(element, encoding='utf-8'))
+                    if not any(n.startswith(p) for p in ['Starting', 'Multiclass', 'Fighting Style', 'Metamagic', 'Pact Boon']):
+                        continue                        
+                add_features[classname].append(element)
+                #add_features[classname].append(et.tostring(element, encoding='utf-8'))
 
         classes = list(core_classes.values())
         for classname, clist in add_core_to.items():
@@ -64,7 +63,12 @@ class Merger:
                 name.text += f' ({abv})' * bool(abv)
                 additions = []
                 for element in add_features[classname]:
-                    additions.append(et.XML(element))
+                    try:
+                        #additions.append(et.XML(element))
+                        additions.append(element)
+                    except:
+                        print(element)
+                        raise
                 clas[:] = additions + clas[:]
                 classes.append(clas)
         return classes
@@ -74,8 +78,7 @@ class Merger:
         names = set()
         for feat, abv in self.data['feat']:
             name = feat.find('name')
-            name.text = name.text.split('(')[0].strip()
-            if name.text not in names:# and ':' not in name.text:
+            if name.text not in names:
                 names.add(name.text)
                 feats.append(feat)
         return feats
@@ -85,7 +88,7 @@ class Merger:
         names = set()
         for item, abv in self.data['item']:
             name = item.find('name')
-            name.text = name.text.split('(')[0].strip()
+            # name.text = name.text.split('(')[0].strip()
             if name.text not in names:
                 names.add(name.text)
                 items.append(item)
@@ -96,7 +99,7 @@ class Merger:
         names = set()
         for monster, abv in self.data['monster']:
             name = monster.find('name')
-            name.text = name.text.split('(')[0].strip()
+            # name.text = name.text.split('(')[0].strip()
             name.text += f' ({abv})' * bool(abv)
             if name.text not in names:
                 names.add(name.text)
@@ -113,8 +116,9 @@ class Merger:
                 blocks.add(block)
                 name = race.find('name')
                 name.text = '(UA'.join(name.text.split('(Ua'))
+                
                 races.append(race)
-        self.corrector.correct_race_abilities(races)
+        self.corrector.correct_races(races)
         return races
 
     def merge_spells(self):
@@ -133,13 +137,13 @@ class Merger:
         return spells
 
     def merge(self):
-        self.backgrounds = self.merge_backgrounds()
-        self.classes = self.merge_classes()
-        self.feats = self.merge_feats()
-        self.items = self.merge_items()
-        self.monsters = self.merge_monsters()
-        self.races = self.merge_races()
-        self.spells = self.merge_spells()
+        self.backgrounds = self.corrector.filter_merge(self.merge_backgrounds())
+        self.classes = self.corrector.filter_merge(self.merge_classes())
+        self.feats = self.corrector.filter_merge(self.merge_feats())
+        self.items = self.corrector.filter_merge(self.merge_items())
+        self.monsters = self.corrector.filter_merge(self.merge_monsters())
+        self.races = self.corrector.filter_merge(self.merge_races())
+        self.spells = self.corrector.filter_merge(self.merge_spells())
         return [*self.backgrounds,
                 *self.classes,
                 *self.feats,

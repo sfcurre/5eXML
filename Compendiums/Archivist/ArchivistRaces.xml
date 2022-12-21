@@ -895,7 +895,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Dwarf, Duergar</name>
+		<name>Dwarf (Duergar)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability/>
@@ -965,7 +965,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Dwarf, Hill</name>
+		<name>Dwarf (Hill)</name>
 		<size>M</size>
 		<speed>25</speed>
 		<ability>Con 2, Wis 1</ability>
@@ -1034,99 +1034,7 @@
 		<modifier category="bonus">hp +1</modifier>
 	</race>
   <race>
-		<name>Dwarf, Mark Of Warding</name>
-		<size>M</size>
-		<speed>25</speed>
-		<ability>Con 2, Int 1</ability>
-		<proficiency/>
-		<spellAbility>Intelligence</spellAbility>
-		<trait>
-			<name>Description</name>
-			<text>The Mark of Warding helps its bearers protect things of value. Using the mark, a dwarf can weave wards with mystic force. It also provides its bearer with an intuitive understanding of locks used to protect and seal.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 51</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>Dwarves mature at the same rate a s humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 20</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 20</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 20</text>
-		</trait>
-		<trait>
-			<name>Darkvision</name>
-			<text>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 20</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 20</text>
-		</trait>
-		<trait>
-			<name>Warder's Intuition</name>
-			<text>When you make an Intelligence (Investigation) check or an ability check using thieves' tools, you can roll a d4 and add the number rolled to the ability check.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 51</text>
-		</trait>
-		<trait>
-			<name>Wards and Seals</name>
-			<text>You can cast the alarm and mage armor spells with this trait. Starting at 3rd level, you can also cast the arcane lock spell with it. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest. Intelligence is your spellcasting ability for these spells, and you don't need material components for them when you cast them with this trait.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 51</text>
-		</trait>
-		<trait>
-			<name>Spells of the Mark</name>
-			<text>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Warding Spells table are added to the spell list of your spellcasting class.</text>
-			<text/>
-			<text>1st — alarm, armor of Agathys</text>
-			<text>2nd — arcane lock, knock</text>
-			<text>3rd — glyph of warding, magic circle</text>
-			<text>4th — Leomund's secret chest, Mordenkainen's faithful hound</text>
-			<text>5th — antilife shell</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 51</text>
-		</trait>
-		<trait>
-			<name>Dwarven Resilience</name>
-			<text>You have advantage on saving throws against poison, and you have resistance against poison damage.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 20</text>
-		</trait>
-		<trait>
-			<name>Dwarven Combat Training</name>
-			<text>You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 20</text>
-		</trait>
-		<trait>
-			<name>Tool Proficiency</name>
-			<text>You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 20</text>
-		</trait>
-		<trait>
-			<name>Stonecunning</name>
-			<text>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 20</text>
-		</trait>
-	</race>
-  <race>
-		<name>Dwarf, Mountain</name>
+		<name>Dwarf (Mountain)</name>
 		<size>M</size>
 		<speed>25</speed>
 		<ability>Con 2, Str 2</ability>
@@ -1194,7 +1102,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Elf, Dark</name>
+		<name>Elf (Dark)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability>Dex 2, Cha 1</ability>
@@ -1269,7 +1177,81 @@
 		</trait>
 	</race>
   <race>
-		<name>Elf, Eladrin</name>
+		<name>Elf (Eladrin (Variant))</name>
+		<size>M</size>
+		<speed>30</speed>
+		<ability>Dex 2, Int 1</ability>
+		<spellAbility/>
+		<proficiency>Perception</proficiency>
+		<trait>
+			<name>Description</name>
+			<text>Creatures of magic with strong ties to nature, eladrin live in the twilight realm of the Feywild. Their cities sometimes cross over to the Material Plane, appearing briefly in mountain valleys or deep forest glades before fading back into the Feywild.</text>
+			<text/>
+			<text>Source: Dungeon Master's Guide p. 286</text>
+		</trait>
+		<trait>
+			<name>Age</name>
+			<text>Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 23</text>
+		</trait>
+		<trait>
+			<name>Alignment</name>
+			<text>Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not. The drow are an exception; their exile into the Underdark has made them vicious and dangerous. Drow are more often evil than not.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 23</text>
+		</trait>
+		<trait>
+			<name>Size</name>
+			<text>Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 23</text>
+		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 23</text>
+		</trait>
+		<trait>
+			<name>Keen Senses</name>
+			<text>You have proficiency in the Perception skill.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 23</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 23</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 23</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 23</text>
+		</trait>
+		<trait>
+			<name>Elf Weapon Training</name>
+			<text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
+			<text/>
+			<text>Source: Dungeon Master's Guide p. 286</text>
+		</trait>
+		<trait>
+			<name>Fey Step</name>
+			<text>You can cast the misty step spell once using this trait. You regain the ability to do so when you finish a short or long rest.</text>
+			<text/>
+			<text>Source: Dungeon Master's Guide p. 286</text>
+		</trait>
+	</race>
+  <race>
+		<name>Elf (Eladrin)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability/>
@@ -1360,81 +1342,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Elf, Eladrin (Variant)</name>
-		<size>M</size>
-		<speed>30</speed>
-		<ability>Dex 2, Int 1</ability>
-		<spellAbility/>
-		<proficiency>Perception</proficiency>
-		<trait>
-			<name>Description</name>
-			<text>Creatures of magic with strong ties to nature, eladrin live in the twilight realm of the Feywild. Their cities sometimes cross over to the Material Plane, appearing briefly in mountain valleys or deep forest glades before fading back into the Feywild.</text>
-			<text/>
-			<text>Source: Dungeon Master's Guide p. 286</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 23</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not. The drow are an exception; their exile into the Underdark has made them vicious and dangerous. Drow are more often evil than not.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 23</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 23</text>
-		</trait>
-		<trait>
-			<name>Darkvision</name>
-			<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 23</text>
-		</trait>
-		<trait>
-			<name>Keen Senses</name>
-			<text>You have proficiency in the Perception skill.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 23</text>
-		</trait>
-		<trait>
-			<name>Fey Ancestry</name>
-			<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 23</text>
-		</trait>
-		<trait>
-			<name>Trance</name>
-			<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 23</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 23</text>
-		</trait>
-		<trait>
-			<name>Elf Weapon Training</name>
-			<text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
-			<text/>
-			<text>Source: Dungeon Master's Guide p. 286</text>
-		</trait>
-		<trait>
-			<name>Fey Step</name>
-			<text>You can cast the misty step spell once using this trait. You regain the ability to do so when you finish a short or long rest.</text>
-			<text/>
-			<text>Source: Dungeon Master's Guide p. 286</text>
-		</trait>
-	</race>
-  <race>
-		<name>Elf, High</name>
+		<name>Elf (High)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability>Dex 2, Int 1</ability>
@@ -1503,93 +1411,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Elf, Mark Of Shadow</name>
-		<size>M</size>
-		<speed>30</speed>
-		<ability>Dex 2, Cha 1</ability>
-		<proficiency>Perception</proficiency>
-		<spellAbility>Charisma</spellAbility>
-		<trait>
-			<name>Description</name>
-			<text>The Mark of Shadow lets an elf weave illusions, crafting magic to distract or delight. It also allows its bearer to sculpt shadows, making it easy to avoid detection.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 49</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 24</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not. The drow are an exception; their exile into the Underdark has made them vicious and dangerous. Drow are more often evil than not.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 24</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 24</text>
-		</trait>
-		<trait>
-			<name>Darkvision</name>
-			<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 23</text>
-		</trait>
-		<trait>
-			<name>Keen Senses</name>
-			<text>You have proficiency in the Perception skill.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 23</text>
-		</trait>
-		<trait>
-			<name>Fey Ancestry</name>
-			<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 23</text>
-		</trait>
-		<trait>
-			<name>Trance</name>
-			<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 23</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common, Elvish, and one extra language of your choice. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 24</text>
-		</trait>
-		<trait>
-			<name>Cunning Intuition</name>
-			<text>When you make a Charisma (Performance) or Dexterity (Stealth) check, you can roll a d4 and add the number rolled to the ability check.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 49</text>
-		</trait>
-		<trait>
-			<name>Shape Shadows</name>
-			<text>You know the minor illusion cantrip. Starting at 3rd level, you can cast the invisibility spell once with this trait, and you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 49</text>
-		</trait>
-		<trait>
-			<name>Spells of the Mark</name>
-			<text>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Shadow Spells table are added to the spell list of your spellcasting class.</text>
-			<text/>
-			<text>1st — disguise self, silent image</text>
-			<text>2nd — darkness, pass without trace</text>
-			<text>3rd — clairvoyance, major image</text>
-			<text>4th — greater invisibility, hallucinatory terrain</text>
-			<text>5th — mislead</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 49</text>
-		</trait>
-	</race>
-  <race>
-		<name>Elf, Pallid</name>
+		<name>Elf (Pallid)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability>Dex 2, Wis 1</ability>
@@ -1663,7 +1485,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Elf, Sea</name>
+		<name>Elf (Sea)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability/>
@@ -1751,7 +1573,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Elf, Shadar-Kai</name>
+		<name>Elf (Shadar-Kai)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability/>
@@ -1836,7 +1658,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Elf, Wood</name>
+		<name>Elf (Wood)</name>
 		<size>M</size>
 		<speed>35</speed>
 		<ability>Dex 2, Wis 1</ability>
@@ -2110,7 +1932,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Genasi, Air</name>
+		<name>Genasi (Air)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability/>
@@ -2186,7 +2008,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Genasi, Earth</name>
+		<name>Genasi (Earth)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability/>
@@ -2257,7 +2079,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Genasi, Fire</name>
+		<name>Genasi (Fire)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability/>
@@ -2326,7 +2148,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Genasi, Water</name>
+		<name>Genasi (Water)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability/>
@@ -2551,7 +2373,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Gnome, Deep</name>
+		<name>Gnome (Deep)</name>
 		<size>S</size>
 		<speed>30</speed>
 		<ability/>
@@ -2621,7 +2443,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Gnome, Forest</name>
+		<name>Gnome (Forest)</name>
 		<size>S</size>
 		<speed>25</speed>
 		<ability>Int 2, Dex 1</ability>
@@ -2677,81 +2499,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Gnome, Mark Of Scribing</name>
-		<size>S</size>
-		<speed>25</speed>
-		<ability>Int 2, Cha 1</ability>
-		<proficiency/>
-		<spellAbility>Intelligence</spellAbility>
-		<trait>
-			<name>Description</name>
-			<text>The Mark of Scribing deals with communication-both the written and spoken word. A gnome who bears the mark can feel words as though they are living creatures, struggling to make their meaning known. The mark provides a range of gifts. It translates languages, but it also allows its bearer to communicate with others at a distance.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 47</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 36</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Gnomes are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 36</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 37</text>
-		</trait>
-		<trait>
-			<name>Darkvision</name>
-			<text>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 37</text>
-		</trait>
-		<trait>
-			<name>Gnome Cunning</name>
-			<text>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 37</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 37</text>
-		</trait>
-		<trait>
-			<name>Gifted Scribe</name>
-			<text>When you make an Intelligence (History) check or an ability check using calligrapher's supplies, you can roll a d4 and add the number rolled to the ability check.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 47</text>
-		</trait>
-		<trait>
-			<name>Scribe's Insight</name>
-			<text>You know the message cantrip. You can also cast comprehend languages once with this trait, and you regain the ability to cast it when you finish a short or long rest. Starting at 3rd level, you can cast the magic mouth spell with this trait, and you regain the ability to cast it when you finish a long rest. Intelligence is your spellcasting ability for these spells.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 47</text>
-		</trait>
-		<trait>
-			<name>Spells of the Mark</name>
-			<text>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Scribing Spells table are added to the spell list of your spellcasting class.</text>
-			<text/>
-			<text>1st — comprehend languages, illusory script</text>
-			<text>2nd — animal messenger, silence</text>
-			<text>3rd — sending, tongues</text>
-			<text>4th — arcane eye, confusion</text>
-			<text>5th — dream</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 47</text>
-		</trait>
-	</race>
-  <race>
-		<name>Gnome, Rock</name>
+		<name>Gnome (Rock)</name>
 		<size>S</size>
 		<speed>25</speed>
 		<ability>Int 2, Con 1</ability>
@@ -3074,7 +2822,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Half-Elf, Aquatic Elf Ancestry</name>
+		<name>Half-Elf (Aquatic Elf Ancestry)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability>Cha 2</ability>
@@ -3143,7 +2891,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Half-Elf, Dark Elf Ancestry</name>
+		<name>Half-Elf (Dark Elf Ancestry)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability>Cha 2</ability>
@@ -3212,7 +2960,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Half-Elf, High Elf Ancestry</name>
+		<name>Half-Elf (High Elf Ancestry)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability>Cha 2</ability>
@@ -3288,167 +3036,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Half-Elf, Mark Of Detection</name>
-		<size>M</size>
-		<speed>30</speed>
-		<ability>Wis 2</ability>
-		<proficiency/>
-		<spellAbility>Wisdom</spellAbility>
-		<trait>
-			<name>Description</name>
-			<text>The Mark of Detection is an inquisitive's dream. It sharpens powers of observation and intuition, allowing the bearer to draw connections and interpret clues others might miss. By actively drawing on its powers, the bearer can detect poisons and study the energies of magic.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 40</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 39</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others' demands, and sometimes prove unreliable, or at least unpredictable.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 39</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 39</text>
-		</trait>
-		<trait>
-			<name>Ability Score Increase</name>
-			<text>Your Wisdom score increases by 2, and one other ability score of your choice increase by 1.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 40</text>
-		</trait>
-		<trait>
-			<name>Darkvision</name>
-			<text>Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 39</text>
-		</trait>
-		<trait>
-			<name>Fey Ancestry</name>
-			<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 39</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common, Elvish, and one extra language of your choice.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 39</text>
-		</trait>
-		<trait>
-			<name>Deductive Intuition</name>
-			<text>When you make an Intelligence (Investigation) or a Wisdom (Insight) check, you can roll a d4 and add the number rolled to the ability check.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 40</text>
-		</trait>
-		<trait>
-			<name>Magical Detection</name>
-			<text>You can cast the detect magic and detect poison and disease spells with this trait. Starting at 3rd level, you can also cast the see invisibility spell with it. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells, and you don't require material components for them.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 40</text>
-		</trait>
-		<trait>
-			<name>Spells of the Mark</name>
-			<text>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Detection Spells table are added to the spell list of your spellcasting class.</text>
-			<text/>
-			<text>1st — detect evil and good, detect poison and disease</text>
-			<text>2nd — detect thoughts, find traps</text>
-			<text>3rd — clairvoyance, nondetection</text>
-			<text>4th — arcane eye, divination</text>
-			<text>5th — legend lore</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 40</text>
-		</trait>
-	</race>
-  <race>
-		<name>Half-Elf, Mark Of Storm</name>
-		<size>M</size>
-		<speed>30</speed>
-		<ability>Cha 2, Dex 1</ability>
-		<proficiency/>
-		<spellAbility>Charisma</spellAbility>
-		<trait>
-			<name>Description</name>
-			<text>Wind and water welcome the half-elves who carry the Mark of Storm, and some learn to call on the power of the storm itself.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 50</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 39</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others' demands, and sometimes prove unreliable, or at least unpredictable.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 39</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 39</text>
-		</trait>
-		<trait>
-			<name>Darkvision</name>
-			<text>Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 39</text>
-		</trait>
-		<trait>
-			<name>Fey Ancestry</name>
-			<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 39</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common, Elvish, and one extra language of your choice.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 39</text>
-		</trait>
-		<trait>
-			<name>Windwright's Intuition</name>
-			<text>When you make a Dexterity (Acrobatics) check or any ability check involving navigator's tools, you can roll a d4 and add the number rolled to the ability check.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 50</text>
-		</trait>
-		<trait>
-			<name>Storm's Boon</name>
-			<text>You have resistance to lightning damage.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 50</text>
-		</trait>
-		<trait>
-			<name>Headwinds</name>
-			<text>You know the gust cantrip. Starting at 3rd level, you can cast the gust of wind spell once with this trait, and you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 50</text>
-		</trait>
-		<trait>
-			<name>Spells of the Mark</name>
-			<text>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Storm Spells table are added to the spell list of your spellcasting class.</text>
-			<text/>
-			<text>1st — feather fall, fog cloud</text>
-			<text>2nd — gust of wind, levitate</text>
-			<text>3rd — sleet storm, wind wall</text>
-			<text>4th — conjure minor elementals, control water</text>
-			<text>5th — conjure elemental</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 50</text>
-		</trait>
-	</race>
-  <race>
-		<name>Half-Elf, Wood Elf Ancestry</name>
+		<name>Half-Elf (Wood Elf Ancestry)</name>
 		<size>M</size>
 		<speed>30</speed>
 		<ability>Cha 2</ability>
@@ -3587,71 +3175,124 @@
 		</trait>
 	</race>
   <race>
-		<name>Half-Orc, Mark Of Finding</name>
-		<size>M</size>
-		<speed>30</speed>
-		<ability>Con 1, Wis 2</ability>
+		<name>Halfling (Ghostwise)</name>
+		<size>S</size>
+		<speed>25</speed>
+		<ability>Dex 2, Wis 1</ability>
+		<spellAbility/>
 		<proficiency/>
-		<spellAbility>Wisdom</spellAbility>
 		<trait>
 			<name>Description</name>
-			<text>The Mark of Finding sharpens the senses, guiding the hunter to prey. Alone among the dragonmarks, the Mark of Finding is carried by two races: humans and half-orcs. It first appeared in the Shadow Marches, where clan hunters used it to find their prey.</text>
+			<text>Ghostwise halflings trace their ancestry back to a war among halfling tribes that sent their ancestors into flight from Luiren. Ghostwise halflings are the rarest of the hin, found only in the Chondalwood and a few other isolated forests, clustered in tight-knit clans.</text>
+			<text>	Many ghostwise clans select a natural landmark as the center of their territory, and members carry a piece of that landmark with them at all times. Clan warriors known as nightgliders bond with and ride giant owls as mounts.</text>
+			<text>	Because these folk are clannish and mistrustful of outsiders, ghostwise halfling adventurers are rare. Ask your DM if you can play a member of this subrace, which has the halfling traits in the Player's Handbook, plus the subrace traits below.</text>
 			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 41</text>
+			<text>Source: Sword Coast Adventurer's Guide p. 110</text>
 		</trait>
 		<trait>
 			<name>Age</name>
-			<text>Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.</text>
+			<text>A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.</text>
 			<text/>
-			<text>Source: Player's Handbook p. 41</text>
+			<text>Source: Player's Handbook p. 28</text>
 		</trait>
 		<trait>
 			<name>Alignment</name>
-			<text>Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil.</text>
+			<text>Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.</text>
 			<text/>
-			<text>Source: Player's Handbook p. 41</text>
+			<text>Source: Player's Handbook p. 28</text>
 		</trait>
 		<trait>
 			<name>Size</name>
-			<text>Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.</text>
+			<text>Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.</text>
 			<text/>
-			<text>Source: Player's Handbook p. 41</text>
+			<text>Source: Player's Handbook p. 28</text>
 		</trait>
 		<trait>
-			<name>Darkvision</name>
-			<text>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+			<name>Lucky</name>
+			<text>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</text>
 			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 41</text>
+			<text>Source: Player's Handbook p. 28</text>
 		</trait>
 		<trait>
-			<name>Hunter's Intuition</name>
-			<text>When you make a Wisdom (Perception) or Wisdom (Survival) check, you can roll a d4 and add the number rolled to the ability check.</text>
+			<name>Brave</name>
+			<text>You have advantage on saving throws against being frightened.</text>
 			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 41</text>
+			<text>Source: Player's Handbook p. 28</text>
 		</trait>
 		<trait>
-			<name>Finder's Magic</name>
-			<text>You can cast the hunter's mark spell with this trait. Starting at 3rd level, you can also cast the locate object spell with it. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells.</text>
+			<name>Halfling Nimbleness</name>
+			<text>You can move through the space of any creature that is of a size larger than yours.</text>
 			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 41</text>
+			<text>Source: Player's Handbook p. 28</text>
 		</trait>
 		<trait>
 			<name>Languages</name>
-			<text>You can speak, read, and write Common and Goblin.</text>
+			<text>You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.</text>
 			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 41</text>
+			<text>Source: Player's Handbook p. 28</text>
 		</trait>
 		<trait>
-			<name>Spells of the Mark</name>
-			<text>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Finding Spells table are added to the spell list of your spellcasting class.</text>
+			<name>Silent Speech</name>
+			<text>You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time.</text>
 			<text/>
-			<text>1st — faerie fire, longstrider</text>
-			<text>2nd — locate animals or plants, locate object</text>
-			<text>3rd — clairvoyance, speak with plants</text>
-			<text>4th — divination, locate creature</text>
-			<text>5th — commune with nature</text>
+			<text>Source: Sword Coast Adventurer's Guide p. 110</text>
+		</trait>
+	</race>
+  <race>
+		<name>Halfling (Lightfoot)</name>
+		<size>S</size>
+		<speed>25</speed>
+		<ability>Dex 2, Cha 1</ability>
+		<spellAbility/>
+		<proficiency/>
+		<trait>
+			<name>Description</name>
+			<text>As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You're inclined to be affable and get along well with others. In the Forgotten Realms, lightfoot halflings have spread the farthest and thus are the most common variety.</text>
+			<text>	Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life. In the world of Greyhawk, these halflings are called hairfeet or tallfellows.</text>
 			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 41</text>
+			<text>Source: Player's Handbook p. 28</text>
+		</trait>
+		<trait>
+			<name>Age</name>
+			<text>A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 28</text>
+		</trait>
+		<trait>
+			<name>Size</name>
+			<text>Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 28</text>
+		</trait>
+		<trait>
+			<name>Lucky</name>
+			<text>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 28</text>
+		</trait>
+		<trait>
+			<name>Brave</name>
+			<text>You have advantage on saving throws against being frightened.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 28</text>
+		</trait>
+		<trait>
+			<name>Halfling Nimbleness</name>
+			<text>You can move through the space of any creature that is of a size larger than yours.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 28</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 28</text>
+		</trait>
+		<trait>
+			<name>Naturally Stealthy</name>
+			<text>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</text>
+			<text/>
+			<text>Source: Player's Handbook p. 28</text>
 		</trait>
 	</race>
   <race>
@@ -3723,288 +3364,7 @@
 		</trait>
 	</race>
   <race>
-		<name>Halfling, Ghostwise</name>
-		<size>S</size>
-		<speed>25</speed>
-		<ability>Dex 2, Wis 1</ability>
-		<spellAbility/>
-		<proficiency/>
-		<trait>
-			<name>Description</name>
-			<text>Ghostwise halflings trace their ancestry back to a war among halfling tribes that sent their ancestors into flight from Luiren. Ghostwise halflings are the rarest of the hin, found only in the Chondalwood and a few other isolated forests, clustered in tight-knit clans.</text>
-			<text>	Many ghostwise clans select a natural landmark as the center of their territory, and members carry a piece of that landmark with them at all times. Clan warriors known as nightgliders bond with and ride giant owls as mounts.</text>
-			<text>	Because these folk are clannish and mistrustful of outsiders, ghostwise halfling adventurers are rare. Ask your DM if you can play a member of this subrace, which has the halfling traits in the Player's Handbook, plus the subrace traits below.</text>
-			<text/>
-			<text>Source: Sword Coast Adventurer's Guide p. 110</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Lucky</name>
-			<text>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Brave</name>
-			<text>You have advantage on saving throws against being frightened.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Halfling Nimbleness</name>
-			<text>You can move through the space of any creature that is of a size larger than yours.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Silent Speech</name>
-			<text>You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time.</text>
-			<text/>
-			<text>Source: Sword Coast Adventurer's Guide p. 110</text>
-		</trait>
-	</race>
-  <race>
-		<name>Halfling, Lightfoot</name>
-		<size>S</size>
-		<speed>25</speed>
-		<ability>Dex 2, Cha 1</ability>
-		<spellAbility/>
-		<proficiency/>
-		<trait>
-			<name>Description</name>
-			<text>As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You're inclined to be affable and get along well with others. In the Forgotten Realms, lightfoot halflings have spread the farthest and thus are the most common variety.</text>
-			<text>	Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life. In the world of Greyhawk, these halflings are called hairfeet or tallfellows.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Lucky</name>
-			<text>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Brave</name>
-			<text>You have advantage on saving throws against being frightened.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Halfling Nimbleness</name>
-			<text>You can move through the space of any creature that is of a size larger than yours.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Naturally Stealthy</name>
-			<text>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-	</race>
-  <race>
-		<name>Halfling, Mark Of Healing</name>
-		<size>S</size>
-		<speed>25</speed>
-		<ability>Dex 2, Wis 1</ability>
-		<proficiency/>
-		<spellAbility>Wisdom</spellAbility>
-		<trait>
-			<name>Description</name>
-			<text>A halfling with the Mark of Healing can save a life with a touch, restoring vitality and the will to live. When dealing with mundane medicine, the mark helps its bearer sense the nature of maladies, aiding them in finding a cure. When equipped with dragonshard focus items, the mark can even draw the dead back from the depths of Dolurrh.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 43</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Medical Intuition</name>
-			<text>When you make a Wisdom (Medicine) check or an ability check using an herbalism kit, you can roll a d4 and add the number rolled to the ability check.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 43</text>
-		</trait>
-		<trait>
-			<name>Healing Touch</name>
-			<text>You can cast the cure wounds spell with this trait. Starting at 3rd level, you can also cast lesser restoration with it. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 43</text>
-		</trait>
-		<trait>
-			<name>Spells of the Mark</name>
-			<text>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Healing Spells table are added to the spell list of your spellcasting class.</text>
-			<text/>
-			<text>1st — cure wounds, healing word</text>
-			<text>2nd — lesser restoration, prayer of healing</text>
-			<text>3rd — aura of vitality, mass healing word</text>
-			<text>4th — aura of purity, aura of life</text>
-			<text>5th — greater restoration</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 43</text>
-		</trait>
-		<trait>
-			<name>Lucky</name>
-			<text>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Brave</name>
-			<text>You have advantage on saving throws against being frightened.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Halfling Nimbleness</name>
-			<text>You can move through the space of any creature that is of a size larger than yours.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-	</race>
-  <race>
-		<name>Halfling, Mark Of Hospitality</name>
-		<size>S</size>
-		<speed>25</speed>
-		<ability>Dex 2, Cha 1</ability>
-		<proficiency/>
-		<spellAbility>Charisma</spellAbility>
-		<trait>
-			<name>Description</name>
-			<text>They may not always have gold, but a halfling with the Mark of Hospitality is sure to be rich in friends. The magic of the mark allows the bearer to keep a place clean, and to heat, chill, and season food. But it also helps the bearer connect with others.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 44</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Ever Hospitable</name>
-			<text>When you make a Charisma (Persuasion) check or an ability check involving brewer's supplies or cook's utensils, you can roll a d4 and add the number rolled to the ability check.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 44</text>
-		</trait>
-		<trait>
-			<name>Innkeeper's Magic</name>
-			<text>You know the prestidigitation cantrip. You can also cast the purify food and drink and unseen servant spells with this trait. Once you cast either spell with this trait, you can't cast that spell with it again until you finish long rest. Charisma is your spellcasting ability for these spells.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 44</text>
-		</trait>
-		<trait>
-			<name>Spells of the Mark</name>
-			<text>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Hospitality Spells table are added to the spell list of your spellcasting class.</text>
-			<text/>
-			<text>1st — goodberry, sleep</text>
-			<text>2nd — aid, calm emotions</text>
-			<text>3rd — create food and water, Leomund's tiny hut</text>
-			<text>4th — aura of purity, Mordenkainen's private sanctum</text>
-			<text>5th — hallow</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 44</text>
-		</trait>
-		<trait>
-			<name>Lucky</name>
-			<text>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Brave</name>
-			<text>You have advantage on saving throws against being frightened.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Halfling Nimbleness</name>
-			<text>You can move through the space of any creature that is of a size larger than yours.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 28</text>
-		</trait>
-	</race>
-  <race>
-		<name>Halfling, Stout</name>
+		<name>Halfling (Stout)</name>
 		<size>S</size>
 		<speed>25</speed>
 		<ability>Dex 2, Con 1</ability>
@@ -4388,364 +3748,6 @@
 			<text>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</text>
 			<text/>
 			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-	</race>
-  <race>
-		<name>Human, Mark Of Finding</name>
-		<size>M</size>
-		<speed>30</speed>
-		<ability>Con 1, Wis 2</ability>
-		<proficiency/>
-		<spellAbility>Wisdom</spellAbility>
-		<trait>
-			<name>Description</name>
-			<text>The Mark of Finding sharpens the senses, guiding the hunter to prey. Alone among the dragonmarks, the Mark of Finding is carried by two races: humans and halforcs. It first appeared in the Shadow Marches, where clan hunters used it to find their prey.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 41</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>Humans reach adulthood in their late teens and live less than a century.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Humans tend toward no particular alignment. The best and the worst are found among them.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Darkvision</name>
-			<text>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
-		</trait>
-		<trait>
-			<name>Hunter's Intuition</name>
-			<text>When you make a Wisdom (Perception) or Wisdom (Survival) check, you can roll a d4 and add the number rolled to the ability check.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 41</text>
-		</trait>
-		<trait>
-			<name>Finder's Magic</name>
-			<text>You can cast the hunter's mark spell with this trait. Starting at 3rd level, you can also cast the locate object spell with it. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 41</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common and Goblin.</text>
-		</trait>
-		<trait>
-			<name>Spells of the Mark</name>
-			<text>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Finding Spells table are added to the spell list of your spellcasting class.</text>
-			<text/>
-			<text>1st — faerie fire, longstrider</text>
-			<text>2nd — locate animals or plants, locate object</text>
-			<text>3rd — clairvoyance, speak with plants</text>
-			<text>4th — divination, locate creature</text>
-			<text>5th — commune with nature</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 41</text>
-		</trait>
-	</race>
-  <race>
-		<name>Human, Mark Of Handling</name>
-		<size>M</size>
-		<speed>30</speed>
-		<ability>Wis 2</ability>
-		<proficiency/>
-		<spellAbility>Wisdom</spellAbility>
-		<trait>
-			<name>Description</name>
-			<text>The Mark of Handling gives its bearer a primal connection to beasts and the natural world, granting the power to calm and coax. This extends beyond purely natural animals; the mark allows its bearer to guide a hippogriff as easily as a horse.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 42</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>Humans reach adulthood in their late teens and live less than a century.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Humans tend toward no particular alignment. The best and the worst are found among them.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Ability Score Increase</name>
-			<text>Your Wisdom score increases by 2, and one other ability score of your choice increases by 1.</text>
-		</trait>
-		<trait>
-			<name>Wild Intuition</name>
-			<text>When you make a Wisdom (Animal Handling) or Intelligence (Nature) check, you can roll a d4 and add the number rolled to the ability check.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 42</text>
-		</trait>
-		<trait>
-			<name>Primal Connection</name>
-			<text>You can cast the animal friendship and speak with animals spells with this trait, requiring no material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a short or long rest. Wisdom is your spellcasting ability for these spells.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 42</text>
-		</trait>
-		<trait>
-			<name>The Bigger They Are</name>
-			<text>Starting at 3rd level, you can target a beast or monstrosity when you cast animal friendship or speak with animals, provided the creature's Intelligence score is 3 or lower.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 42</text>
-		</trait>
-		<trait>
-			<name>Spells of the Mark</name>
-			<text>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Handling Spells table are added to the spell list of your spellcasting class.</text>
-			<text/>
-			<text>1st — animal friendship, speak with animals</text>
-			<text>2nd — beast sense, calm emotions</text>
-			<text>3rd — beacon of hope, conjure animals</text>
-			<text>4th — aura of life, dominate beast</text>
-			<text>5th — awaken</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 42</text>
-		</trait>
-	</race>
-  <race>
-		<name>Human, Mark Of Making</name>
-		<size>M</size>
-		<speed>30</speed>
-		<ability>Int 2</ability>
-		<proficiency/>
-		<spellAbility>Intelligence</spellAbility>
-		<trait>
-			<name>Description</name>
-			<text>The Mark of Making guides its bearer through any act of creation. The bearer of the mark can mend broken things with a touch, and always has a minor magic item they've been working on. An artificer or a wizard will get the most out of the mark, but anyone can find a use for an enchanted blade.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 45</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>Humans reach adulthood in their late teens and live less than a century.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Humans tend toward no particular alignment. The best and the worst are found among them.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Ability Score Increase</name>
-			<text>Your Intelligence score increases by 2, and one other ability score of your choice increases by 1.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 45</text>
-		</trait>
-		<trait>
-			<name>Artisan's Intuition</name>
-			<text>When you make an Arcana check or an ability check involving artisan's tools, you can roll a d4 and add the number rolled to the ability check.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 45</text>
-		</trait>
-		<trait>
-			<name>Maker's Gift</name>
-			<text>You gain proficiency with one type of artisan's tools of your choice.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 45</text>
-		</trait>
-		<trait>
-			<name>Spellsmith</name>
-			<text>You know the mending cantrip. You can also cast the magic weapon spell with this trait. When you do so, the spell lasts for 1 hour and doesn't require concentration. Once you cast the spell with this trait, you can't do so again until you finish a long rest. Intelligence is your spellcasting ability for these spells.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 45</text>
-		</trait>
-		<trait>
-			<name>Spells of the Mark</name>
-			<text>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Making Spells table are added to the spell list of your spellcasting class.</text>
-			<text/>
-			<text>1st — identify, Tenser's floating disk</text>
-			<text>2nd — continual flame, magic weapon</text>
-			<text>3rd — conjure barrage, elemental weapon</text>
-			<text>4th — fabricate, stone shape</text>
-			<text>5th — creation</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 45</text>
-		</trait>
-	</race>
-  <race>
-		<name>Human, Mark Of Passage</name>
-		<size>M</size>
-		<speed>35</speed>
-		<ability>Dex 2</ability>
-		<proficiency/>
-		<spellAbility>Dexterity</spellAbility>
-		<trait>
-			<name>Description</name>
-			<text>The Mark of Passage governs motion, allowing its bearer to move with uncanny speed. The bearer of the mark can even slip through space in the blink of an eye.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 46</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>Humans reach adulthood in their late teens and live less than a century.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Humans tend toward no particular alignment. The best and the worst are found among them.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Ability Score Increase</name>
-			<text>Your Dexterity score increases by 2, and one other ability score of your choice increases by 1.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 46</text>
-		</trait>
-		<trait>
-			<name>Courier's Speed</name>
-			<text>Your base walking speed increases to 35 feet.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 46</text>
-		</trait>
-		<trait>
-			<name>Intuitive Motion</name>
-			<text>When you make a Dexterity (Acrobatics) check or any ability check to operate or maintain a land vehicle, you can roll a d4 and add the number rolled to the ability check.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 46</text>
-		</trait>
-		<trait>
-			<name>Magical Passage</name>
-			<text>You can cast the misty step spell once with this trait, and you regain the ability to cast it when you finish a long rest. Dexterity is your spellcasting ability for this spell.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 46</text>
-		</trait>
-		<trait>
-			<name>Spells of the Mark</name>
-			<text>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Passage Spells table are added to the spell list of your spellcasting class.</text>
-			<text/>
-			<text>1st — expeditious retreat, jump</text>
-			<text>2nd — misty step, pass without trace</text>
-			<text>3rd — blink, phantom steed</text>
-			<text>4th — dimension door, freedom of movement</text>
-			<text>5th — teleportation circle</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 46</text>
-		</trait>
-	</race>
-  <race>
-		<name>Human, Mark Of Sentinel</name>
-		<size>M</size>
-		<speed>30</speed>
-		<ability>Con 2, Wis 1</ability>
-		<proficiency/>
-		<spellAbility>Wisdom</spellAbility>
-		<trait>
-			<name>Description</name>
-			<text>The Mark of Sentinel warns and protects. It heightens senses and reflexes, allowing an heir to respond to threats with uncanny speed. It can shield its bearer from harm. Whether on the battlefield or the ballroom, someone who carries the Mark of Sentinel is prepared for danger.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 48</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>Humans reach adulthood in their late teens and live less than a century.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Humans tend toward no particular alignment. The best and the worst are found among them.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</text>
-			<text/>
-			<text>Source: Player's Handbook p. 31</text>
-		</trait>
-		<trait>
-			<name>Ability Score Increase</name>
-			<text>Your Constitution score increases by 2, and one other ability score of your choice increases by 1.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 48</text>
-		</trait>
-		<trait>
-			<name>Sentinel's Intuition</name>
-			<text>When you make a Wisdom (Insight) or Wisdom (Perception) check, you can roll a d4 and add the number rolled to the ability check.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 48</text>
-		</trait>
-		<trait>
-			<name>Guardian's Shield</name>
-			<text>You can cast the shield spell once with this trait, and you regain the ability to cast it after you finish a long rest. Wisdom is your spellcasting ability for this spell.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 48</text>
-		</trait>
-		<trait>
-			<name>Vigilant Guardian</name>
-			<text>When a creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to swap places with that creature, and you are hit by the attack instead. Once you use this trait, you can't do so again until you finish a long rest.</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 48</text>
-		</trait>
-		<trait>
-			<name>Spells of the Mark</name>
-			<text>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Sentinel Spells table are added to the spell list of your spellcasting class.</text>
-			<text/>
-			<text>1st — compelled duel, shield of faith</text>
-			<text>2nd — warding bond, zone of truth</text>
-			<text>3rd — counterspell, protection from energy</text>
-			<text>4th — death ward, guardian of faith</text>
-			<text>5th — Bigby's hand</text>
-			<text/>
-			<text>Source: Eberron: Rising from the Last War p. 48</text>
 		</trait>
 	</race>
   <race>
@@ -5159,7 +4161,7 @@
 		</trait>
 		<trait>
 			<name>Natural Armor</name>
-			<text>You have tough, scaly skin. When you aren’t wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armor.</text>
+			<text>You have tough, scaly skin. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</text>
 			<text/>
 			<text>Source: Locathah Rising p. 24</text>
 		</trait>
@@ -5486,65 +4488,6 @@
 			<text>Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The Player's Handbook offers a list of languages to choose from. The DM is free to modify that list for a campaign.</text>
 			<text/>
 			<text>Source: Mordenkainen Presents: Monsters of the Multiverse p. 5</text>
-		</trait>
-	</race>
-  <race>
-		<name>Owlin</name>
-		<size>M</size>
-		<speed>30</speed>
-		<ability/>
-		<spellAbility/>
-		<proficiency>Stealth</proficiency>
-		<trait>
-			<name>Description</name>
-			<text>Distant kin of giant owls from the Feywild, owlin come in many shapes and sizes, from petite and fluffy to wide-winged and majestic. Owlin have arms and legs like other Humanoids, as well as wings that extend from their back and shoulders.</text>
-			<text>	Like owls, owlin are graced with feathers that make no sound when they move or fly, making it easy for them to sneak up on you in the library.</text>
-			<text>	Your owlin character might be nocturnal. Or perhaps your character is simply prone to rise later, embodying the common nickname of night owl.</text>
-			<text/>
-			<text>Source: Strixhaven: A Curriculum of Chaos p. 29</text>
-		</trait>
-		<trait>
-			<name>Ability Score Increases</name>
-			<text>When determining your character's ability scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.</text>
-			<text>	The "Quick Build" section for your character's class offers suggestions on which scores to increase. You're free to follow those suggestions or to ignore them. Whichever scores you decide to increase, none of the scores can be raised above 20.</text>
-			<text/>
-			<text>Source: Strixhaven: A Curriculum of Chaos p. 29</text>
-		</trait>
-		<trait>
-			<name>Creature Type</name>
-			<text>You are a Humanoid.</text>
-			<text/>
-			<text>Source: Strixhaven: A Curriculum of Chaos p. 29</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>You are Medium or Small. You choose the size when you select this race.</text>
-			<text/>
-			<text>Source: Strixhaven: A Curriculum of Chaos p. 29</text>
-		</trait>
-		<trait>
-			<name>Darkvision</name>
-			<text>You can see in dim light within 120 feet of yourself as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</text>
-			<text/>
-			<text>Source: Strixhaven: A Curriculum of Chaos p. 29</text>
-		</trait>
-		<trait>
-			<name>Flight</name>
-			<text>Thanks to your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.</text>
-			<text/>
-			<text>Source: Strixhaven: A Curriculum of Chaos p. 29</text>
-		</trait>
-		<trait>
-			<name>Silent Feathers</name>
-			<text>You have proficiency in the Stealth skill.</text>
-			<text/>
-			<text>Source: Strixhaven: A Curriculum of Chaos p. 29</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The Player's Handbook offers a list of widespread languages to choose from. The DM is free to add or remove languages from that list for a particular campaign.</text>
-			<text/>
-			<text>Source: Strixhaven: A Curriculum of Chaos p. 29</text>
 		</trait>
 	</race>
   <race>
@@ -6474,7 +5417,7 @@
 		</trait>
 		<trait>
 			<name>Legacy of Minauros</name>
-			<text>You know the mage hand cantrip. When you reach 3rd level, you can cast the Tenser’s floating disk spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the arcane lock spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</text>
+			<text>You know the mage hand cantrip. When you reach 3rd level, you can cast the Tenser's floating disk spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the arcane lock spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</text>
 			<text/>
 			<text>Source: Mordenkainen's Tome of Foes p. 22</text>
 		</trait>
@@ -6825,75 +5768,6 @@
 		</trait>
 	</race>
   <race>
-		<name>Verdan</name>
-		<size>M</size>
-		<speed>30</speed>
-		<ability>Con 1, Cha 2</ability>
-		<proficiency>Persuasion</proficiency>
-		<spellAbility/>
-		<trait>
-			<name>Description</name>
-			<text>The verdan owe their existence to chaos. Descended and transformed from a large clan of goblins and hobgoblins, those who became the verdan were simply living their lives, doing goblinoid things. But then passing through the shadow of That-Which-Endures changed them forever. Now the newest race to call Faerûn home, the verdan do their best to find their way in an unfamiliar world.</text>
-			<text>Reality is a descent into chaos punctuated by brief flashes of order, whence we arose and so imagine it to be the norm rather than a distant outlier. That-Which-Endures held entropy back for a mere instant, and the Verdan emerged. I'm sorry, was that the question?</text>
-			<text/>
-			<text>Source: Acquisitions Incorporated p. 72</text>
-		</trait>
-		<trait>
-			<name>Age</name>
-			<text>Verdan reach adulthood at around the age of 24, and it is thought that they might live to nearly 200 years old. However, because no verdan has died of old age since the race's initial creation, their upper age limits remain subject to speculation.</text>
-			<text/>
-			<text>Source: Acquisitions Incorporated p. 74</text>
-		</trait>
-		<trait>
-			<name>Alignment</name>
-			<text>Verdan are generally good, although their absence of racial identity and shared history can sometimes see individual verdan become untethered from any moral or ethical framework.</text>
-			<text/>
-			<text>Source: Acquisitions Incorporated p. 74</text>
-		</trait>
-		<trait>
-			<name>Size</name>
-			<text>Verdan start out similar in size to the goblins they were created from, ranging from 3 to 4 feet in height. But at some point after reaching maturity, each verdan undergoes a sudden growth spurt of 2 feet or more. At 1st level, you are a Small creature. When you reach 5th level, you become a Medium creature.</text>
-			<text/>
-			<text>Source: Acquisitions Incorporated p. 74</text>
-		</trait>
-		<trait>
-			<name>Black Blood Healing</name>
-			<text>The black blood that is a sign of your people's connection to That-Which-Endures boosts your natural healing. When you roll a 1 or 2 on any Hit Die you spend at the end of a short rest, you can reroll the die and must use the new roll.</text>
-			<text/>
-			<text>Source: Acquisitions Incorporated p. 74</text>
-		</trait>
-		<trait>
-			<name>Limited Telepathy</name>
-			<text>You can telepathically speak to any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathy, but it must be able to understand at least one language. This process of communication is slow and limited, allowing you to transmit and receive only simple ideas and straightforward concepts.</text>
-			<text/>
-			<text>Source: Acquisitions Incorporated p. 74</text>
-		</trait>
-		<trait>
-			<name>Persuasive</name>
-			<text>Your people's lack of history makes you trustworthy and humble. You have proficiency in the Persuasion skill.</text>
-			<text/>
-			<text>Source: Acquisitions Incorporated p. 74</text>
-		</trait>
-		<trait>
-			<name>Telepathic Insight</name>
-			<text>Your mind's connection to the world around you strengthens your will. You have advantage on all Wisdom and Charisma saving throws.</text>
-			<text/>
-			<text>Source: Acquisitions Incorporated p. 74</text>
-		</trait>
-		<trait>
-			<name>Language</name>
-			<text>You speak, read, and write Common, Goblin, and one additional language of your choice. This language typically has some connection to one of the areas or cultures that has been part of your life.</text>
-			<text/>
-			<text>Source: Acquisitions Incorporated p. 74</text>
-		</trait>
-		<trait>
-			<name>Underlying Improvements</name>
-			<text>When a verdan character gains an ability score improvement at certain levels, that increase can be tied to a physical mutation at the player's determination. A boost to Strength might be accompanied by a growth spurt and the development of rippling muscle, while an increase in Intelligence might produce a stylishly large forehead.</text>
-			<text/>
-			<text>Source: Acquisitions Incorporated p. 74</text>
-		</trait>
-	</race>
-  <race>
 		<name>Warforged</name>
 		<size>M</size>
 		<speed>30</speed>
@@ -6973,7 +5847,7 @@
 			<text/>
 			<text>• You gain a +1 bonus to Armor Class.</text>
 			<text>• You can don only armor with which you have proficiency. To don armor other than a shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.</text>
-			<text>• While you live, the armor incorporated into your body can’t be removed against your will.</text>
+			<text>• While you live, the armor incorporated into your body can't be removed against your will.</text>
 			<text/>
 			<text>Source: Eberron: Rising from the Last War p. 36</text>
 			<modifier category="bonus">ac +1</modifier>

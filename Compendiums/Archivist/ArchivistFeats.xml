@@ -44,7 +44,7 @@
 		<text/>
 		<text>• You can't be surprised while you are conscious.</text>
 		<text/>
-		<text>• Other creatures don’t gain advantage on attack rolls against you as a result of being unseen by you.</text>
+		<text>• Other creatures don't gain advantage on attack rolls against you as a result of being unseen by you.</text>
 		<text/>
 		<text>Source: Player's Handbook p. 165</text>
 		<modifier category="bonus">initiative +5</modifier>
@@ -63,7 +63,7 @@
 		<text>Source: Tasha's Cauldron of Everything p. 79</text>
 	</feat>
   <feat>
-		<name>Athlete</name>
+		<name>Athlete (Dexterity)</name>
 		<prerequisite/>
 		<text>You have undergone extensive physical training to gain the following benefits.</text>
 		<text/>
@@ -77,6 +77,22 @@
 		<text/>
 		<text>Source: Player's Handbook p. 165</text>
 		<modifier category="ability score">dexterity +1</modifier>
+	</feat>
+  <feat>
+		<name>Athlete (Strength)</name>
+		<prerequisite/>
+		<text>You have undergone extensive physical training to gain the following benefits.</text>
+		<text/>
+		<text>• Increase your Strength or Dexterity score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• When you are prone, standing up uses only 5 feet of your movement.</text>
+		<text/>
+		<text>• Climbing doesn't cost you extra movement.</text>
+		<text/>
+		<text>• You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 165</text>
+		<modifier category="ability score">strength +1</modifier>
 	</feat>
   <feat>
 		<name>Bountiful Luck</name>
@@ -96,7 +112,7 @@
 		<text>Source: Player's Handbook p. 165</text>
 	</feat>
   <feat>
-		<name>Chef</name>
+		<name>Chef (Constitution)</name>
 		<prerequisite/>
 		<text>Time spent mastering the culinary arts has paid off, granting you the following benefits:</text>
 		<text/>
@@ -112,6 +128,22 @@
 		<modifier category="ability score">constitution +1</modifier>
 	</feat>
   <feat>
+		<name>Chef (Wisdom)</name>
+		<prerequisite/>
+		<text>Time spent mastering the culinary arts has paid off, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase your Constitution or Wisdom score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You gain proficiency with cook's utensils if you don't already have it.</text>
+		<text/>
+		<text>• As part of a short rest, you can cook special food, provided you have ingredients and cook's utensils on hand. You can prepare enough of this food for a number of creatures equal to 4 + your proficiency bonus. At the end of the short rest, any creature who eats the food and spends one or more Hit Dice to regain hit points regains an extra 1d8 hit points.</text>
+		<text/>
+		<text>• With one hour of work or when you finish a long rest, you can cook a number of treats equal to your proficiency bonus. These special treats last 8 hours after being made. A creature can use a bonus action to eat one of those treats to gain temporary hit points equal to your proficiency bonus.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 79</text>
+		<modifier category="ability score">wisdom +1</modifier>
+	</feat>
+  <feat>
 		<name>Crossbow Expert</name>
 		<prerequisite/>
 		<text>Thanks to extensive practice with the crossbow, you gain the following benefits.</text>
@@ -125,7 +157,21 @@
 		<text>Source: Player's Handbook p. 165</text>
 	</feat>
   <feat>
-		<name>Crusher</name>
+		<name>Crusher (Constitution)</name>
+		<prerequisite/>
+		<text>You are practiced in the art of crushing your enemies, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase your Strength or Constitution by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• Once per turn, when you hit a creature with an attack that deals bludgeoning damage, you can move it 5 feet to an unoccupied space, provided the target is no more than one size larger than you.</text>
+		<text/>
+		<text>• When you score a critical hit that deals bludgeoning damage to a creature, attack rolls against that creature are made with advantage until the start of your next turn.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 79</text>
+		<modifier category="ability score">constitution +1</modifier>
+	</feat>
+  <feat>
+		<name>Crusher (Strength)</name>
 		<prerequisite/>
 		<text>You are practiced in the art of crushing your enemies, granting you the following benefits:</text>
 		<text/>
@@ -139,215 +185,6 @@
 		<modifier category="ability score">strength +1</modifier>
 	</feat>
   <feat>
-		<name>Dark Gift: Echoing Soul</name>
-		<prerequisite/>
-		<text>Your soul isn't your own or, at least, it wasn't always yours. Whether you've lived past lives, your soul was swapped into a different body, or you have a link connecting you to another being, you experience echoes from another life. These echoes grant you knowledge, talents, or even languages you can't always explain, but they also intrude on your perceptions and beliefs unexpectedly.</text>
-		<text>	Roll on or choose an option from the Soul Echoes table to determine the nature of this Dark Gift. Additionally, you gain the traits that follow.</text>
-		<text/>
-		<text>d6 | Echo</text>
-		<text>1 | My soul is linked with that of a person elsewhere, perhaps another domain, world, or plane.</text>
-		<text>2 | I have lived many times before, my soul reincarnating each time I die rather than passing on.</text>
-		<text>3 | My consciousness was removed from my original body and implanted in this one.</text>
-		<text>4 | I was physically and spiritually merged with another being.</text>
-		<text>5 | I share my body with an intangible, otherworldly force.</text>
-		<text>6 | Time fractures around me, and I sometimes collide with my own past or future.</text>
-		<text/>
-		<text>	Channeled Prowess. You gain proficiency in two skills of your choice.</text>
-		<text/>
-		<text>	Inherent Tongue. You can speak, read, and write one additional language of your choice.</text>
-		<text/>
-		<text>	Intrusive Echoes. Immediately after you make an attack roll, an ability check, or a saving throw and roll a 1 on the d20, your soul's memories emerge and overtake your perceptions and experiences. You might see people around you as someone other than who they are, or you become disoriented by a double-experience of the world around you. Roll on the Intrusive Echoes table to determine the effect of these vivid memories and perceptions. Once one of effects occur, these intrusive echoes can't manifest again until you finish a short or long rest.</text>
-		<text/>
-		<text>d6 | Effect</text>
-		<text>1 | You are charmed by a creature you can see (of the DM's choice) for 1 minute or until the creature damages you.</text>
-		<text>2 | You are frightened by a creature you can see (of the DM's choice) for 1 minute, or until the creature damages you.</text>
-		<text>3 | You perceive another time or place around you until the end of your next turn. During this time, you are blinded to your actual surroundings.</text>
-		<text>4 | You perceive a different time or place overlapping your surroundings. Your speed is halved until the end of your next turn.</text>
-		<text>5 | Memories and sensations overwhelm you. You are incapacitated until the start of your next turn.</text>
-		<text>6 | Your memory is one of triumph. You can reroll the ability check, attack roll, or saving throw that you just made. You must use the new roll.</text>
-		<text/>
-		<text>Source: Van Richten's Guide to Ravenloft p. 22</text>
-	</feat>
-  <feat>
-		<name>Dark Gift: Gathered Whispers</name>
-		<prerequisite/>
-		<text>You are haunted by spiritual beings, whether the souls of the departed or entities from another plane. Their voices endlessly whisper, taunt, or cajole, sometimes rising to unearthly howls. Only you can perceive the spirits, unless you allow them to speak through you. The spirits are intangible and invisible; anyone who can see invisible creatures sees only fleeting glimpses of these spirits as they haunt you.</text>
-		<text>	Roll on or choose an option from the Whispering Spirits table to determine what haunts you. Additionally, you gain the traits that follow.</text>
-		<text/>
-		<text>d6 | Spirits</text>
-		<text>1 | A council of my dead ancestors watches over me.</text>
-		<text>2 | Fiendish presences vie for my soul.</text>
-		<text>3 | Unquiet souls are drawn to me and beg for peace.</text>
-		<text>4 | The spirits of those I killed linger around me.</text>
-		<text>5 | An alien intelligence intrudes upon my thoughts.</text>
-		<text>6 | A sibling I don't have shares my body.</text>
-		<text/>
-		<text>	Spirit Whispers. You learn the message cantrip if you don't already know it, and require no components to cast it. When you cast the spell, the messages are delivered by one of your whispering spirits rather than you or the target's voice. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this Dark Gift).</text>
-		<text/>
-		<text>	Sudden Cacophony. When you are hit by an attack roll, you can use your reaction to channel your haunting spirits, letting their voices howl through you. If the attacker isn't deafened, add your proficiency bonus to your AC against that attack, potentially causing it to miss. Once this trait causes an attack to miss, you can't use the trait again until you finish a long rest.</text>
-		<text/>
-		<text>	Voices from Beyond. Immediately after you make an attack roll, an ability check, or a saving throw and roll a 1 on the d20, the haunting voices grow too loud to ignore. Roll on the Voices from Beyond table to determine the effect of these voices. Once one of these effects occurs, none of these haunting voices manifest again until you finish a short or long rest.</text>
-		<text/>
-		<text>d4 | Effect</text>
-		<text>1 | You have disadvantage on the next attack roll, ability check, or saving throw you make.</text>
-		<text>2 | You are deafened by the voices for 1 minute.</text>
-		<text>3 | You are frightened of the creature closest to you, other than yourself, until the end of your next turn. If multiple creatures are closest, the DM chooses which creature you are frightened of.</text>
-		<text>4 | Within the next 10 minutes, you can ask your spirits about the results of a specific course of action that you plan to take within the next 30 minutes. You can receive an omen as if you had cast the augury spell. The omen manifests as whisperings from your spirits perceptible only to you.</text>
-		<text/>
-		<text>Source: Van Richten's Guide to Ravenloft p. 23</text>
-	</feat>
-  <feat>
-		<name>Dark Gift: Living Shadow</name>
-		<prerequisite/>
-		<text>The shadow you cast is animate and ever-present, even when lighting conditions would otherwise prevent it. Your shadow occasionally moves out of sync with you. Sometimes it appears to be undertaking random but mundane tasks, while at other times it acts out your darker impulses, threatening or even attacking other shadows. With effort, you can bend this shadow puppetry to your will.</text>
-		<text>	Roll on or choose an option from the Shadow Quirk table to determine how your living shadow behaves. Additionally, you gain the traits that follow.</text>
-		<text/>
-		<text>d6 | Quirk</text>
-		<text>1 | My shadow often holds weapons or bears wounds that don't exist.</text>
-		<text>2 | When I'm distracted, my shadow panics and tries to get other people's attention, as if it's desperate to escape me.</text>
-		<text>3 | When it's not being watched, my shadow makes threatening gestures or creeps toward people.</text>
-		<text>4 | My shadow's movements mirror mine incorrectly—when I raise my left hand, my shadow moves its right.</text>
-		<text>5 | My shadow fiddles with or occasionally breaks Tiny, nonmagical objects.</text>
-		<text>6 | There's a slight but noticeable delay between my movements and those of my shadow.</text>
-		<text/>
-		<text>	Grasping Shadow. You learn the mage hand cantrip if you don't already know it, and require no components to cast it. The hand created by the spell is shadowy but is not bound to your actual shadow. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this Dark Gift).</text>
-		<text/>
-		<text>	Shadow Strike. When you make a melee attack roll, you can increase your reach for that attack by 10 feet. Your shadow stretches and delivers the attack as if it were you. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</text>
-		<text/>
-		<text>	Ominous Will. Immediately after you make an attack roll, an ability check, or a saving throw and roll a 1 on the d20, your shadow exerts a will of its own and might assist or hinder you or those around you. The next time you or a creature within 30 feet of you that you can see makes an attack roll, an ability check, or a saving throw, roll a d4. If the number is odd, reduce the total by the number rolled. If the number is even, increase the total by the number rolled. Once this effect occurs, it can't happen again until you finish a short or long rest.</text>
-		<text/>
-		<text>Source: Van Richten's Guide to Ravenloft p. 24</text>
-	</feat>
-  <feat>
-		<name>Dark Gift: Mist Walker</name>
-		<prerequisite/>
-		<text>The Mists grip all who tread the Domains of Dread, but you know how to slip through their grasp. You can navigate the Mists successfully given enough time and a little luck, but this freedom comes with a price; if you remain in one area for too long, the Mists find you and drain your life force.</text>
-		<text>	Roll on or choose an option from the Misty Travels table to determine how you developed this Dark Gift. Additionally, you gain the traits that follow.</text>
-		<text/>
-		<text>d4 | Origin</text>
-		<text>1 | You learned a secret about the nature of the Mists. Ever since, you can manipulate them, but the lands you walk have turned against you.</text>
-		<text>2 | You fled into the Mists to escape someone or something that's hunting you. You can never rest for long, knowing you're still being pursued.</text>
-		<text>3 | You're part of an organization, a family, or an itinerant community with experience traveling the Mists. They taught you how to do the same.</text>
-		<text>4 | The Mists stole you from your home and fractured your memories of where you're from. You've been on a quest to find your way back ever since.</text>
-		<text/>
-		<text>	Misty Step. You can cast the misty step spell, requiring no spell slot, and you must finish a long rest before you can cast it this way again. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this Dark Gift). If you have spell slots of 2nd level or higher, you can cast this spell with them.</text>
-		<text/>
-		<text>	Mist Traveler. When you enter the Mists intent on reaching a specific domain, you are treated as if you possess a Mist talisman keyed to that domain. To use this trait, you must know the name of the domain you have chosen as your destination, but you don't need to have previously visited that land. This trait doesn't allow you to bypass domain borders closed by a Darklord's will.</text>
-		<text/>
-		<text>	Poisoned Roots. When you finish a long rest, the world around you in a 10-mile radius becomes a siphon that will eventually leech away your vitality. You can remain in the area safely for a number of weeks equal to your Constitution modifier (minimum of 1 week). Thereafter, each time you finish a long rest in the area, you must succeed on a DC 15 Constitution saving throw or gain 1 level of exhaustion that can't be removed while you remain in the area.</text>
-		<text/>
-		<text>Source: Van Richten's Guide to Ravenloft p. 24</text>
-	</feat>
-  <feat>
-		<name>Dark Gift: Second Skin</name>
-		<prerequisite/>
-		<text>There is another side of you that most people never see. When you show this side of yourself, you might become another person entirely, a celestial-like avenger, or a walking nightmare. Whatever the specifics of this form, it exaggerates some drive or hidden nature within you.</text>
-		<text>	Roll on or choose an option from the Second Form table to determine this other side of yourself. Additionally, you gain the traits that follow.</text>
-		<text/>
-		<text>d6 | Form</text>
-		<text>1 | An exaggerated version of your own form</text>
-		<text>2 | Hybrid form of humanoid and beast</text>
-		<text>3 | An angelic, a demonic, or an aberrant form</text>
-		<text>4 | A vaguely human-shaped creature made of slime</text>
-		<text>5 | A fey-like shape, either brooding or passionate</text>
-		<text>6 | A body constructed of metal, stone, or machinery</text>
-		<text/>
-		<text>	Transformation. You can cast the alter self spell to appear in your second form. When you do so, you gain the effects of that spell's Change Appearance option and cannot end it to gain the benefits of a different option. Casting alter self in this way requires no spell slot, and you must finish a long rest before you can cast it this way again. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this Dark Gift). If you have spell slots of 2nd level or higher, you can cast this spell with them.</text>
-		<text>	When you cast alter self using this feature, some cosmetic aspect of your second form remains after the spell ends. This visibly marks you unless you actively hide or disguise it. The mark is a perceptible change such as scaly skin, stunted wings, eyes without pupils, or horns. The mark fades after you finish a long rest.</text>
-		<text/>
-		<text>	Involuntary Change. Certain circumstances can activate your Dark Gift. After you experience this catalyst, at the start of your next turn you must succeed on a DC 15 Charisma saving throw or use your action to cast alter self as described in the Transformation trait, even if you have already used it.</text>
-		<text>	Roll on or choose an option from the Change Catalyst table to determine what triggers your involuntary change.</text>
-		<text/>
-		<text>d6 | Catalyst</text>
-		<text>1 | Seeing a particular phase of the moon</text>
-		<text>2 | The smell of a certain type of flower</text>
-		<text>3 | The sound of ringing temple bells</text>
-		<text>4 | Hearing a particular melody</text>
-		<text>5 | Touching pure silver with your bare skin</text>
-		<text>6 | Seeing someone resembling a specific individual</text>
-		<text/>
-		<text>Source: Van Richten's Guide to Ravenloft p. 25</text>
-	</feat>
-  <feat>
-		<name>Dark Gift: Symbiotic Being</name>
-		<prerequisite/>
-		<text>A second being resides within your body along with you. It manifests physically somewhere on you and relies on you for its survival. At the same time, it offers you knowledge and other assistance, either of its own volition or because of your intertwined nature. The symbiote has its own personality and agenda, which might be at odds with yours. If you ignore the symbiote's desires, it might strive to interfere with you. There is no way to be rid of the symbiote while you have this Dark Gift. Even if you go to drastic lengths, such as severing the part of your body where the symbiote resides, it reappears on your body in another location at the next midnight.</text>
-		<text>	Roll on or choose an option from the Symbiotic Nature table to determine what sort of symbiotic being shares your body. Additionally, you gain the traits that follow.</text>
-		<text/>
-		<text>d6 | Symbiote</text>
-		<text>1 | Tiny humanoid facial features protruding from your torso, palm, or the back of your head</text>
-		<text>2 | An alien appendage inside an unhealing wound</text>
-		<text>3 | A burrowing, worm-like being</text>
-		<text>4 | An intrusive thought that inhabits your mind</text>
-		<text>5 | A living tattoo</text>
-		<text>6 | Crystal growths that replace a portion of your body</text>
-		<text/>
-		<text>	Entwined Existence. Your symbiote is a separate entity with its own physical form bound to yours. It isn't a separate creature and relies on you to survive. It has Intelligence, Wisdom, and Charisma scores. The DM sets the symbiote's abilities or determines them randomly (roll 4d6 for each score, ignoring the lowest roll and totaling the rest). The symbiote can see and hear using your senses.</text>
-		<text>	The symbiote speaks, reads, and understands two languages; one that you speak, as well as one appropriate to its nature. Choose one of the following skills: Arcana, Deception, History, Intimidation, Insight, Investigation, Nature, Religion, Perception, or Persuasion. You gain proficiency in that skill if you don't already have it, representing the symbiote's counsel and guidance.</text>
-		<text>	If you die, so does your symbiote. If you are subsequently returned to life, your symbiote revives as well.</text>
-		<text/>
-		<text>	Sustained Symbiosis. Your symbiote has a vested interest in your survival and takes steps to ensure it. When you fail a saving throw, you can choose to have your symbiote expend one of your Hit Dice to roll it and add the number rolled to the saving throw, potentially turning the failure into a success. If it uses this feature on a death saving throw, you succeed on the save and regain 1 hit point regardless of the number rolled on the d20.</text>
-		<text>	Once you succeed on a saving throw due to this trait, the symbiote can't use it again until you finish a long rest.</text>
-		<text/>
-		<text>	Symbiotic Agenda. Your symbiote has an agenda that drives it, and it expects you to assist it in achieving those goals. How permissive or patient it is in resolving its agenda depends on its personality (work with your DM to determine these details). If you have an opportunity to advance its agenda and don't act on it, the symbiote can try to force your hand. You must succeed on a Charisma saving throw (DC 12 + the symbiote's Charisma modifier) or be charmed by the symbiote for 1d12 hours. While charmed, you must try to follow the symbiote's commands. If you take damage that is not self-inflicted, you can repeat the saving throw, ending the effect on a success.</text>
-		<text>	Roll or choose from the Symbiotic Agenda table to determine the symbiote's goal, working with your DM to detail the specifics or create another agenda.</text>
-		<text/>
-		<text>d6 | Agenda</text>
-		<text>1 | The symbiote seeks to destroy a specific type of being, such as fiends, trolls, or paladins.</text>
-		<text>2 | The symbiote craves knowledge and is determined to solve a mystery or learn a secret.</text>
-		<text>3 | The symbiote wants to bring a prophecy to fruition or to thwart one.</text>
-		<text>4 | The symbiote seeks to defend the servants and interests of a powerful being or organization.</text>
-		<text>5 | The symbiote wants to keep you from harm at all costs and believes it knows what's best for you.</text>
-		<text>6 | The symbiote seeks to experience new sensations, the more bizarre the better.</text>
-		<text/>
-		<text>Source: Van Richten's Guide to Ravenloft p. 26</text>
-	</feat>
-  <feat>
-		<name>Dark Gift: Touch Of Death</name>
-		<prerequisite/>
-		<text>Your touch is pain, harming whoever you come in contact with. The deathly power within you is beyond your control, afflicting any who touch your bare skin. By the same token, you can deliver death to your enemies with your touch.</text>
-		<text>	Roll on or choose an option from the Deadly Touch table to determine how this Dark Gift presents itself. Additionally, you gain the traits that follow.</text>
-		<text/>
-		<text>d6 | Manifestation</text>
-		<text>1 | Your body is alchemically or biologically altered, infusing you with deadly chemicals.</text>
-		<text>2 | The magic of a slighted druid or fey makes small plants wither and insects die in your presence.</text>
-		<text>3 | You're the harbinger of a grim prophecy. Any creature your touch damages is marked with a temporary scar of a group, fiend, deity, or other force that takes an interest in you.</text>
-		<text>4 | You survived a near-death experience—but shouldn't have. Ever since, death and ill omens follow you.</text>
-		<text>5 | You are out of sync with time or reality. Anything you touch is warped by the distortion.</text>
-		<text>6 | Every time you touch a creature, you hear the laughter of someone you once harmed.</text>
-		<text/>
-		<text>	Death Touch. You can focus your deadly touch against your foes. As an action, make one unarmed strike. On a hit, the target takes an additional 1d10 necrotic damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</text>
-		<text/>
-		<text>	Inescapable Death. When you hit a target with an attack roll and deal necrotic damage, you ignore the target's resistance to that damage.</text>
-		<text/>
-		<text>	Withering Contact. When you start your turn grappling a creature or grappled by it, the creature takes 1d10 necrotic damage.</text>
-		<text/>
-		<text>Source: Van Richten's Guide to Ravenloft p. 26</text>
-	</feat>
-  <feat>
-		<name>Dark Gift: Watchers</name>
-		<prerequisite/>
-		<text>Something is always watching you and draws ethereal spirits that take the form of creatures made of shadowstuff, usually in the shape of Tiny beasts, that follow you and gather in your general vicinity. These creatures act like normal examples of their kind, but their behavior suggests a hint of malice. No matter what precautions you take, you can't permanently drive these spirits away. They always return, wait just beyond the reach of deterrents, or later crawl out of your clothes and equipment.</text>
-		<text>	Roll on or choose an option from the Watchers table to determine what sorts of forms the spirits typically take when they follow you.</text>
-		<text/>
-		<text>d8 | Watchers</text>
-		<text>1 | Carrion Eaters. Jackals, ravens, vultures</text>
-		<text>2 | Inescapable Judgments. Animate tools of punishment, drifting eyeballs, religious iconography</text>
-		<text>3 | Night Wings. Bats, moths, owls</text>
-		<text>4 | Plague Carriers. Fleas, rats, squirrels</text>
-		<text>5 | Unnatural Observers. Animate objects, clockwork devices, otherworldly voyeurs</text>
-		<text>6 | Sea Skulkers. Crabs, eels, jellyfish</text>
-		<text>7 | Stray Souls. Ghost orbs, shadows, ectoplasmic wisps</text>
-		<text>8 | Venomous Vermin. Scorpions, serpents, spiders</text>
-		<text/>
-		<text>	Borrowed Eyes. As an action, you can influence the presence guiding the watchers for 1 hour. For the duration, you gain advantage on Intelligence (Investigation) and Wisdom (Perception) checks, and you can't be blinded. Once you use this feature, you can't use it again until you finish a long rest.</text>
-		<text/>
-		<text>	Dread Presence. You have disadvantage on Charisma (Deception), Charisma (Performance), and Charisma (Persuasion) checks made against creatures that can see the watchers, and you have disadvantage on saving throws made against the scrying spell.</text>
-		<text>	You can temporarily disperse or hide the watchers with some effort. With 1 minute of work and a successful DC 15 Charisma (Animal Handling) check, you can suppress your Borrowed Eyes and Dread Presence for 1 hour. Once you successfully suppress these features, you can't do so again until you finish a long rest.</text>
-		<text/>
-		<text>Source: Van Richten's Guide to Ravenloft p. 27</text>
-	</feat>
-  <feat>
 		<name>Defensive Duelist</name>
 		<prerequisite>Dexterity 13 or higher</prerequisite>
 		<text>When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.</text>
@@ -355,86 +192,43 @@
 		<text>Source: Player's Handbook p. 165</text>
 	</feat>
   <feat>
-		<name>Draconic Gift: Draconic Familiar</name>
-		<prerequisite>wyrmling dragon heir or killer (Uncommon)</prerequisite>
-		<text>You gain the aid of a draconic familiar, which might be a splinter of the consciousness of a dragon that invested you with power.</text>
-		<text>	You can cast the find familiar spell as a ritual without using any material components. When you cast the spell in this way, your familiar always takes the form of a pseudodragon.</text>
-		<text>	Additionally, when you take the Attack action on your turn, you can forgo one of your own attacks to allow your pseudodragon familiar to make one attack of its own with its reaction.</text>
-		<text/>
-		<text>Source: Fizban's Treasury of Dragons p. 28</text>
-	</feat>
-  <feat>
-		<name>Draconic Gift: Draconic Rebirth</name>
-		<prerequisite>wyrmling dragon heir or killer (Uncommon)</prerequisite>
-		<text>You become a dragonborn. You replace the racial traits of your original race with the traits of a chromatic, gem, or metallic dragonborn (detailed in this book). The kind of dragonborn you become matches the family of the dragon that is the source of this gift. You can keep any skill proficiencies you gained from your previous race, or you gain proficiency in two skills of your choice.</text>
-		<text/>
-		<text>Source: Fizban's Treasury of Dragons p. 28</text>
-	</feat>
-  <feat>
-		<name>Draconic Gift: Draconic Senses</name>
-		<prerequisite>young dragon heir or killer (Rare)</prerequisite>
-		<text>You gain keen senses like a dragon’s.</text>
-		<text>	Blindsight. You have blindsight to a range of 10 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you're blinded or in darkness. Moreover, you can see invisible creatures within that range, unless the creatures successfully hide from you.</text>
-		<text>	Keen Senses. You have advantage on Wisdom (Perception) checks.</text>
-		<text/>
-		<text>Source: Fizban's Treasury of Dragons p. 28</text>
-	</feat>
-  <feat>
-		<name>Draconic Gift: Echo Of Dragonsight</name>
-		<prerequisite>adult dragon heir or killer (Very Rare)</prerequisite>
-		<text>You have begun to extend your awareness beyond the single world of the Material Plane that is your home.</text>
-		<text>	You can cast contact other plane as a ritual. The entity you contact is a dragon on another world in the Material Plane, so its knowledge of your world might be limited. Also, this dragon is an echo of the dragon who is the source of the gift, which might affect its attitude and behavior toward you.</text>
-		<text/>
-		<text>Source: Fizban's Treasury of Dragons p. 28</text>
-	</feat>
-  <feat>
-		<name>Draconic Gift: Frightful Presence</name>
-		<prerequisite>adult dragon heir or killer (Very Rare)</prerequisite>
-		<text>Echoes of a dragon's might linger around you. and you can call on them to inspire fear in those who stand against you.</text>
-		<text>	As a bonus action, you can manifest your frightful presence. Each creature of your choice that is within 120 feet of you and aware of you must make a Wisdom saving throw against a DC equal to 8 + your proficiency bonus + your Charisma modifier. A creature that fails becomes frightened of you for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-		<text>	Once you use this ability a number of times equal to your proficiency bonus, you can't use it again until you finish a long rest.</text>
-		<text/>
-		<text>Source: Fizban's Treasury of Dragons p. 28</text>
-	</feat>
-  <feat>
-		<name>Draconic Gift: Psionic Reach</name>
-		<prerequisite>adult dragon heir or killer (Very Rare)</prerequisite>
-		<text>The psionic energy of a gem dragon empowers your mind. You gain resistance to psychic damage.</text>
-		<text>	In addition, you learn the telekinesis spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can’t do so again until you finish a long rest. You can also cast this spell using spell slots you have of the appropriate level. The spellcasting ability is Intelligence, Wisdom, or Charisma when you cast the spell with this gift (choose when you gain the gift).</text>
-		<text/>
-		<text>Source: Fizban's Treasury of Dragons p. 28</text>
-	</feat>
-  <feat>
-		<name>Draconic Gift: Scaled Toughness</name>
-		<prerequisite>ancient dragon heir or killer (Legendary)</prerequisite>
-		<text>Your skin toughens, making you resistant to certain types of physical harm. You gain resistance to piercing and slashing damage.</text>
-		<text/>
-		<text>Source: Fizban's Treasury of Dragons p. 29</text>
-	</feat>
-  <feat>
-		<name>Draconic Gift: Tongue Of The Dragon</name>
-		<prerequisite>wyrmling dragon heir or killer (Uncommon)</prerequisite>
-		<text>You gain some of the majestic presence of a dragon.</text>
-		<text>	Dragon's Speech. You can speak, read, and write Draconic.</text>
-		<text>	Dragon's Voice. As a bonus action, you can make your voice audible up to 300 feet away for 1 minute.</text>
-		<text>	Dragon’s Wiles. You have advantage on Charisma (Persuasion) checks.</text>
-		<text/>
-		<text>Source: Fizban's Treasury of Dragons p. 29</text>
-	</feat>
-  <feat>
-		<name>Dragon Fear</name>
+		<name>Dragon Fear (Charisma)</name>
 		<prerequisite>Dragonborn</prerequisite>
 		<text>When angered, you radiate menace. You gain the following benefits:</text>
 		<text/>
 		<text>• Increase your Charisma score by 1, up to a maximum of 20.</text>
 		<text/>
-		<text>• Instead of exhaling destructive energy, you can expend a use of your Breath Weapon trait to roar, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds if it can’t hear or see you. On a failed save, a target becomes frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success.</text>
+		<text>• Instead of exhaling destructive energy, you can expend a use of your Breath Weapon trait to roar, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds if it can't hear or see you. On a failed save, a target becomes frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success.</text>
 		<text/>
 		<text>Source: Xanathar's Guide to Everything p. 74</text>
 		<modifier category="ability score">charisma +1</modifier>
 	</feat>
   <feat>
-		<name>Dragon Hide</name>
+		<name>Dragon Fear (Constitution)</name>
+		<prerequisite>Dragonborn</prerequisite>
+		<text>When angered, you radiate menace. You gain the following benefits:</text>
+		<text/>
+		<text>• Increase your Constitution score by 1, up to a maximum of 20.</text>
+		<text/>
+		<text>• Instead of exhaling destructive energy, you can expend a use of your Breath Weapon trait to roar, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds if it can't hear or see you. On a failed save, a target becomes frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success.</text>
+		<text/>
+		<text>Source: Xanathar's Guide to Everything p. 74</text>
+		<modifier category="ability score">constitution +1</modifier>
+	</feat>
+  <feat>
+		<name>Dragon Fear (Strength)</name>
+		<prerequisite>Dragonborn</prerequisite>
+		<text>When angered, you radiate menace. You gain the following benefits:</text>
+		<text/>
+		<text>• Increase your Strength score by 1, up to a maximum of 20.</text>
+		<text/>
+		<text>• Instead of exhaling destructive energy, you can expend a use of your Breath Weapon trait to roar, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds if it can't hear or see you. On a failed save, a target becomes frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success.</text>
+		<text/>
+		<text>Source: Xanathar's Guide to Everything p. 74</text>
+		<modifier category="ability score">strength +1</modifier>
+	</feat>
+  <feat>
+		<name>Dragon Hide (Charisma)</name>
 		<prerequisite>Dragonborn</prerequisite>
 		<text>You manifest scales and claws reminiscent of your draconic ancestors. You gain the following benefits:</text>
 		<text/>
@@ -446,6 +240,34 @@
 		<text/>
 		<text>Source: Xanathar's Guide to Everything p. 74</text>
 		<modifier category="ability score">charisma +1</modifier>
+	</feat>
+  <feat>
+		<name>Dragon Hide (Constitution)</name>
+		<prerequisite>Dragonborn</prerequisite>
+		<text>You manifest scales and claws reminiscent of your draconic ancestors. You gain the following benefits:</text>
+		<text/>
+		<text>• Increase your Constitution score by 1, up to a maximum of 20.</text>
+		<text/>
+		<text>• Your scales harden; while you aren't wearing armor, you can calculate your AC as 13 + your Dexterity modifier. You can use a shield and still gain this benefit.</text>
+		<text/>
+		<text>• You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</text>
+		<text/>
+		<text>Source: Xanathar's Guide to Everything p. 74</text>
+		<modifier category="ability score">constitution +1</modifier>
+	</feat>
+  <feat>
+		<name>Dragon Hide (Strength)</name>
+		<prerequisite>Dragonborn</prerequisite>
+		<text>You manifest scales and claws reminiscent of your draconic ancestors. You gain the following benefits:</text>
+		<text/>
+		<text>• Increase your Strength score by 1, up to a maximum of 20.</text>
+		<text/>
+		<text>• Your scales harden; while you aren't wearing armor, you can calculate your AC as 13 + your Dexterity modifier. You can use a shield and still gain this benefit.</text>
+		<text/>
+		<text>• You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</text>
+		<text/>
+		<text>Source: Xanathar's Guide to Everything p. 74</text>
+		<modifier category="ability score">strength +1</modifier>
 	</feat>
   <feat>
 		<name>Drow High Magic</name>
@@ -515,7 +337,7 @@
 		<text>Source: Tasha's Cauldron of Everything p. 79</text>
 	</feat>
   <feat>
-		<name>Elemental Adept</name>
+		<name>Elemental Adept (Acid)</name>
 		<prerequisite>The ability to cast at least one spell</prerequisite>
 		<text>Spells you cast ignore acid resistance. In addition, when you roll damage for a spell you cast that deals acid damage, you can treat any 1 on a damage die as a 2.</text>
 		<text>	You can select this feat multiple times. Each time you do so, you must choose a different damage type.</text>
@@ -523,7 +345,39 @@
 		<text>Source: Player's Handbook p. 166</text>
 	</feat>
   <feat>
-		<name>Elven Accuracy</name>
+		<name>Elemental Adept (Cold)</name>
+		<prerequisite>The ability to cast at least one spell</prerequisite>
+		<text>Spells you cast ignore cold resistance. In addition, when you roll damage for a spell you cast that deals cold damage, you can treat any 1 on a damage die as a 2.</text>
+		<text>	You can select this feat multiple times. Each time you do so, you must choose a different damage type.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 166</text>
+	</feat>
+  <feat>
+		<name>Elemental Adept (Fire)</name>
+		<prerequisite>The ability to cast at least one spell</prerequisite>
+		<text>Spells you cast ignore fire resistance. In addition, when you roll damage for a spell you cast that deals fire damage, you can treat any 1 on a damage die as a 2.</text>
+		<text>	You can select this feat multiple times. Each time you do so, you must choose a different damage type.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 166</text>
+	</feat>
+  <feat>
+		<name>Elemental Adept (Lightning)</name>
+		<prerequisite>The ability to cast at least one spell</prerequisite>
+		<text>Spells you cast ignore lightning resistance. In addition, when you roll damage for a spell you cast that deals lightning damage, you can treat any 1 on a damage die as a 2.</text>
+		<text>	You can select this feat multiple times. Each time you do so, you must choose a different damage type.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 166</text>
+	</feat>
+  <feat>
+		<name>Elemental Adept (Thunder)</name>
+		<prerequisite>The ability to cast at least one spell</prerequisite>
+		<text>Spells you cast ignore thunder resistance. In addition, when you roll damage for a spell you cast that deals thunder damage, you can treat any 1 on a damage die as a 2.</text>
+		<text>	You can select this feat multiple times. Each time you do so, you must choose a different damage type.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 166</text>
+	</feat>
+  <feat>
+		<name>Elven Accuracy (Charisma)</name>
 		<prerequisite>Elf</prerequisite>
 		<text>The accuracy of elves is legendary, especially that of elf archers and spellcasters. You gain the following benefits:</text>
 		<text/>
@@ -535,19 +389,67 @@
 		<modifier category="ability score">charisma +1</modifier>
 	</feat>
   <feat>
-		<name>Fade Away</name>
-		<prerequisite>Gnome</prerequisite>
-		<text>You can draw on your magical heritage to escape danger. You gain the following benefits:</text>
+		<name>Elven Accuracy (Dexterity)</name>
+		<prerequisite>Elf</prerequisite>
+		<text>The accuracy of elves is legendary, especially that of elf archers and spellcasters. You gain the following benefits:</text>
 		<text/>
-		<text>• Increase your Dexterity score by 1, up to a maximum of 20.</text>
+		<text>• Increase your Dexterity score by 1, to a maximum of 20.</text>
 		<text/>
-		<text>• Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can’t do so again until you finish a short or long rest.</text>
+		<text>• Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.</text>
 		<text/>
 		<text>Source: Xanathar's Guide to Everything p. 74</text>
 		<modifier category="ability score">dexterity +1</modifier>
 	</feat>
   <feat>
-		<name>Fey Teleportation</name>
+		<name>Elven Accuracy (Intelligence)</name>
+		<prerequisite>Elf</prerequisite>
+		<text>The accuracy of elves is legendary, especially that of elf archers and spellcasters. You gain the following benefits:</text>
+		<text/>
+		<text>• Increase your Intelligence score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.</text>
+		<text/>
+		<text>Source: Xanathar's Guide to Everything p. 74</text>
+		<modifier category="ability score">intelligence +1</modifier>
+	</feat>
+  <feat>
+		<name>Elven Accuracy (Wisdom)</name>
+		<prerequisite>Elf</prerequisite>
+		<text>The accuracy of elves is legendary, especially that of elf archers and spellcasters. You gain the following benefits:</text>
+		<text/>
+		<text>• Increase your Wisdom score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.</text>
+		<text/>
+		<text>Source: Xanathar's Guide to Everything p. 74</text>
+		<modifier category="ability score">wisdom +1</modifier>
+	</feat>
+  <feat>
+		<name>Fade Away (Dexterity)</name>
+		<prerequisite>Gnome</prerequisite>
+		<text>You can draw on your magical heritage to escape danger. You gain the following benefits:</text>
+		<text/>
+		<text>• Increase your Dexterity score by 1, up to a maximum of 20.</text>
+		<text/>
+		<text>• Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can't do so again until you finish a short or long rest.</text>
+		<text/>
+		<text>Source: Xanathar's Guide to Everything p. 74</text>
+		<modifier category="ability score">dexterity +1</modifier>
+	</feat>
+  <feat>
+		<name>Fade Away (Intelligence)</name>
+		<prerequisite>Gnome</prerequisite>
+		<text>You can draw on your magical heritage to escape danger. You gain the following benefits:</text>
+		<text/>
+		<text>• Increase your Intelligence score by 1, up to a maximum of 20.</text>
+		<text/>
+		<text>• Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can't do so again until you finish a short or long rest.</text>
+		<text/>
+		<text>Source: Xanathar's Guide to Everything p. 74</text>
+		<modifier category="ability score">intelligence +1</modifier>
+	</feat>
+  <feat>
+		<name>Fey Teleportation (Charisma)</name>
 		<prerequisite>Elf (high)</prerequisite>
 		<text>Your study of high elven lore has unlocked fey power that few other elves possess, except your eladrin cousins. Drawing on your fey ancestry, you can momentarily stride through the Feywild to shorten your path from one place to another. You gain the following benefits:</text>
 		<text/>
@@ -561,7 +463,33 @@
 		<modifier category="ability score">charisma +1</modifier>
 	</feat>
   <feat>
-		<name>Fey Touched</name>
+		<name>Fey Teleportation (Intelligence)</name>
+		<prerequisite>Elf (high)</prerequisite>
+		<text>Your study of high elven lore has unlocked fey power that few other elves possess, except your eladrin cousins. Drawing on your fey ancestry, you can momentarily stride through the Feywild to shorten your path from one place to another. You gain the following benefits:</text>
+		<text/>
+		<text>• Increase your Intelligence score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You learn to speak, read, and write Sylvan.</text>
+		<text/>
+		<text>• You learn the misty step spell and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a short or long rest. Intelligence is your spellcasting ability for this spell.</text>
+		<text/>
+		<text>Source: Xanathar's Guide to Everything p. 74</text>
+		<modifier category="ability score">intelligence +1</modifier>
+	</feat>
+  <feat>
+		<name>Fey Touched (Charisma)</name>
+		<prerequisite/>
+		<text>Your exposure to the Feywild's magic has changed you, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You learn the misty step spell and one 1st-level spell of your choice. The 1st-level spell must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 79</text>
+		<modifier category="ability score">charisma +1</modifier>
+	</feat>
+  <feat>
+		<name>Fey Touched (Intelligence)</name>
 		<prerequisite/>
 		<text>Your exposure to the Feywild's magic has changed you, granting you the following benefits:</text>
 		<text/>
@@ -573,6 +501,18 @@
 		<modifier category="ability score">intelligence +1</modifier>
 	</feat>
   <feat>
+		<name>Fey Touched (Wisdom)</name>
+		<prerequisite/>
+		<text>Your exposure to the Feywild's magic has changed you, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You learn the misty step spell and one 1st-level spell of your choice. The 1st-level spell must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 79</text>
+		<modifier category="ability score">wisdom +1</modifier>
+	</feat>
+  <feat>
 		<name>Fighting Initiate</name>
 		<prerequisite>Proficiency with a martial weapon</prerequisite>
 		<text>Your martial training has helped you develop a particular style of fighting. As a result, you learn one Fighting Style option of your choice from the fighter class. If you already have a style, the one you choose must be different.</text>
@@ -581,7 +521,7 @@
 		<text>Source: Tasha's Cauldron of Everything p. 80</text>
 	</feat>
   <feat>
-		<name>Flames Of Phlegethos</name>
+		<name>Flames Of Phlegethos (Charisma)</name>
 		<prerequisite>Tiefling</prerequisite>
 		<text>You learn to call on hellfire to serve your commands. You gain the following benefits:</text>
 		<text/>
@@ -589,10 +529,24 @@
 		<text/>
 		<text>• When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.</text>
 		<text/>
-		<text>• Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage.</text>
+		<text>• Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don't harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage.</text>
 		<text/>
 		<text>Source: Xanathar's Guide to Everything p. 74</text>
 		<modifier category="ability score">charisma +1</modifier>
+	</feat>
+  <feat>
+		<name>Flames Of Phlegethos (Intelligence)</name>
+		<prerequisite>Tiefling</prerequisite>
+		<text>You learn to call on hellfire to serve your commands. You gain the following benefits:</text>
+		<text/>
+		<text>• Increase your Intelligence score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.</text>
+		<text/>
+		<text>• Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don't harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage.</text>
+		<text/>
+		<text>Source: Xanathar's Guide to Everything p. 74</text>
+		<modifier category="ability score">intelligence +1</modifier>
 	</feat>
   <feat>
 		<name>Gift Of The Chromatic Dragon</name>
@@ -606,7 +560,19 @@
 		<text>Source: Fizban's Treasury of Dragons p. 17</text>
 	</feat>
   <feat>
-		<name>Gift Of The Gem Dragon</name>
+		<name>Gift Of The Gem Dragon (Charisma)</name>
+		<prerequisite/>
+		<text>You've manifested some of the power of gem dragons, granting you the following benefits:</text>
+		<text/>
+		<text>Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>Telekinetic Reprisal. When you take damage from a creature that is within 10 feet of you, you can use your reaction to emanate telekinetic energy. The creature that dealt damage to you must make a Strength saving throw (DC equals 8 + your proficiency bonus + Charisma). On a failed save, the creature takes 2d8 force damage and is pushed up to 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</text>
+		<text/>
+		<text>Source: Fizban's Treasury of Dragons p. 17</text>
+		<modifier category="ability score">charisma +1</modifier>
+	</feat>
+  <feat>
+		<name>Gift Of The Gem Dragon (Intelligence)</name>
 		<prerequisite/>
 		<text>You've manifested some of the power of gem dragons, granting you the following benefits:</text>
 		<text/>
@@ -616,6 +582,18 @@
 		<text/>
 		<text>Source: Fizban's Treasury of Dragons p. 17</text>
 		<modifier category="ability score">intelligence +1</modifier>
+	</feat>
+  <feat>
+		<name>Gift Of The Gem Dragon (Wisdom)</name>
+		<prerequisite/>
+		<text>You've manifested some of the power of gem dragons, granting you the following benefits:</text>
+		<text/>
+		<text>Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>Telekinetic Reprisal. When you take damage from a creature that is within 10 feet of you, you can use your reaction to emanate telekinetic energy. The creature that dealt damage to you must make a Strength saving throw (DC equals 8 + your proficiency bonus + Wisdom). On a failed save, the creature takes 2d8 force damage and is pushed up to 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</text>
+		<text/>
+		<text>Source: Fizban's Treasury of Dragons p. 17</text>
+		<modifier category="ability score">wisdom +1</modifier>
 	</feat>
   <feat>
 		<name>Gift Of The Metallic Dragon</name>
@@ -739,7 +717,7 @@
 		<modifier category="ability score">intelligence +1</modifier>
 	</feat>
   <feat>
-		<name>Lightly Armored</name>
+		<name>Lightly Armored (Dexterity)</name>
 		<prerequisite/>
 		<text>You have trained to master the use of light armor, gaining the following benefits.</text>
 		<text/>
@@ -749,6 +727,18 @@
 		<text/>
 		<text>Source: Player's Handbook p. 167</text>
 		<modifier category="ability score">dexterity +1</modifier>
+	</feat>
+  <feat>
+		<name>Lightly Armored (Strength)</name>
+		<prerequisite/>
+		<text>You have trained to master the use of light armor, gaining the following benefits.</text>
+		<text/>
+		<text>• Increase your Strength or Dexterity score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You gain proficiency with light armor.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 167</text>
+		<modifier category="ability score">strength +1</modifier>
 	</feat>
   <feat>
 		<name>Linguist</name>
@@ -788,7 +778,7 @@
 		<text>Source: Player's Handbook p. 168</text>
 	</feat>
   <feat>
-		<name>Magic Initiate</name>
+		<name>Magic Initiate (Bard)</name>
 		<prerequisite/>
 		<text>You learn two bard cantrips of your choice.</text>
 		<text>	In addition, choose one 1st-level bard spell to learn. Using this feat, you can cast the spell once at its lowest level, and you must finish a long rest before you can cast it in this way again.</text>
@@ -797,11 +787,56 @@
 		<text>Source: Player's Handbook p. 168</text>
 	</feat>
   <feat>
+		<name>Magic Initiate (Cleric)</name>
+		<prerequisite/>
+		<text>You learn two cleric cantrips of your choice.</text>
+		<text>	In addition, choose one 1st-level cleric spell to learn. Using this feat, you can cast the spell once at its lowest level, and you must finish a long rest before you can cast it in this way again.</text>
+		<text>	Your spellcasting ability for these spells is Wisdom.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 168</text>
+	</feat>
+  <feat>
+		<name>Magic Initiate (Druid)</name>
+		<prerequisite/>
+		<text>You learn two druid cantrips of your choice.</text>
+		<text>	In addition, choose one 1st-level druid spell to learn. Using this feat, you can cast the spell once at its lowest level, and you must finish a long rest before you can cast it in this way again.</text>
+		<text>	Your spellcasting ability for these spells is Wisdom.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 168</text>
+	</feat>
+  <feat>
+		<name>Magic Initiate (Sorcerer)</name>
+		<prerequisite/>
+		<text>You learn two sorcerer cantrips of your choice.</text>
+		<text>	In addition, choose one 1st-level sorcerer spell to learn. Using this feat, you can cast the spell once at its lowest level, and you must finish a long rest before you can cast it in this way again.</text>
+		<text>	Your spellcasting ability for these spells is Charisma.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 168</text>
+	</feat>
+  <feat>
+		<name>Magic Initiate (Warlock)</name>
+		<prerequisite/>
+		<text>You learn two warlock cantrips of your choice.</text>
+		<text>	In addition, choose one 1st-level warlock spell to learn. Using this feat, you can cast the spell once at its lowest level, and you must finish a long rest before you can cast it in this way again.</text>
+		<text>	Your spellcasting ability for these spells is Charisma.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 168</text>
+	</feat>
+  <feat>
+		<name>Magic Initiate (Wizard)</name>
+		<prerequisite/>
+		<text>You learn two wizard cantrips of your choice.</text>
+		<text>	In addition, choose one 1st-level wizard spell to learn. Using this feat, you can cast the spell once at its lowest level, and you must finish a long rest before you can cast it in this way again.</text>
+		<text>	Your spellcasting ability for these spells is Intelligence.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 168</text>
+	</feat>
+  <feat>
 		<name>Martial Adept</name>
 		<prerequisite/>
 		<text>You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:</text>
 		<text/>
-		<text>• You learn two maneuvers of your choice from among those available to the Battle Master archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).</text>
+		<text>• You learn two maneuvers of your choice from among those available to the Battle Master archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).</text>
 		<text/>
 		<text>• You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest.</text>
 		<text/>
@@ -844,7 +879,7 @@
 		<modifier category="bonus">speed +10</modifier>
 	</feat>
   <feat>
-		<name>Moderately Armored</name>
+		<name>Moderately Armored (Dexterity)</name>
 		<prerequisite>Proficiency with light armor</prerequisite>
 		<text>You have trained to master the use of medium armor and shields, gaining the following benefits.</text>
 		<text/>
@@ -854,6 +889,18 @@
 		<text/>
 		<text>Source: Player's Handbook p. 168</text>
 		<modifier category="ability score">dexterity +1</modifier>
+	</feat>
+  <feat>
+		<name>Moderately Armored (Strength)</name>
+		<prerequisite>Proficiency with light armor</prerequisite>
+		<text>You have trained to master the use of medium armor and shields, gaining the following benefits.</text>
+		<text/>
+		<text>• Increase your Strength or Dexterity score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You gain proficiency with medium armor and shields.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 168</text>
+		<modifier category="ability score">strength +1</modifier>
 	</feat>
   <feat>
 		<name>Mounted Combatant</name>
@@ -869,7 +916,7 @@
 		<text>Source: Player's Handbook p. 168</text>
 	</feat>
   <feat>
-		<name>Observant</name>
+		<name>Observant (Intelligence)</name>
 		<prerequisite/>
 		<text>Quick to notice details of your environment, you gain the following benefits.</text>
 		<text/>
@@ -884,13 +931,28 @@
 		<modifier category="ability score">intelligence +1</modifier>
 	</feat>
   <feat>
-		<name>Orcish Fury</name>
+		<name>Observant (Wisdom)</name>
+		<prerequisite/>
+		<text>Quick to notice details of your environment, you gain the following benefits.</text>
+		<text/>
+		<text>• Increase your Intelligence or Wisdom score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• If you can see a creature's mouth while it is speaking a language you understand, you can interpret what it's saying by reading its lips.</text>
+		<text/>
+		<text>• You have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 168</text>
+		<modifier category="bonus">passive wisdom +5</modifier>
+		<modifier category="ability score">wisdom +1</modifier>
+	</feat>
+  <feat>
+		<name>Orcish Fury (Constitution)</name>
 		<prerequisite>Half-Orc</prerequisite>
 		<text>Your fury burns tirelessly. You gain the following benefits:</text>
 		<text/>
 		<text>• Increase your Constitution score by 1, up to a maximum of 20.</text>
 		<text/>
-		<text>• When you hit with an attack using a simple or martial weapon, you can roll one of the weapon’s damage dice an additional time and add it as extra damage of the weapon’s damage type. Once you use this ability, you can’t use it again until you finish a short or long rest.</text>
+		<text>• When you hit with an attack using a simple or martial weapon, you can roll one of the weapon's damage dice an additional time and add it as extra damage of the weapon's damage type. Once you use this ability, you can't use it again until you finish a short or long rest.</text>
 		<text/>
 		<text>• Immediately after you use your Relentless Endurance trait, you can use your reaction to make one weapon attack.</text>
 		<text/>
@@ -898,7 +960,35 @@
 		<modifier category="ability score">constitution +1</modifier>
 	</feat>
   <feat>
-		<name>Piercer</name>
+		<name>Orcish Fury (Strength)</name>
+		<prerequisite>Half-Orc</prerequisite>
+		<text>Your fury burns tirelessly. You gain the following benefits:</text>
+		<text/>
+		<text>• Increase your Strength score by 1, up to a maximum of 20.</text>
+		<text/>
+		<text>• When you hit with an attack using a simple or martial weapon, you can roll one of the weapon's damage dice an additional time and add it as extra damage of the weapon's damage type. Once you use this ability, you can't use it again until you finish a short or long rest.</text>
+		<text/>
+		<text>• Immediately after you use your Relentless Endurance trait, you can use your reaction to make one weapon attack.</text>
+		<text/>
+		<text>Source: Xanathar's Guide to Everything p. 75</text>
+		<modifier category="ability score">strength +1</modifier>
+	</feat>
+  <feat>
+		<name>Piercer (Dexterity)</name>
+		<prerequisite/>
+		<text>You have achieved a penetrating precision in combat, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase your Strength or Dexterity by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• Once per turn, when you hit a creature with an attack that deals piercing damage, you can reroll one of the attack's damage dice, and you must use the new roll.</text> 
+		<text/>
+		<text>• When you score a critical hit that deals piercing damage to a creature, you can roll one additional damage die when determining the extra piercing damage the target takes.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 80</text>
+		<modifier category="ability score">dexterity +1</modifier>
+	</feat>
+  <feat>
+		<name>Piercer (Strength)</name>
 		<prerequisite/>
 		<text>You have achieved a penetrating precision in combat, granting you the following benefits:</text>
 		<text/>
@@ -929,7 +1019,7 @@
 		<prerequisite/>
 		<text>You can keep your enemies at bay with reach weapons. You gain the following benefits.</text>
 		<text/>
-		<text>• When you take the Attack action and attack with only a glaive, halberd, quarterstaff or spear, you can use a bonus action to make a melee attack with the opposite end of the weapon. This attack uses the same ability modifier as the primary attack. The weapon’s damage die for this attack is a d4, and it deals bludgeoning damage.</text>
+		<text>• When you take the Attack action and attack with only a glaive, halberd, quarterstaff or spear, you can use a bonus action to make a melee attack with the opposite end of the weapon. This attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a d4, and it deals bludgeoning damage.</text>
 		<text/>
 		<text>• While you are wielding a glaive, halberd, pike, quarterstaff or spear, other creatures provoke an opportunity attack from you when they enter your reach.</text>
 		<text/>
@@ -947,7 +1037,7 @@
 		<text>Source: Xanathar's Guide to Everything p. 75</text>
 	</feat>
   <feat>
-		<name>Resilient</name>
+		<name>Resilient (Charisma)</name>
 		<prerequisite/>
 		<text>Choose one ability score. You gain the following benefits.</text>
 		<text/>
@@ -960,6 +1050,71 @@
 		<modifier category="ability score">charisma +1</modifier>
 	</feat>
   <feat>
+		<name>Resilient (Constitution)</name>
+		<prerequisite/>
+		<text>Choose one ability score. You gain the following benefits.</text>
+		<text/>
+		<text>• Increase the chosen ability score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You gain proficiency in saving throws using the chosen ability.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 168</text>
+		<proficiency>constitution</proficiency>
+		<modifier category="ability score">constitution +1</modifier>
+	</feat>
+  <feat>
+		<name>Resilient (Dexterity)</name>
+		<prerequisite/>
+		<text>Choose one ability score. You gain the following benefits.</text>
+		<text/>
+		<text>• Increase the chosen ability score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You gain proficiency in saving throws using the chosen ability.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 168</text>
+		<proficiency>dexterity</proficiency>
+		<modifier category="ability score">dexterity +1</modifier>
+	</feat>
+  <feat>
+		<name>Resilient (Intelligence)</name>
+		<prerequisite/>
+		<text>Choose one ability score. You gain the following benefits.</text>
+		<text/>
+		<text>• Increase the chosen ability score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You gain proficiency in saving throws using the chosen ability.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 168</text>
+		<proficiency>intelligence</proficiency>
+		<modifier category="ability score">intelligence +1</modifier>
+	</feat>
+  <feat>
+		<name>Resilient (Strength)</name>
+		<prerequisite/>
+		<text>Choose one ability score. You gain the following benefits.</text>
+		<text/>
+		<text>• Increase the chosen ability score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You gain proficiency in saving throws using the chosen ability.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 168</text>
+		<proficiency>strength</proficiency>
+		<modifier category="ability score">strength +1</modifier>
+	</feat>
+  <feat>
+		<name>Resilient (Wisdom)</name>
+		<prerequisite/>
+		<text>Choose one ability score. You gain the following benefits.</text>
+		<text/>
+		<text>• Increase the chosen ability score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You gain proficiency in saving throws using the chosen ability.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 168</text>
+		<proficiency>wisdom</proficiency>
+		<modifier category="ability score">wisdom +1</modifier>
+	</feat>
+  <feat>
 		<name>Revenant Blade</name>
 		<prerequisite>Elf</prerequisite>
 		<text>You are descended from a master of the double-bladed scimitar, and some of that mastery has passed on to you. You gain the following benefits:
@@ -970,11 +1125,56 @@
 		<text>Source: Eberron: Rising from the Last War p. 22</text>
 	</feat>
   <feat>
-		<name>Ritual Caster</name>
+		<name>Ritual Caster (Bard)</name>
 		<prerequisite>Intelligence or Wisdom 13 or higher</prerequisite>
 		<text>You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.</text>
 		<text>	When you choose this feat, you acquire a ritual book holding two 1st-level bard spells of your choice. The spells you choose must have the ritual tag. Charisma is your spellcasting ability for these spells.</text>
 		<text>	If you come across a spell in written form, such as a magical spell scroll or a wizard's spellbook, you might be able to add it to your ritual book. The spell must be on the bard spell list, the spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 169</text>
+	</feat>
+  <feat>
+		<name>Ritual Caster (Cleric)</name>
+		<prerequisite>Intelligence or Wisdom 13 or higher</prerequisite>
+		<text>You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.</text>
+		<text>	When you choose this feat, you acquire a ritual book holding two 1st-level cleric spells of your choice. The spells you choose must have the ritual tag. Wisdom is your spellcasting ability for these spells.</text>
+		<text>	If you come across a spell in written form, such as a magical spell scroll or a wizard's spellbook, you might be able to add it to your ritual book. The spell must be on the cleric spell list, the spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 169</text>
+	</feat>
+  <feat>
+		<name>Ritual Caster (Druid)</name>
+		<prerequisite>Intelligence or Wisdom 13 or higher</prerequisite>
+		<text>You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.</text>
+		<text>	When you choose this feat, you acquire a ritual book holding two 1st-level druid spells of your choice. The spells you choose must have the ritual tag. Wisdom is your spellcasting ability for these spells.</text>
+		<text>	If you come across a spell in written form, such as a magical spell scroll or a wizard's spellbook, you might be able to add it to your ritual book. The spell must be on the druid spell list, the spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 169</text>
+	</feat>
+  <feat>
+		<name>Ritual Caster (Sorcerer)</name>
+		<prerequisite>Intelligence or Wisdom 13 or higher</prerequisite>
+		<text>You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.</text>
+		<text>	When you choose this feat, you acquire a ritual book holding two 1st-level sorcerer spells of your choice. The spells you choose must have the ritual tag. Charisma is your spellcasting ability for these spells.</text>
+		<text>	If you come across a spell in written form, such as a magical spell scroll or a wizard's spellbook, you might be able to add it to your ritual book. The spell must be on the sorcerer spell list, the spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 169</text>
+	</feat>
+  <feat>
+		<name>Ritual Caster (Warlock)</name>
+		<prerequisite>Intelligence or Wisdom 13 or higher</prerequisite>
+		<text>You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.</text>
+		<text>	When you choose this feat, you acquire a ritual book holding two 1st-level warlock spells of your choice. The spells you choose must have the ritual tag. Charisma is your spellcasting ability for these spells.</text>
+		<text>	If you come across a spell in written form, such as a magical spell scroll or a wizard's spellbook, you might be able to add it to your ritual book. The spell must be on the warlock spell list, the spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 169</text>
+	</feat>
+  <feat>
+		<name>Ritual Caster (Wizard)</name>
+		<prerequisite>Intelligence or Wisdom 13 or higher</prerequisite>
+		<text>You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.</text>
+		<text>	When you choose this feat, you acquire a ritual book holding two 1st-level wizard spells of your choice. The spells you choose must have the ritual tag. Intelligence is your spellcasting ability for these spells.</text>
+		<text>	If you come across a spell in written form, such as a magical spell scroll or a wizard's spellbook, you might be able to add it to your ritual book. The spell must be on the wizard spell list, the spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it.</text>
 		<text/>
 		<text>Source: Player's Handbook p. 169</text>
 	</feat>
@@ -986,16 +1186,40 @@
 		<text>Source: Player's Handbook p. 169</text>
 	</feat>
   <feat>
-		<name>Second Chance</name>
+		<name>Second Chance (Charisma)</name>
 		<prerequisite>Halfling</prerequisite>
 		<text>Fortune favors you when someone tries to strike you. You gain the following benefits:</text>
 		<text/>
 		<text>• Increase your Charisma score by 1, to a maximum of 20.</text>
 		<text/>
-		<text>• When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. Once you use this ability, you can’t do so again until you roll initiative at the start of combat or until you finish a short or long rest.</text>
+		<text>• When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. Once you use this ability, you can't do so again until you roll initiative at the start of combat or until you finish a short or long rest.</text>
 		<text/>
 		<text>Source: Xanathar's Guide to Everything p. 75</text>
 		<modifier category="ability score">charisma +1</modifier>
+	</feat>
+  <feat>
+		<name>Second Chance (Constitution)</name>
+		<prerequisite>Halfling</prerequisite>
+		<text>Fortune favors you when someone tries to strike you. You gain the following benefits:</text>
+		<text/>
+		<text>• Increase your Constitution score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. Once you use this ability, you can't do so again until you roll initiative at the start of combat or until you finish a short or long rest.</text>
+		<text/>
+		<text>Source: Xanathar's Guide to Everything p. 75</text>
+		<modifier category="ability score">constitution +1</modifier>
+	</feat>
+  <feat>
+		<name>Second Chance (Dexterity)</name>
+		<prerequisite>Halfling</prerequisite>
+		<text>Fortune favors you when someone tries to strike you. You gain the following benefits:</text>
+		<text/>
+		<text>• Increase your Dexterity score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. Once you use this ability, you can't do so again until you roll initiative at the start of combat or until you finish a short or long rest.</text>
+		<text/>
+		<text>Source: Xanathar's Guide to Everything p. 75</text>
+		<modifier category="ability score">dexterity +1</modifier>
 	</feat>
   <feat>
 		<name>Sentinel</name>
@@ -1011,7 +1235,31 @@
 		<text>Source: Player's Handbook p. 169</text>
 	</feat>
   <feat>
-		<name>Shadow Touched</name>
+		<name>Shadow Touched (Charisma)</name>
+		<prerequisite/>
+		<text>Your exposure to the Shadowfell's magic has changed you, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You learn the invisibility spell and one 1st-level spell of your choice. The 1st-level spell must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 80</text>
+		<modifier category="ability score">charisma +1</modifier>
+	</feat>
+  <feat>
+		<name>Shadow Touched (Intelligence)</name>
+		<prerequisite/>
+		<text>Your exposure to the Shadowfell's magic has changed you, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You learn the invisibility spell and one 1st-level spell of your choice. The 1st-level spell must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 80</text>
+		<modifier category="ability score">intelligence +1</modifier>
+	</feat>
+  <feat>
+		<name>Shadow Touched (Wisdom)</name>
 		<prerequisite/>
 		<text>Your exposure to the Shadowfell's magic has changed you, granting you the following benefits:</text>
 		<text/>
@@ -1049,7 +1297,63 @@
 		<text>Source: Player's Handbook p. 170</text>
 	</feat>
   <feat>
-		<name>Skill Expert</name>
+		<name>Skill Expert (Charisma)</name>
+		<prerequisite/>
+		<text>You have honed your proficiency with particular skills, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase one ability score of your choice by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You gain proficiency in one skill of your choice.</text>
+		<text/>
+		<text>• Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 80</text>
+		<modifier category="ability score">charisma +1</modifier>
+	</feat>
+  <feat>
+		<name>Skill Expert (Constitution)</name>
+		<prerequisite/>
+		<text>You have honed your proficiency with particular skills, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase one ability score of your choice by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You gain proficiency in one skill of your choice.</text>
+		<text/>
+		<text>• Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 80</text>
+		<modifier category="ability score">constitution +1</modifier>
+	</feat>
+  <feat>
+		<name>Skill Expert (Dexterity)</name>
+		<prerequisite/>
+		<text>You have honed your proficiency with particular skills, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase one ability score of your choice by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You gain proficiency in one skill of your choice.</text>
+		<text/>
+		<text>• Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 80</text>
+		<modifier category="ability score">dexterity +1</modifier>
+	</feat>
+  <feat>
+		<name>Skill Expert (Intelligence)</name>
+		<prerequisite/>
+		<text>You have honed your proficiency with particular skills, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase one ability score of your choice by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You gain proficiency in one skill of your choice.</text>
+		<text/>
+		<text>• Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 80</text>
+		<modifier category="ability score">intelligence +1</modifier>
+	</feat>
+  <feat>
+		<name>Skill Expert (Strength)</name>
 		<prerequisite/>
 		<text>You have honed your proficiency with particular skills, granting you the following benefits:</text>
 		<text/>
@@ -1061,6 +1365,20 @@
 		<text/>
 		<text>Source: Tasha's Cauldron of Everything p. 80</text>
 		<modifier category="ability score">strength +1</modifier>
+	</feat>
+  <feat>
+		<name>Skill Expert (Wisdom)</name>
+		<prerequisite/>
+		<text>You have honed your proficiency with particular skills, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase one ability score of your choice by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You gain proficiency in one skill of your choice.</text>
+		<text/>
+		<text>• Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 80</text>
+		<modifier category="ability score">wisdom +1</modifier>
 	</feat>
   <feat>
 		<name>Skilled</name>
@@ -1083,7 +1401,21 @@
 		<text>Source: Player's Handbook p. 170</text>
 	</feat>
   <feat>
-		<name>Slasher</name>
+		<name>Slasher (Dexterity)</name>
+		<prerequisite/>
+		<text>You've learned where to cut to have the greatest results, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase your Strength or Dexterity by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• Once per turn when you hit a creature with an attack that deals slashing damage, you can reduce the speed of the target by 10 feet until the start of your next turn.</text>
+		<text/>
+		<text>• When you score a critical hit that deals slashing damage to a creature, you grievously wound it. Until the start of your next turn, the target has disadvantage on all attack rolls.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 81</text>
+		<modifier category="ability score">dexterity +1</modifier>
+	</feat>
+  <feat>
+		<name>Slasher (Strength)</name>
 		<prerequisite/>
 		<text>You've learned where to cut to have the greatest results, granting you the following benefits:</text>
 		<text/>
@@ -1110,7 +1442,7 @@
 		<text>Source: Player's Handbook p. 170</text>
 	</feat>
   <feat>
-		<name>Squat Nimbleness</name>
+		<name>Squat Nimbleness (Dexterity)</name>
 		<prerequisite>Dwarf or a Small race</prerequisite>
 		<text>You are uncommonly nimble for your race. You gain the following benefits:</text>
 		<text/>
@@ -1127,34 +1459,21 @@
 		<modifier category="bonus">speed + 5</modifier>
 	</feat>
   <feat>
-		<name>Strixhaven Initiate</name>
-		<prerequisite/>
-		<text>You have studied some magical theory and have learned a few spells associated with Strixhaven University.</text>
-		<text>	Choose one of Strixhaven's colleges: Lorehold, Prismari, Quandrix, Silverquill, or Witherbloom. You learn two cantrips and one 1st-level spell based on the college you choose, as specified in the Strixhaven Spells table.</text>
-		<text>	You can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.</text>
-		<text>	Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).</text>
+		<name>Squat Nimbleness (Strength)</name>
+		<prerequisite>Dwarf or a Small race</prerequisite>
+		<text>You are uncommonly nimble for your race. You gain the following benefits:</text>
 		<text/>
-		<text>College | Cantrips | 1st-Level Spell</text>
-		<text>Lorehold | Choose two from light, sacred flame, and thaumaturgy. | Choose one 1st-level cleric or wizard spell.</text>
-		<text>Prismari | Choose two from fire bolt, prestidigitation, and ray of frost. | Choose one 1st-level bard or sorcerer spell.</text>
-		<text>Quandrix | Choose two from druidcraft, guidance, and mage hand. | Choose one 1st-level druid or wizard spell.</text>
-		<text>Silverquill | Choose two from sacred flame, thaumaturgy, and vicious mockery. | Choose one 1st-level bard or cleric spell.</text>
-		<text>Witherbloom | Choose two from chill touch, druidcraft, and spare the dying. | Choose one 1st-level druid or wizard spell.</text>
+		<text>• Increase your Strength score by 1, to a maximum of 20.</text>
 		<text/>
-		<text>Source: Strixhaven: A Curriculum of Chaos p. 36</text>
-	</feat>
-  <feat>
-		<name>Strixhaven Mascot</name>
-		<prerequisite>4th level, Strixhaven Initiate feat</prerequisite>
-		<text>You have learned how to summon a Strixhaven mascot to assist you, granting you these benefits:</text>
+		<text>• Increase your walking speed by 5 feet.</text>
 		<text/>
-		<text>• You can cast the find familiar spell as a ritual. Your familiar can take the form of the mascot associated with the college you chose for the Strixhaven Initiate feat: a spirit statue mascot (Lorehold), an art elemental mascot (Prismari), a fractal mascot (Quandrix), an inkling mascot (Silverquill), or a pest mascot (Witherbloom).</text>
+		<text>• You gain proficiency in the Acrobatics or Athletics skill (your choice).</text>
 		<text/>
-		<text>• When you take the Attack action on your turn, you can forgo one attack to allow your mascot familiar to make one attack of its own with its reaction.</text>
+		<text>• You have advantage on any Strength 9Athletics) or Dexterity (Acrobatics) check you makes to escape from being grappled.</text>
 		<text/>
-		<text>• If your mascot familiar is within 60 feet of you, you can teleport as an action, swapping places with the familiar. If your destination space is too small for you to occupy, the teleportation fails and is wasted. Once you teleport in this way, you can't do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to do it again.</text>
-		<text/>
-		<text>Source: Strixhaven: A Curriculum of Chaos p. 37</text>
+		<text>Source: Xanathar's Guide to Everything p. 75</text>
+		<modifier category="ability score">strength +1</modifier>
+		<modifier category="bonus">speed + 5</modifier>
 	</feat>
   <feat>
 		<name>Svirfneblin Magic</name>
@@ -1180,7 +1499,21 @@
 		<text>Source: Player's Handbook p. 170</text>
 	</feat>
   <feat>
-		<name>Telekinetic</name>
+		<name>Telekinetic (Charisma)</name>
+		<prerequisite/>
+		<text>You learn to move things with your mind, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</text>&gt;
+		<text/>
+		<text>• You learn the mage hand cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand invisible. If you already know this spell, its range increases by 30 feet when you cast it. Its spellcasting ability is the ability increased by this feat.</text>&gt;
+		<text/>
+		<text>• As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + the ability modifier of the score increased by this feat) or be moved 5 feet toward you or away from you. A creature can willingly fail this save.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 81</text>
+		<modifier category="ability score">charisma +1</modifier>
+	</feat>
+  <feat>
+		<name>Telekinetic (Intelligence)</name>
 		<prerequisite/>
 		<text>You learn to move things with your mind, granting you the following benefits:</text>
 		<text/>
@@ -1194,7 +1527,35 @@
 		<modifier category="ability score">intelligence +1</modifier>
 	</feat>
   <feat>
-		<name>Telepathic</name>
+		<name>Telekinetic (Wisdom)</name>
+		<prerequisite/>
+		<text>You learn to move things with your mind, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</text>&gt;
+		<text/>
+		<text>• You learn the mage hand cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand invisible. If you already know this spell, its range increases by 30 feet when you cast it. Its spellcasting ability is the ability increased by this feat.</text>&gt;
+		<text/>
+		<text>• As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + the ability modifier of the score increased by this feat) or be moved 5 feet toward you or away from you. A creature can willingly fail this save.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 81</text>
+		<modifier category="ability score">wisdom +1</modifier>
+	</feat>
+  <feat>
+		<name>Telepathic (Charisma)</name>
+		<prerequisite/>
+		<text>You awaken the ability to mentally connect with others, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You can speak telepathically to any creature you can see within 60 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically.</text>
+		<text/>
+		<text>• You can cast the detect thoughts spell, requiring no spell slot or components, and you must finish a long rest before you can cast it this way again. Your spellcasting ability for the spell is the ability increased by this feat. If you have spell slots of 2nd level or higher, you can cast this spell with them.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 81</text>
+		<modifier category="ability score">charisma +1</modifier>
+	</feat>
+  <feat>
+		<name>Telepathic (Intelligence)</name>
 		<prerequisite/>
 		<text>You awaken the ability to mentally connect with others, granting you the following benefits:</text>
 		<text/>
@@ -1206,6 +1567,20 @@
 		<text/>
 		<text>Source: Tasha's Cauldron of Everything p. 81</text>
 		<modifier category="ability score">intelligence +1</modifier>
+	</feat>
+  <feat>
+		<name>Telepathic (Wisdom)</name>
+		<prerequisite/>
+		<text>You awaken the ability to mentally connect with others, granting you the following benefits:</text>
+		<text/>
+		<text>• Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You can speak telepathically to any creature you can see within 60 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically.</text>
+		<text/>
+		<text>• You can cast the detect thoughts spell, requiring no spell slot or components, and you must finish a long rest before you can cast it this way again. Your spellcasting ability for the spell is the ability increased by this feat. If you have spell slots of 2nd level or higher, you can cast this spell with them.</text>
+		<text/>
+		<text>Source: Tasha's Cauldron of Everything p. 81</text>
+		<modifier category="ability score">wisdom +1</modifier>
 	</feat>
   <feat>
 		<name>Tough</name>
@@ -1228,7 +1603,7 @@
 		<text>Source: Player's Handbook p. 170</text>
 	</feat>
   <feat>
-		<name>Weapon Master</name>
+		<name>Weapon Master (Dexterity)</name>
 		<prerequisite/>
 		<text>You have practiced extensively with a variety of weapons, gaining the following benefits.</text>
 		<text/>
@@ -1238,6 +1613,18 @@
 		<text/>
 		<text>Source: Player's Handbook p. 170</text>
 		<modifier category="ability score">dexterity +1</modifier>
+	</feat>
+  <feat>
+		<name>Weapon Master (Strength)</name>
+		<prerequisite/>
+		<text>You have practiced extensively with a variety of weapons, gaining the following benefits.</text>
+		<text/>
+		<text>• Increase your Strength or Dexterity score by 1, to a maximum of 20.</text>
+		<text/>
+		<text>• You gain proficiency with four weapons of your choice. Each one must be a simple or a martial weapon.</text>
+		<text/>
+		<text>Source: Player's Handbook p. 170</text>
+		<modifier category="ability score">strength +1</modifier>
 	</feat>
   <feat>
 		<name>Wood Elf Magic</name>
