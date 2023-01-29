@@ -170,6 +170,25 @@
     <text>Source: Player's Handbook p. 211</text>
   </spell>
   <spell>
+    <name>Alter Self*</name>
+    <level>2</level>
+    <school>T</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>Self</range>
+    <components>V, S</components>
+    <duration>Concentration, up to 1 hour</duration>
+    <classes>Sorcerer (Lunar Sorcery)</classes>
+    <text>You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.</text>
+    <text>	Aquatic Adaptation: You adapt your body to an aquatic environment, sprouting gills, and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.</text>
+    <text>	Change Appearance: You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also don't appear as a creature of a different size than you, and your basic shape stays the same, if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.</text>
+    <text>	Natural Weapons: You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with you unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.</text>
+    <text/>
+    <text>Source: Player's Handbook p. 211</text>
+    <text/>
+    <text>* Circle, Domain, Oath, or Specialist spell (always prepared)</text>
+    </spell>
+    <spell>
 		<name>Ambush</name>
 		<level>1</level>
 		<time/>
@@ -1240,7 +1259,7 @@
     <range>30 feet</range>
     <components>V</components>
     <duration>1 minute</duration>
-    <classes>Cleric (Death), Druid (Spores)</classes>
+    <classes>Cleric (Death), Druid (Spores), Sorcerer (Lunar Sorcery)</classes>
     <text>You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.</text>
     <text/>
     <text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</text>
@@ -1946,6 +1965,26 @@
     <roll>6d10</roll>
   </spell>
   <spell>
+    <name>Color Spray*</name>
+    <level>1</level>
+    <school>I</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>Self (15-foot cone)</range>
+    <components>V, S, M (a pinch of powder or sand that is colored red, yellow, and blue)</components>
+    <duration>1 round</duration>
+    <classes>Sorcerer (Lunar Sorcery)</classes>
+    <text>A dazzling array of flashing, colored light springs from your hand. Roll 6d10; the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that can't see).</text>
+    <text>	Starting with the creature that has the lowest current hit points, each creature affected by this spell is blinded until the end of your next turn. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for the creature to be affected.</text>
+    <text/>
+    <text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st.</text>
+    <text/>
+    <text>Source: Player's Handbook p. 222</text>
+    <text/>
+    <text>* Circle, Domain, Oath, or Specialist spell (always prepared)</text>
+    <roll>6d10</roll>
+    </spell>
+    <spell>
     <name>Command</name>
     <level>1</level>
     <school>EN</school>
@@ -2301,7 +2340,7 @@
     <range>90 feet</range>
     <components>V, S, M (three nut shells)</components>
     <duration>Concentration, up to 1 minute</duration>
-    <classes>Cleric (Knowledge), Druid (Spores), Paladin (Oathbreaker)</classes>
+    <classes>Cleric (Knowledge), Druid (Spores), Paladin (Oathbreaker), Sorcerer (Lunar Sorcery)</classes>
     <text>This spell assaults and twists creatures' minds, spawning delusions and provoking uncontrolled actions. Each creature in a 10-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.</text>
     <text/>
     <text>	An affected target can't take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.</text>
@@ -3232,7 +3271,7 @@
     <range>Touch</range>
     <components>V, S</components>
     <duration>8 hours</duration>
-    <classes>Artificer (Alchemist), Cleric (Death), Cleric (Grave), Cleric (Life)</classes>
+    <classes>Artificer (Alchemist), Cleric (Death), Cleric (Grave), Cleric (Life), Sorcerer (Lunar Sorcery)</classes>
     <text>You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends. If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spells ends.</text>
     <text/>
     <text>Source: Player's Handbook p. 230</text>
@@ -3561,7 +3600,7 @@
 		<range>120 feet</range>
 		<components>V, S</components>
 		<duration>Instantaneous</duration>
-		<classes>Cleric (Arcana), Cleric (Trickery), Paladin (Devotion)</classes>
+		<classes>Cleric (Arcana), Cleric (Trickery), Paladin (Devotion), Sorcerer (Lunar Sorcery)</classes>
 		<text>Choose any creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of or higher on the target, make an ability check using your spellcasting ability. The DC equals 10+the spell's level. On a successful check, the spell ends.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used.</text>
@@ -6260,7 +6299,7 @@
 		<range>300 feet</range>
 		<components>V, S, M (a stone, a twig, and a bit of green plant)</components>
 		<duration>24 hours</duration>
-		<classes>Druid (Desert)</classes>
+		<classes>Druid (Desert), Sorcerer (Lunar Sorcery)</classes>
 		<text>You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed in appearance.</text>
 		<text>	The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn't obvious by touch, a creature carefully examining the illusion can attempt an Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain.</text>
 		<text/>
@@ -6555,7 +6594,7 @@
     <range>90 feet</range>
     <components>V, S, M (a small, straight piece of iron)</components>
     <duration>Concentration, up to 1 minute</duration>
-    <classes>Cleric (War), Paladin (Redemption), Paladin (Vengeance), Paladin (Watchers)</classes>
+    <classes>Cleric (War), Paladin (Redemption), Paladin (Vengeance), Paladin (Watchers), Sorcerer (Lunar Sorcery)</classes>
     <text>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. This spell has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</text>
     <text/>
     <text>At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, you can target on additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.</text>
@@ -8523,7 +8562,7 @@
 		<range>Touch</range>
 		<components>V, S</components>
 		<duration>Instantaneous</duration>
-		<classes>Cleric (Life), Paladin (Devotion)</classes>
+		<classes>Cleric (Life), Paladin (Devotion), Sorcerer (Lunar Sorcery)</classes>
 		<text>You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.</text>
 		<text/>
 		<text>Source: Player's Handbook p. 255</text>
@@ -9575,7 +9614,7 @@
 		<range>Self</range>
 		<components>S</components>
 		<duration>Concentration, up to 1 hour</duration>
-		<classes>Cleric (Twilight)</classes>
+		<classes>Cleric (Twilight), Sorcerer (Lunar Sorcery)</classes>
 		<text>You become invisible at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends if you attack or cast a spell. </text>
 		<text>	You can use your action to move your illusory double up to twice your speed and make it gesture, speak, and behave in whatever way you choose. You can see through its eyes and hear through its ears as if you were located where it is. On each of your turns as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surroundings.</text>
 		<text/>
@@ -10149,6 +10188,23 @@
 		<text>Source: Player's Handbook p. 265</text>
 	</spell>
   <spell>
+    <name>Phantom Steed*</name>
+    <level>3</level>
+    <school>I</school>
+    <ritual>YES</ritual>
+    <time>1 minute</time>
+    <range>30 feet</range>
+    <components>V, S</components>
+    <duration>1 hour</duration>
+    <classes>Sorcerer (Lunar Sorcery)</classes>
+    <text>A Large quasi-real, horse-like creature appears on the ground in an unoccupied space of your choice within range. You decide the creature's appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.</text>
+    <text>	For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a riding horse, except it has a speed of 100 feet and can travel 10 miles in an hour, or 13 miles at a fast pace. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends if you use an action to dismiss it or if the steed takes any damage.</text>
+    <text/>
+    <text>Source: Player's Handbook p. 265</text>
+    <text/>
+    <text>* Circle, Domain, Oath, or Specialist spell (always prepared)</text>
+	</spell>
+    <spell>
 		<name>Piercing Arrow</name>
 		<level>1</level>
 		<school>T</school>
@@ -10856,7 +10912,7 @@
 		<range>30 feet</range>
 		<components>V, S, M (pieces of eggshell from two different kinds of creatures)</components>
 		<duration>1 hour</duration>
-		<classes>Cleric (Peace)</classes>
+		<classes>Cleric (Peace), Sorcerer (Lunar Sorcery)</classes>
 		<text>You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren't affected by this spell. </text>
 		<text>	Until the spell ends, the targets can communicated telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence.</text>
 		<text/>
@@ -10972,7 +11028,7 @@
     <range>60 feet</range>
     <components>V, S</components>
     <duration>Instantaneous</duration>
-    <classes>Artificer (Alchemist), Cleric (Death)</classes>
+    <classes>Artificer (Alchemist), Cleric (Death), Sorcerer (Lunar Sorcery)</classes>
     <text>A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.</text>
     <text/>
     <text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</text>
@@ -11768,7 +11824,7 @@
 		<range>Self</range>
 		<components>V, S</components>
 		<duration>1 round</duration>
-		<classes>Artificer (Artillerist), Artificer (Battle Smith)</classes>
+		<classes>Artificer (Artillerist), Artificer (Battle Smith), Sorcerer (Lunar Sorcery)</classes>
 		<text>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.</text>
 		<text/>
 		<text>Source: Player's Handbook, p. 275</text>
@@ -13845,7 +13901,7 @@
 		<range>Self</range>
 		<components>V, S</components>
 		<duration>Concentration, up to 1 minute</duration>
-		<classes>Cleric (Death), Cleric (Grave)</classes>
+		<classes>Cleric (Death), Cleric (Grave), Sorcerer (Lunar Sorcery)</classes>
 		<text>The touch of your shadow-wreathed hand can siphon force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</text>

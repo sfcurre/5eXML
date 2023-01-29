@@ -22047,7 +22047,690 @@
 				<text>Source: Sword Coast Adventurer's Guide p. 137, Xanathar's Guide to Everything p. 52</text>
 			</feature>
 			</autolevel>
-    </class><class><hd>6</hd>
+    </class><class>
+	<hd>6</hd>
+    <proficiency>Constitution, Charisma, Arcana, Deception, Insight, Intimidation, Persuasion, Religion</proficiency>
+    <spellAbility>Charisma</spellAbility>
+    <numSkills>2</numSkills>
+    <armor>none</armor>
+    <weapons>daggers, darts, slings, quarterstaffs, light crossbows</weapons>
+    <tools>none</tools>
+    <wealth>3d4x10</wealth>
+    <autolevel level="1">
+			<feature optional="YES">
+				<name>Starting Sorcerer</name>
+				<text>As a 1st-level Sorcerer, you begin play with 6+your Constitution modifier hit points.</text>
+				<text/>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+				<text>• Armor: none</text>
+				<text>• Weapons: daggers, darts, slings, quarterstaffs, light crossbows</text>
+				<text>• Tools: none</text>
+				<text>• Skills: Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion</text>
+				<text/>
+				<text>You begin play with the following equipment, in addition to any equipment provided by your background.</text>
+				<text>• (a) a light crossbow and 20 bolts or (b) any simple weapon</text>
+				<text>• (a) a component pouch or (b) an arcane focus</text>
+				<text>• (a) a dungeoneer's pack or (b) an explorer's pack</text>
+				<text>• Two daggers</text>
+				<text/>
+				<text>Alternatively, you may start with 3d4x10 gp and choose your own equipment.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 99</text>
+			</feature>
+		</autolevel>
+    <autolevel level="1">
+			<feature optional="YES">
+				<name>Multiclass Sorcerer</name>
+				<text>To multiclass as a Sorcerer, you must meet the following prerequisites:</text>
+				<text>• Charisma 13</text>
+				<text/>
+				<text>You gain the following proficiencies:</text>
+				<text>• none</text>
+				<text/>
+				<text>Source: Player's Handbook p. 163</text>
+			</feature>
+		</autolevel>
+    <autolevel level="1">
+			<slots>4, 2</slots>
+		</autolevel>
+    <autolevel level="1">
+			<feature>
+				<name>Spellcasting</name>
+				<text>An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the sorcerer spell list.</text>
+				<text/>
+				<text>Cantrips:</text>
+				<text>	At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn an additional sorcerer cantrip of your choice at 4th level and another at 10th level.</text>
+				<text/>
+				<text>Spell Slots:</text>
+				<text>	The Sorcerer table shows how many spell slots you have to cast your sorcerer spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>	For example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot.</text>
+				<text/>
+				<text>Spells Known of 1st Level and Higher:</text>
+				<text>	You know two 1st-level spells of your choice from the sorcerer spell list.</text>
+				<text>	You learn an additional sorcerer spell of your choice at each level except 12th, 14th, 16th, 18th, 19th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</text>
+				<text>	Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.</text>
+				<text/>
+				<text>Spellcasting Ability:</text>
+				<text>	Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.</text>
+				<text>	Spell save DC = 8 + your proficiency bonus + your Charisma modifier</text>
+				<text>	Spell attack modifier = your proficiency bonus + your Charisma modifier</text>
+				<text/>
+				<text>Source: Player's Handbook p. 101</text>
+			</feature>
+		</autolevel>
+    <autolevel level="1">
+			<feature>
+				<name>Sorcerous Origin</name>
+				<text>Choose a sorcerous origin, which describes the source of your innate magical power: Aberrant Mind, Clockwork Soul, Divine Soul, Draconic Bloodline, Shadow Magic, Storm Sorcery, or Wild Magic, all detailed at the end of the class description.</text>
+				<text>	Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 101</text>
+			</feature>
+		</autolevel>
+    <autolevel level="2">
+			<slots>4, 3</slots>
+		</autolevel>
+    <autolevel level="2">
+			<feature>
+				<name>Font of Magic</name>
+				<text>At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.</text>
+				<text/>
+				<text>Sorcery Points:</text>
+				<text>	You have a number of sorcery points equal to your sorcerer level. You can never have more sorcery points than your sorcerer level. You regain all spent sorcery points when you finish a long rest.</text>
+				<text/>
+				<text>Flexible Casting:</text>
+				<text>	You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels. Any spell slot you create with this feature vanishes when you finish a long rest.</text>
+				<text/>
+				<text>Creating Spell Slots:</text>
+				<text>	You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. It costs 2 sorcery points to create a 1st level spell slot, 3 to create a 2nd level slot, 5 for a 3rd level slot, 6 for a 4th level slot, or 7 for a 5th level slot. You can create spell slots no higher in level than 5th.</text>
+				<text>	Any spell slot you create with this feature vanishes when you finish a long rest.</text>
+				<text/>
+				<text>Converting a Spell Slot to Sorcery Points:</text>
+				<text>	As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 101</text>
+			</feature>
+			</autolevel>
+    <autolevel level="3">
+			<slots>4, 4, 2</slots>
+		</autolevel>
+    <autolevel level="3">
+			</autolevel>
+    <autolevel level="3">
+			<feature>
+				<name>Metamagic</name>
+				<text>At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.</text>
+				<text>	You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 101</text>
+			</feature>
+		</autolevel>
+    <autolevel level="3">
+			<feature optional="YES">
+				<name>Metamagic: Careful Spell</name>
+				<text>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="3">
+			<feature optional="YES">
+				<name>Metamagic: Distant Spell</name>
+				<text>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.</text>
+				<text>	When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="3">
+			<feature optional="YES">
+				<name>Metamagic: Empowered Spell</name>
+				<text>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.</text>
+				<text>	You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="3">
+			<feature optional="YES">
+				<name>Metamagic: Extended Spell</name>
+				<text>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="3">
+			<feature optional="YES">
+				<name>Metamagic: Heightened Spell</name>
+				<text>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="3">
+			<feature optional="YES">
+				<name>Metamagic: Quickened Spell</name>
+				<text>When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="3">
+			<feature optional="YES">
+				<name>Metamagic: Subtle Spell</name>
+				<text>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="3">
+			<feature optional="YES">
+				<name>Metamagic: Twinned Spell</name>
+				<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
+				<text>	To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="4" scoreImprovement="YES">
+			<slots>5, 4, 3</slots>
+		</autolevel>
+    <autolevel level="4">
+			</autolevel>
+    <autolevel level="4" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="5">
+			<slots>5, 4, 3, 2</slots>
+		</autolevel>
+    <autolevel level="5">
+			</autolevel>
+    <autolevel level="6">
+			<slots>5, 4, 3, 3</slots>
+		</autolevel>
+    <autolevel level="6">
+			</autolevel>
+    <autolevel level="7">
+			<slots>5, 4, 3, 3, 1</slots>
+		</autolevel>
+    <autolevel level="7">
+			</autolevel>
+    <autolevel level="8" scoreImprovement="YES">
+			<slots>5, 4, 3, 3, 2</slots>
+		</autolevel>
+    <autolevel level="8">
+			</autolevel>
+    <autolevel level="8" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement (2nd)</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="9">
+			<slots>5, 4, 3, 3, 3, 1</slots>
+		</autolevel>
+    <autolevel level="9">
+			</autolevel>
+    <autolevel level="10">
+			<slots>6, 4, 3, 3, 3, 2</slots>
+		</autolevel>
+    <autolevel level="10">
+			</autolevel>
+    <autolevel level="10">
+			<feature>
+				<name>Metamagic Option (3rd)</name>
+				<text>At 10th level, you learn an additional metamagic option.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 101</text>
+			</feature>
+		</autolevel>
+    <autolevel level="10">
+			<feature optional="YES">
+				<name>Metamagic: Careful Spell</name>
+				<text>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="10">
+			<feature optional="YES">
+				<name>Metamagic: Distant Spell</name>
+				<text>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.</text>
+				<text>	When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="10">
+			<feature optional="YES">
+				<name>Metamagic: Empowered Spell</name>
+				<text>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.</text>
+				<text>	You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="10">
+			<feature optional="YES">
+				<name>Metamagic: Extended Spell</name>
+				<text>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="10">
+			<feature optional="YES">
+				<name>Metamagic: Heightened Spell</name>
+				<text>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="10">
+			<feature optional="YES">
+				<name>Metamagic: Quickened Spell</name>
+				<text>When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="10">
+			<feature optional="YES">
+				<name>Metamagic: Subtle Spell</name>
+				<text>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="10">
+			<feature optional="YES">
+				<name>Metamagic: Twinned Spell</name>
+				<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
+				<text>	To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="11">
+			<slots>6, 4, 3, 3, 3, 2, 1</slots>
+		</autolevel>
+    <autolevel level="11">
+			</autolevel>
+    <autolevel level="12" scoreImprovement="YES">
+			<slots>6, 4, 3, 3, 3, 2, 1</slots>
+		</autolevel>
+    <autolevel level="12">
+			</autolevel>
+    <autolevel level="12" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement (3rd)</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="13">
+			<slots>6, 4, 3, 3, 3, 2, 1, 1</slots>
+		</autolevel>
+    <autolevel level="13">
+			</autolevel>
+    <autolevel level="14">
+			<slots>6, 4, 3, 3, 3, 2, 1, 1</slots>
+		</autolevel>
+    <autolevel level="14">
+			</autolevel>
+    <autolevel level="15">
+			<slots>6, 4, 3, 3, 3, 2, 1, 1, 1</slots>
+		</autolevel>
+    <autolevel level="15">
+			</autolevel>
+    <autolevel level="16" scoreImprovement="YES">
+			<slots>6, 4, 3, 3, 3, 2, 1, 1, 1</slots>
+		</autolevel>
+    <autolevel level="16">
+			</autolevel>
+    <autolevel level="16" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement (4th)</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="17">
+			<slots>6, 4, 3, 3, 3, 2, 1, 1, 1, 1</slots>
+		</autolevel>
+    <autolevel level="17">
+			</autolevel>
+    <autolevel level="17">
+			<feature>
+				<name>Metamagic Option (4th)</name>
+				<text>At 17th level, you learn an additional metamagic option.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 101</text>
+			</feature>
+		</autolevel>
+    <autolevel level="17">
+			<feature optional="YES">
+				<name>Metamagic: Careful Spell</name>
+				<text>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="17">
+			<feature optional="YES">
+				<name>Metamagic: Distant Spell</name>
+				<text>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.</text>
+				<text>	When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="17">
+			<feature optional="YES">
+				<name>Metamagic: Empowered Spell</name>
+				<text>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.</text>
+				<text>	You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="17">
+			<feature optional="YES">
+				<name>Metamagic: Extended Spell</name>
+				<text>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="17">
+			<feature optional="YES">
+				<name>Metamagic: Heightened Spell</name>
+				<text>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="17">
+			<feature optional="YES">
+				<name>Metamagic: Quickened Spell</name>
+				<text>When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="17">
+			<feature optional="YES">
+				<name>Metamagic: Subtle Spell</name>
+				<text>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="17">
+			<feature optional="YES">
+				<name>Metamagic: Twinned Spell</name>
+				<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
+				<text>	To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="18">
+			<slots>6, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
+		</autolevel>
+    <autolevel level="18">
+			</autolevel>
+    <autolevel level="19" scoreImprovement="YES">
+			<slots>6, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
+		</autolevel>
+    <autolevel level="19">
+			</autolevel>
+    <autolevel level="19" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement (5th)</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="20">
+			<slots>6, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
+		</autolevel>
+    <autolevel level="20">
+			</autolevel>
+    <autolevel level="20">
+			<feature>
+				<name>Sorcerous Restoration</name>
+				<text>At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 102</text>
+			</feature>
+		</autolevel>
+    <autolevel level="3">
+			<feature optional="YES">
+				<name>Metamagic: Seeking Spell</name>
+				<text>If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.</text>
+				<text>	You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+				<text/>
+				<text>Source: Tasha's Cauldron of Everything p. 66</text>
+			</feature>"&gt;
+			<feature optional="YES">
+				<name>Metamagic: Transmuted Spell</name>
+				<text>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.</text>
+				<text/>
+				<text>Source: Tasha's Cauldron of Everything p. 66</text>
+			</feature>
+		</autolevel>
+    <autolevel level="10">
+			<feature optional="YES">
+				<name>Metamagic: Seeking Spell</name>
+				<text>If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.</text>
+				<text>	You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+				<text/>
+				<text>Source: Tasha's Cauldron of Everything p. 66</text>
+			</feature>"&gt;
+			<feature optional="YES">
+				<name>Metamagic: Transmuted Spell</name>
+				<text>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.</text>
+				<text/>
+				<text>Source: Tasha's Cauldron of Everything p. 66</text>
+			</feature>
+		</autolevel>
+    <autolevel level="17">
+			<feature optional="YES">
+				<name>Metamagic: Seeking Spell</name>
+				<text>If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.</text>
+				<text>	You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+				<text/>
+				<text>Source: Tasha's Cauldron of Everything p. 66</text>
+			</feature>"&gt;
+			<feature optional="YES">
+				<name>Metamagic: Transmuted Spell</name>
+				<text>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.</text>
+				<text/>
+				<text>Source: Tasha's Cauldron of Everything p. 66</text>
+			</feature>
+		</autolevel>
+    <autolevel level="4">
+			<feature>
+				<name>Sorcerous Versatility</name>
+				<text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you following in new ways:</text>
+				<text/>
+				<text>• Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.</text>
+				<text>• Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</text>
+				<text/>
+				<text>Source: Tasha's Cauldron of Everything p. 66</text>
+			</feature>
+		</autolevel>
+    <autolevel level="8">
+			<feature>
+				<name>Sorcerous Versatility</name>
+				<text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you following in new ways:</text>
+				<text/>
+				<text>• Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.</text>
+				<text>• Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</text>
+				<text/>
+				<text>Source: Tasha's Cauldron of Everything p. 66</text>
+			</feature>
+		</autolevel>
+    <autolevel level="12">
+			<feature>
+				<name>Sorcerous Versatility</name>
+				<text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you following in new ways:</text>
+				<text/>
+				<text>• Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.</text>
+				<text>• Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</text>
+				<text/>
+				<text>Source: Tasha's Cauldron of Everything p. 66</text>
+			</feature>
+		</autolevel>
+    <autolevel level="16">
+			<feature>
+				<name>Sorcerous Versatility</name>
+				<text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you following in new ways:</text>
+				<text/>
+				<text>• Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.</text>
+				<text>• Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</text>
+				<text/>
+				<text>Source: Tasha's Cauldron of Everything p. 66</text>
+			</feature>
+		</autolevel>
+    <autolevel level="19">
+			<feature>
+				<name>Sorcerous Versatility</name>
+				<text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you following in new ways:</text>
+				<text/>
+				<text>• Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.</text>
+				<text>• Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</text>
+				<text/>
+				<text>Source: Tasha's Cauldron of Everything p. 66</text>
+			</feature>
+		</autolevel>
+    <autolevel level="5">
+			<feature>
+				<name>Magical Guidance</name>
+				<text>At 5th level, you can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success.</text>
+				<text/>
+				<text>Source: Tasha's Cauldron of Everything p. 66</text>
+			</feature>
+		</autolevel>
+    <autolevel level="5">
+			</autolevel>
+    <autolevel level="9">
+			</autolevel>
+    <autolevel level="13">
+			</autolevel>
+    <name>Sorcerer (SotDQ)</name><autolevel level="1">
+			<feature optional="YES">
+				<name>Sorcerous Origin: Lunar Sorcery</name>
+				<text>On many worlds, the moon is a revered celestial body with magical properties. On Krynn, the gods of magic are associated with the world's three moons. On the world of Toril, the god Selûne uses the light of the moon to battle darkness. On Eberron, scholars of the Draconic Prophecy decipher ancient secrets from the waxing and waning of that world's twelve moons.</text>
+				<text/>
+				<text>	You or someone from your lineage has been exposed to the concentrated magic of the moon (or moons) of your world, imbuing you with lunar magic. Perhaps your ancestor was involved in a druidic ritual involving an eclipse, or maybe a mystical fragment of a moon crashed near you. However you came to have your magic, your connection to the moon is obvious when you cast sorcerer spells—perhaps making your pupils glow with the color of a moon from your world, causing spectral manifestations of lunar phases to orbit you, or some other effect.</text>
+				<text/>
+				<text/>
+				<text>Source: Shadow of the Dragon Queen p. 34</text>
+			</feature>
+		</autolevel>
+    <autolevel level="1">
+			<feature optional="YES">
+				<name>Lunar Embodiment (Lunar Sorcery)</name>
+				<text>You learn additional spells when you reach certain levels in this class, as shown on the Lunar Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.</text>
+				<text/>
+                <text>Full Moon Spell</text>
+				<text>1st — shield</text>
+				<text>3rd — lesser restoration</text>
+				<text>5th — dispel magic</text>
+				<text>7th — death ward</text>
+				<text>9th — Rary's telepathic bond</text>
+				<text/>
+                <text>New Moon Spell</text>
+				<text>1st — ray of sickness</text>
+				<text>3rd — blindness/deafness</text>
+				<text>5th — vampiric touch</text>
+				<text>7th — confusion</text>
+				<text>9th — hold monster</text>
+				<text/>
+                <text>Crescent Moon Spell</text>
+				<text>1st — color spray</text>
+				<text>3rd — alter self</text>
+				<text>5th — phantom steed</text>
+				<text>7th — hallucinatory terrain</text>
+				<text>9th — mislead</text>
+				<text/>
+                <text>Whenever you finish a long rest, you can choose what lunar phase manifests its power through your magic: Full Moon, New Moon, or Crescent Moon. While in the chosen phase, you can cast one 1st-level spell of the associated phase in the Lunar Spells table once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest.</text>
+				<text/>
+				<text>Source: Shadow of the Dragon Queen p. 34</text>
+			</feature>
+		</autolevel>
+    <autolevel level="1">
+			<feature optional="YES">
+				<name>Moon Fire (Lunar Sorcery)</name>
+				<text>You can call down the radiant light of the moon on command. You learn the sacred flame spell, which doesn't count against the number of sorcerer cantrips you know. When you cast the spell, you can target one creature as normal or target two creatures within range that are within 5 feet of each other.</text>
+				<text/>
+				<text>Source: Shadow of the Dragon Queen p. 34</text>
+			</feature>
+		</autolevel>
+    <autolevel level="6">
+			<feature optional="YES">
+				<name>Lunar Boons (Lunar Sorcery)</name>
+				<text>The current phase of your Lunar Embodiment can affect your Metamagic feature. Each Lunar Embodiment phase is associated with certain schools of magic, as shown here:</text>
+                <text>• Full Moon: Abjuration and divination spells</text>
+				<text>• New Moon: Enchantment and necromancy spells</text>
+				<text>• Crescent Moon: Illusion and transmutation spells</text>
+                <text>Whenever you use Metamagic on a spell of a school of magic associated with your current Lunar Embodiment phase, you can reduce the sorcery points spent by 1 (minimum 0). You can reduce the sorcery points spent for your Metamagic a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</text>
+				<text/>
+				<text>Source: Shadow of the Dragon Queen p. 34</text>
+			</feature>
+		</autolevel>
+    <autolevel level="6">
+			<feature optional="YES">
+				<name>Waxing and Waning (Lunar Sorcery)</name>
+				<text>You gain greater control over the phases of your lunar magic. As a bonus action, you can spend 1 sorcery point to change your current Lunar Embodiment phase to a different one.</text>
+                <text>You can now cast one 1st-level spell from each lunar phase of the Lunar Spells table once without expending a spell slot, provided your current phase is the same as the lunar phase spell. Once you cast a lunar phase spell in this way, you can't do so again until you finish a long rest.</text>
+				<text/>
+				<text>Source: Shadow of the Dragon Queen p. 35</text>
+			</feature>
+		</autolevel>
+    <autolevel level="14">
+			<feature optional="YES">
+				<name>Lunar Empowerment (Lunar Sorcery)</name>
+				<text>The power of a lunar phase saturates your being. While you are in a Lunar Embodiment phase, you also gain the following benefit associated with that phase:</text>
+                <text>• Full Moon: You can use a bonus action to shed bright light in a 10-foot radius and dim light for an additional 10 feet or to douse the light. In addition, you and creatures of your choice have advantage on Intelligence (Investigation) and Wisdom (Perception) checks while within the bright light you shed.</text>
+				<text>• New Moon: You have advantage on Dexterity (Stealth) checks. In addition, while you are entirely in darkness, attack rolls have disadvantage against you.</text>
+				<text>• Crescent Moon: You have resistance to necrotic and radiant damage.</text>
+                <text/>
+				<text>Source: Shadow of the Dragon Queen p. 35</text>
+			</feature>
+		</autolevel>
+    <autolevel level="18">
+			<feature optional="YES">
+				<name>Lunar Phenomenon (Lunar Sorcery)</name>
+				<text>As a bonus action, you can tap into a special power of your current Lunar Embodiment phase. Alternatively, as part of the bonus action you take to change your lunar phase using the Waxing and Waning feature, you can immediately use the power of the lunar phase you are entering:</text>
+                <text>• Full Moon: You radiate moonlight for a moment. Each creature of your choice within 30 feet of you must succeed on a Constitution saving throw against your spell save DC or be blinded until the end of its next turn. In addition, one creature of your choice in that area regains 3d8 hit points.</text>
+				<text>• New Moon: You momentarily emanate gloom. Each creature of your choice within 30 feet of you must succeed on a Dexterity saving throw against your spell save DC or take 3d10 necrotic damage and have its speed reduced to 0 until the end of its next turn. In addition, you become invisible until the end of your next turn, or until immediately after you make an attack roll or cast a spell.</text>
+				<text>• Crescent Moon: You can magically teleport to an unoccupied space you can see within 60 feet of yourself. You can bring along one willing creature you can see within 5 feet of yourself. That creature teleports to an unoccupied space of your choice that you can see within 5 feet of your destination space. In addition, you and that creature gain resistance to all damage until the start of your next turn.</text>
+                <text>Once you use one of these bonus action benefits, you can't use that benefit again until you finish a long rest, unless you spend 5 sorcery points to use it again.</text>
+				<text/>
+				<text>Source: Shadow of the Dragon Queen p. 35</text>
+			</feature>
+		</autolevel>
+	</class>
+
+    <class><hd>6</hd>
     <proficiency>Constitution, Charisma, Arcana, Deception, Insight, Intimidation, Persuasion, Religion</proficiency>
     <spellAbility>Charisma</spellAbility>
     <numSkills>2</numSkills>
