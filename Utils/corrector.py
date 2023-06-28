@@ -52,6 +52,9 @@ class ArchivistCorrector:
                     
                     #doesn't work if proficiency is added as part of feature
 
+                    if feat.findall('text')[-1].text is None:
+                        continue
+
                     if feat.findall('text')[-1].text.startswith('Source'):
                         source = feat.findall('text')[-1].text
                         
@@ -69,6 +72,8 @@ class ArchivistCorrector:
                             modname = 'VRGtR'
                         elif 'Fizban' in source:
                             modname = 'FToD'
+                        elif 'Tal\'Dorei' in source or 'Mercer' in source:
+                            modname = 'Mercer'
                         else:
                             modname = ''
 
@@ -112,6 +117,7 @@ class ArchivistCorrector:
         fb = lambda s: 'Ravnica' in s or 'Baldur' in s
         ff = lambda c: c.tag == 'feat' and ':' in c.findtext('name')
         fs = lambda c: 'Strixhaven' in str(et.tostring(c)) or 'Acquisitions' in str(et.tostring(c))
+        fss = lambda c: 'Spelljammer' in str(et.tostring(c))
         fr = lambda c: c.tag == 'race' and 'Mark Of' in c.findtext('name')
-        filter_ = lambda c: not(fs(c) or ff(c) or fr(c) or (c.tag == 'background' and fb(str(et.tostring(c)))))
+        filter_ = lambda c: not(fs(c) or fss(c) or ff(c) or fr(c) or (c.tag == 'background' and fb(str(et.tostring(c)))))
         return list(filter(filter_, clean_elements))

@@ -120,6 +120,9 @@ def create_compendium_archivist():
     categories = {'Archivist' : [('Compendiums\\Archivist\\Archivist Official.xml', ''),
                                  ('Homebrew\\CurrentAdditions', 'CA'),
                                  ('Homebrew\\Transcriptions\\ShadowOfTheDragonQueen', 'SotDQ')],
+                  'Archivist-Mercer' : [('Compendiums\\Archivist\\Archivist Official and Mercer-Brew.xml', ''),
+                                        ('Homebrew\\CurrentAdditions', 'CA'),
+                                        ('Homebrew\\Transcriptions\\ShadowOfTheDragonQueen', 'SotDQ')],
                 }
     
     for category, xlist in categories.items():
