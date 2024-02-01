@@ -49,6 +49,8 @@ class ArchivistCorrector:
                 if (feat is not None and feat.get('optional') == 'YES'):
                     if any(n.startswith(p) for p in ['Starting', 'Multiclass', 'Fighting Style', 'Metamagic', 'Pact Boon']):
                         continue
+                    if ('replaces' in n):
+                        continue
                     
                     #doesn't work if proficiency is added as part of feature
 
@@ -73,7 +75,11 @@ class ArchivistCorrector:
                         elif 'Fizban' in source:
                             modname = 'FToD'
                         elif 'Tal\'Dorei' in source or 'Mercer' in source:
-                            modname = 'Mercer'
+                            modname = 'CR'
+                        elif 'Shadow' in source:
+                            modname = 'SotDQ'
+                        elif 'Bigby' in source:
+                            modname = 'GotG'
                         else:
                             modname = ''
 
@@ -119,5 +125,6 @@ class ArchivistCorrector:
         fs = lambda c: 'Strixhaven' in str(et.tostring(c)) or 'Acquisitions' in str(et.tostring(c))
         fss = lambda c: 'Spelljammer' in str(et.tostring(c))
         fr = lambda c: c.tag == 'race' and 'Mark Of' in c.findtext('name')
-        filter_ = lambda c: not(fs(c) or fss(c) or ff(c) or fr(c) or (c.tag == 'background' and fb(str(et.tostring(c)))))
+        fdg = lambda c: c.tag == 'feat' and ('Dragonlance: Shadow' in str(et.tostring(c)) or 'Bigby Presents:' in str(et.tostring(c))) 
+        filter_ = lambda c: not(fs(c) or fss(c) or ff(c) or fr(c) or fdg(c) or (c.tag == 'background' and fb(str(et.tostring(c)))))
         return list(filter(filter_, clean_elements))
