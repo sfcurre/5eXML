@@ -52,7 +52,10 @@ class Merger:
                 if (feat is not None and feat.get('optional') == 'YES'):
                     n = feat.findtext('name')
                     if not any(n.startswith(p) for p in ['Starting', 'Multiclass', 'Fighting Style', 'Metamagic', 'Pact Boon']):
-                        continue                        
+                        continue
+                    if ('replaces' in n):
+                        continue
+                    
                 add_features[classname].append(element)
                 #add_features[classname].append(et.tostring(element, encoding='utf-8'))
 
