@@ -124,7 +124,9 @@ class ArchivistCorrector:
         ff = lambda c: c.tag == 'feat' and ':' in c.findtext('name')
         fs = lambda c: 'Strixhaven' in str(et.tostring(c)) or 'Acquisitions' in str(et.tostring(c))
         fss = lambda c: 'Spelljammer' in str(et.tostring(c))
+        fsp = lambda c: c.tag == 'spell' and 'Ravnica' in str(et.tostring(c))
         fr = lambda c: c.tag == 'race' and 'Mark Of' in c.findtext('name')
         fdg = lambda c: c.tag == 'feat' and ('Dragonlance: Shadow' in str(et.tostring(c)) or 'Bigby Presents:' in str(et.tostring(c))) 
-        filter_ = lambda c: not(fs(c) or fss(c) or ff(c) or fr(c) or fdg(c) or (c.tag == 'background' and fb(str(et.tostring(c)))))
+        filter_ = lambda c: not(fs(c) or fss(c) or fsp(c) or ff(c) or fr(c) or fdg(c) or 
+                                (c.tag == 'background' and fb(str(et.tostring(c)))))
         return list(filter(filter_, clean_elements))
