@@ -2,6 +2,8 @@ import lxml.etree as et
 from collections import defaultdict
 import copy
 
+CORE_CLASS_FEATURES = ['Becoming', 'Divine Order', 'Blessed Strikes', 'Primal Order', 'Elemental Fury', 'Fighting Style:']
+
 class Merger:
     def __init__(self, tagged_elements, corrector):
         self.tagged_elements = tagged_elements
@@ -12,8 +14,6 @@ class Merger:
         data = defaultdict(list)
         for element, abv in self.tagged_elements:
             element.getparent().remove(element)
-            # print(et.tostring(element, encoding='utf-8'))
-            # input()
             if not self.corrector.correct_division(element, data, abv):
                 data[element.tag].append((element, abv))
         return data
@@ -23,7 +23,7 @@ class Merger:
         names = set()
         for background, abv in self.data['background']:
             name = background.find('name')
-            name.text = name.text.split('(')[0].strip()
+            name.text = name.text.split('(')[0].strip() + f' ({abv})' * bool(abv)
             if name.text not in names:
                 names.add(name.text)
                 backgrounds.append(background)
@@ -33,15 +33,14 @@ class Merger:
         core_classes = {}
         add_core_to = defaultdict(list)
         for clas, abv in self.data['class']:
-            name = clas.findtext('name').split('(')[0].strip()
-            if clas.find('hd') is not None: #base class
-                self.corrector.correct_classes(clas)
-
-                if name not in core_classes:
-                    core_classes[name] = clas
+            name = clas.find('name')
+            if '[2024]' in name.text: #base class
+                name.text = name.text.replace(' [2024]', '') + f' ({abv})' * bool(abv)
+                if name.text not in core_classes:
+                    core_classes[name.text] = clas
 
             else:
-                add_core_to[name].append((clas, abv))
+                add_core_to[name.text].append((clas, abv))
         add_features = defaultdict(list)
 
         for classname, clas in core_classes.items():
@@ -51,13 +50,10 @@ class Merger:
                     continue
                 if (feat is not None and feat.get('optional') == 'YES'):
                     n = feat.findtext('name')
-                    if not any(n.startswith(p) for p in ['Starting', 'Multiclass', 'Fighting Style', 'Metamagic', 'Pact Boon']):
-                        if ('replaces' not in n):
-                            continue
-                    
-
+                    if not any(s in n for s in CORE_CLASS_FEATURES):
+                        continue
+                
                 add_features[classname].append(element)
-                #add_features[classname].append(et.tostring(element, encoding='utf-8'))
 
         classes = list(core_classes.values())
         for classname, clist in add_core_to.items():
@@ -68,12 +64,12 @@ class Merger:
                 additions = []
                 for element in add_features[classname]:
                     try:
-                        #additions.append(et.XML(element))
                         additions.append(copy.deepcopy(element))
                     except:
                         print(element)
                         raise
                 clas[:] = additions + clas[:]
+                print(clas.findtext('name'))
                 classes.append(clas)
         return classes
 
@@ -82,6 +78,7 @@ class Merger:
         names = set()
         for feat, abv in self.data['feat']:
             name = feat.find('name')
+            name.text += f' ({abv})' * bool(abv)
             if name.text not in names:
                 names.add(name.text)
                 feats.append(feat)
@@ -92,7 +89,7 @@ class Merger:
         names = set()
         for item, abv in self.data['item']:
             name = item.find('name')
-            # name.text = name.text.split('(')[0].strip()
+            name.text += f' ({abv})' * bool(abv)
             if name.text not in names:
                 names.add(name.text)
                 items.append(item)
@@ -103,7 +100,6 @@ class Merger:
         names = set()
         for monster, abv in self.data['monster']:
             name = monster.find('name')
-            # name.text = name.text.split('(')[0].strip()
             name.text += f' ({abv})' * bool(abv)
             if name.text not in names:
                 names.add(name.text)
@@ -119,7 +115,7 @@ class Merger:
             if (block := et.tostring(race)) not in blocks: 
                 blocks.add(block)
                 name = race.find('name')
-                name.text = '(UA'.join(name.text.split('(Ua'))
+                name.text = '(UA'.join(name.text.split('(Ua'))  + f' ({abv})' * bool(abv)
                 
                 races.append(race)
         self.corrector.correct_races(races)
@@ -129,10 +125,11 @@ class Merger:
         base_spells = defaultdict(list)
         spell_classes = defaultdict(set)
         for spell, abv in self.data['spell']:
-            name = spell.findtext('name')
+            name = spell.find('name')
+            name.text += f' ({abv})' * bool(abv)
             if spell.find('level') is not None: #base class
-                base_spells[name] = spell
-            spell_classes[name].update(spell.findtext('classes').split(', '))
+                base_spells[name.text] = spell
+            spell_classes[name.text].update(spell.findtext('classes').split(', '))
         
         spells = []
         for spellname, spell in sorted(base_spells.items()):
@@ -155,21 +152,3 @@ class Merger:
                 *self.monsters,
                 *self.races,
                 *self.spells]
-
-    def split(self, filebase):
-        todo = {'Backgrounds': self.backgrounds,
-                'Classes': self.classes,
-                'Feats': self.feats,
-                'Items': self.items,
-                'Monsters': self.monsters,
-                'Races': self.races,
-                'Spells': self.spells}
-        
-        for label, category in todo.items():
-            root = et.Element('compendium')
-            root[:] = sorted(category, key = lambda x: (x.tag, x.findtext('name')))
-            root.set('version', '5')
-            root.set('auto_indent', 'NO')
-
-            with open(f'{filebase}{label}.xml', 'wb') as fp:
-                fp.write(et.tostring(root, pretty_print=True, xml_declaration=True, encoding='utf-8'))
