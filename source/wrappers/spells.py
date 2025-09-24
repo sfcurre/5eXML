@@ -1,4 +1,4 @@
-from .base import Collection, Element
+from .base import Collection
 
 class Spell:
     def __init__(self, name):

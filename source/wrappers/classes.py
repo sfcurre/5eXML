@@ -11,7 +11,8 @@ class Class:
         self.subclasses = defaultdict(list)
         self.base_class = et.Element('class')
         
-    def add_base_content(self, base):
+    def set_base_content(self, base):
+        self.base_class = et.Element('class')
         for element in base:
             feat = element.find('feature')
             if feat is None or not self.is_subclass_feature(feat):
@@ -21,7 +22,7 @@ class Class:
         for element in subclass:
             feat = element.find('feature')
             if feat is not None and self.is_subclass_feature(feat):
-                modname = Sources.match_title(element)
+                modname = Sources.match(element)
                 if modname is not None:
                     self.subclasses[modname].append(element)
 
@@ -49,7 +50,7 @@ class Class:
                 self.subclasses.pop(modname)
 
         if not self.subclasses:
-            return False        
+            return False
         return True
 
     def get(self):
@@ -66,6 +67,7 @@ class Class:
 class ClassCollection(Collection):
     def __init__(self):
         super().__init__(Class)
+        self.base_values = defaultdict(int)
 
     def add_element(self, element):
         name = element.find('name')
@@ -73,9 +75,10 @@ class ClassCollection(Collection):
         if class_name not in self.elements:
             self.elements[class_name] = Class(class_name)
 
-        if '[2024]' in name.text:
+        if (value := Sources.get_source_value(element)) > self.base_values[class_name]:
             name.text = class_name
-            self.elements[class_name].add_base_content(element)
+            self.elements[class_name].set_base_content(element)
+            self.base_values[class_name] = value
         self.elements[class_name].add_subclass_content(element)
 
     def get_elements(self):

@@ -47,6 +47,7 @@ class XMLCombiner:
         organizer = Organizer(elements)
         clean_elements = organizer.organize(sources)
         print('\n\t\tRemoved %d elements(s)' % (len(elements) - len(clean_elements)))
+        # print(sources.count_sources(clean_elements))
 
         root = et.Element('compendium')
         root[:] = sorted(clean_elements, key = lambda x: (x.tag, x.findtext('name')))
