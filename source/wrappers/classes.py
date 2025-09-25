@@ -33,6 +33,16 @@ class Class:
                 return True
         return False
     
+    def get_subclass_names(self):
+        names = set()
+        for element_list in self.subclasses.values():
+            for element in element_list:
+                feat = element.find('feature')
+                n = feat.findtext('name')
+                if 'Subclass' in n:
+                    names.add(n)
+        return names
+    
     def in_filter(self, sources):
         # check base class
         if self.base_class not in sources:
@@ -58,7 +68,7 @@ class Class:
         for modname, features in self.subclasses.items():
             subclass = copy.deepcopy(self.base_class)
             name = subclass.find('name')
-            if modname:
+            if modname and len(self.subclasses) > 1:
                 name.text = f'{name.text} ({modname})'
             subclass.extend(features)
             elements.append(subclass)
@@ -86,3 +96,9 @@ class ClassCollection(Collection):
         for element in sorted(self.elements):
             elements.extend(self.elements[element].get())
         return elements
+    
+    def get_subclass_names(self):
+        names = {}
+        for name, clas in self.elements.items():
+            names[name] = clas.get_subclass_names()
+        return names

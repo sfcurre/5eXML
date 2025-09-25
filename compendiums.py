@@ -37,13 +37,13 @@ class XMLCombiner:
         elements = []
         for r in self.roots:
             for element in r:
-                name = element.find('name')
-                text = name.text.replace('\'s', '^')
-                text = text.title()
-                text = text.replace('^', '\'s')
-                name.text = text
+                # name = element.find('name')
+                # text = name.text.replace('\'s', '^')
+                # text = text.title()
+                # text = text.replace('^', '\'s')
+                # name.text = text
                 elements.append(element)
-
+        
         organizer = Organizer(elements)
         clean_elements = organizer.organize(sources)
         print('\n\t\tRemoved %d elements(s)' % (len(elements) - len(clean_elements)))

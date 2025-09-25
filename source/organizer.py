@@ -30,6 +30,7 @@ class Organizer:
     def filter_elements(self, sources):
         for collection in self.collections.values():
             collection.filter_elements(sources)
+        self.collections['spell'].filter_classes(self.collections['class'].get_subclass_names())
 
     def gather_elements(self):
         elements = []

@@ -27,6 +27,8 @@ SOURCE_ABBREVS = {
     '2014': (r"Player's Handbook \(2014\)", 7),
     '': (r"Player's Handbook \(2024\)", 10),
     'MM': (r"Monster Manual", 9),
+    'RotF': (r"Icewind Dale: Rime of the Frostmaiden", 4),
+    'TBoMT': (r"The Book of Many Things", 4),
 }
 
 class SourceMap:
@@ -64,6 +66,13 @@ class SourceMap:
         source = self.wrap_source(source)
         r = re.compile(source)
         return len(r.findall(content))
+    
+    def check_source_string(self, element, source):
+        content = str(et.tostring(element, encoding='unicode'))
+        source = self.wrap_source(source)
+        r = re.compile(source)
+        if r.search(content) is not None:
+            return True
 
     def wrap_source(self, source):
         # look behind

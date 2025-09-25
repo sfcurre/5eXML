@@ -1,3 +1,5 @@
+from ..source_map import Sources
+
 class Element:
     def __init__(self, name, element):
         self.name = name
@@ -18,6 +20,9 @@ class Collection:
         name = element.findtext('name')
         if name not in self.elements:
             self.elements[name] = self.element_class(name, element)
+        else:
+            max_element = max(self.elements[name].element, element, key=Sources.get_source_value)
+            self.elements[name] = self.element_class(name, max_element)
         
     def filter_elements(self, sources):
         elements = list(self.elements.items())
