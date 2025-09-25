@@ -16,6 +16,8 @@ class Race(Element):
         if ', ' in name.text:
             s1, s2 = name.text.split(', ')
             name.text = f'{s1} ({s2})'
+        if ' [2024]' in name.text:
+            name.text = name.text.replace(' [2024]', ' (2024)')
         return self.element
             
 class RaceCollection(Collection):
