@@ -6,8 +6,10 @@ class Monster(Element):
 
     def get(self):
         name = self.element.find('name')
-        if ' [2024]' in name.text:
-            name.text = name.text.replace(' [2024]', '')
+        if ' [5.5e]' in name.text:
+            name.text = name.text.replace(' [5.5e]', '')
+        else:
+            name.text = name.text+ ' [5e]'
         return self.element
     
 class MonsterCollection(Collection):

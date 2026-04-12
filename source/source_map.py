@@ -24,11 +24,13 @@ SOURCE_ABBREVS = {
     'GotG': (r"Bigby Presents: Glory of the Giants", 4),
     'MoM': (r"Mordenkainen Presents: Monsters of the Multiverse", 6),
     'VGM': (r"Volo's Guide to Monsters", 5),
-    '2014': (r"Player's Handbook \(2014\)", 7),
+    '5e': (r"Player's Handbook \(2014\)", 7),
     '': (r"Player's Handbook \(2024\)", 10),
     'MM': (r"Monster Manual", 9),
     'RotF': (r"Icewind Dale: Rime of the Frostmaiden", 4),
     'TBoMT': (r"The Book of Many Things", 4),
+    'FotA': (r"Eberron: Forge of the Artificer", 7),
+    'FRHoF': (r"Forgotten Realms: Heroes of Faer", 5),
 }
 
 class SourceMap:

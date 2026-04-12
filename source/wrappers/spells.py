@@ -13,8 +13,8 @@ class Spell:
 
     def update_classes(self, classes):
         for clas in sorted(classes):
-            if ' [2024]' in clas:
-                clas = clas.replace(' [2024]', '')
+            if ' [5.5e]' in clas:
+                clas = clas.replace(' [5.5e]', '')
             if ' (Legacy)' in clas:
                 clas = clas.replace(' (Legacy)', '')
             if ' Domain' in clas:
@@ -62,8 +62,8 @@ class Spell:
         
     def get(self):
         name = self.base_spell.find('name')
-        if ' [2024]' in name.text:
-            name.text = name.text.replace(' [2024]', '')
+        if ' [5.5e]' in name.text:
+            name.text = name.text.replace(' [5.5e]', '')
         self.base_spell.find('classes').text = ', '.join(sorted(self.classes))
         return self.base_spell
 

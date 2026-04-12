@@ -71,7 +71,7 @@ def create_file_lists(xlist):
 
 def create_compendium():
     
-    categories = {'Renewed': ['Compendiums/WotC_2024+UnearthedArcana+Legacy_2014.xml']
+    categories = {'Renewed': ['Compendiums/WotC_5.5e+Legacy_5e_WotC_SemiOfficial.xml']
                 }
     
     for category, xlist in categories.items():
