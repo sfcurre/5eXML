@@ -6,7 +6,7 @@ class Feat(Element):
 
     def in_filter(self, sources):
         abrv = sources.match(self.element)
-        if abrv in ['SotDQ', 'ERLW', 'VRGtR']:
+        if abrv in ['SotDQ', 'ERLW', 'VRGtR', 'FotA']:
             return False
         if 'Draconic Gift:' in self.name:
             return False
